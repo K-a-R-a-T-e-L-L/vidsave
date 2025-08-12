@@ -119,19 +119,29 @@
             font-size: 16px !important;
         }
 
+        .box__title {
+            font-size: 28px !important;
+        }
+
         .box__roadmap {
             column-gap: 10px !important;
 
+            .roadmap__el__title {
+                font-size: 20px !important;
+            }
+
             .roadmap__item {
                 height: 85% !important;
+                min-width: 300px !important;
+                min-height: 350px !important;
                 border-radius: 10px 10px 50px 50px !important;
 
                 .roadmap__el__list_points {
                     .list_points__point {
-                        font-size: 12px !important;
+                        font-size: 10px !important;
 
                         .point__main_text {
-                            font-size: 14px !important;
+                            font-size: 12px !important;
                         }
                     }
                 }
@@ -141,22 +151,25 @@
 }
 
 @media (width < 900px) {
-    .advantages__article_first {
-        height: 100% !important;
-        padding-bottom: 20px !important;
+    .advantages {
+        min-height: 1650px;
 
-        .box__roadmap {
-            flex-direction: column !important;
-            row-gap: 50px !important;
+        .advantages__article_first {
+            padding-bottom: 20px !important;
+            min-height: 1650px !important;
 
-            .roadmap__item {
-                width: 350px !important;
-                height: 350px !important;
-                row-gap: 20px;
-                padding: 15px !important;
+            .box__roadmap {
+                flex-direction: column !important;
+                row-gap: 50px !important;
+                height: 70% !important;
 
-                .roadmap__el__list_points {
-                    row-gap: 20px !important;
+                .roadmap__item {
+                    row-gap: 20px;
+                    padding: 15px !important;
+
+                    .roadmap__el__list_points {
+                        row-gap: 20px !important;
+                    }
                 }
             }
         }

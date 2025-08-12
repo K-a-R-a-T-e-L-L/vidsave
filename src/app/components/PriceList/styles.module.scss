@@ -40,7 +40,7 @@
                 flex-direction: column;
                 align-items: start;
                 justify-content: space-evenly;
-                row-gap: 10px;
+                row-gap: 15px;
                 padding: 10px;
                 cursor: pointer;
                 transition: box-shadow 0.2s ease-in-out, scale 0.2s ease-in-out;
@@ -85,7 +85,7 @@
         flex-direction: column;
         justify-content: center;
         row-gap: 40px;
-        padding: 30px 30px;
+        padding: 0 30px;
 
         .article_last__title {
             width: 60%;
@@ -145,31 +145,63 @@
     .price_list__article_first {
         row-gap: 30px !important;
     }
+
+    .article_first__title {
+        font-size: 28px !important;
+    }
+
+    .article_first__description {
+        font-size: 12px !important;
+    }
+
+    .article_last__title {
+        font-size: 28px !important;
+    }
+
+    .article_last__description {
+        font-size: 12px !important;
+    }
+
+    .card__title {
+        font-size: 20px !important;
+    }
+
+    .card__description {
+        font-size: 10px !important;
+    }
 }
 
 @media (width < 900px) {
-    .article_first__description {
-        width: 80% !important;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
+    .price_list__article_first {
+        padding: 50px 30px !important;
+        row-gap: 20px !important;
+        min-height: 150vh !important;
 
-    .article_first__box_services {
-        flex-direction: column;
-        align-items: center;
-        row-gap: 50px !important;
-        margin-top: 10px !important;
+        .article_first__description {
+            width: 80% !important;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
 
-        .box_services__card {
-            height: auto !important;
-            width: 60% !important;
+
+        .article_first__box_services {
+            flex-direction: column;
+            align-items: center;
+            row-gap: 50px !important;
+            margin-top: 10px !important;
+
+            .box_services__card {
+                height: auto !important;
+                width: 60% !important;
+            }
         }
     }
 
     .price_list__article_last {
-        padding-top: 50px !important;
+        padding: 50px 30px !important;
         row-gap: 20px !important;
+        min-height: 150vh !important;
 
         .article_last__description {
             text-align: center;
