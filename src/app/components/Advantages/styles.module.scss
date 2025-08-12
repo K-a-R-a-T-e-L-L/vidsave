@@ -1,0 +1,164 @@
+@mixin RoadmapBoxStyles ($color) {
+    border: 1px solid $color;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    border-radius: 20px 20px 80px 80px;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.1s ease-in-out;
+    box-shadow: 3px 3px 10px 6px rgba(0, 65, 66, 0.476);
+    overflow: hidden;
+
+    .roadmap__el__title {
+        width: 100%;
+        text-align: center;
+        color: $color;
+    }
+
+    .roadmap__el__list_points {
+        width: 93%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        .list_points__point {
+            color: $color;
+            font-size: 14px;
+            list-style-type: circle;
+
+            .point__main_text {
+                color: $color;
+                font-weight: 900;
+                font-size: 16px;
+            }
+        }
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
+    &:active {
+        box-shadow: 0 0 10px 6px rgba(0, 65, 66, 0.476);
+    }
+}
+
+.advantages {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    position: relative;
+
+    .advantages__article_first {
+        width: 100%;
+        height: 100vh;
+        background-image: url(/images/advantages_backg.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 30px 0 30px;
+
+        .article_first__box {
+            width: 100%;
+            max-width: 1344px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 40px;
+
+            .box__description {
+                font-size: 18px;
+                font-weight: 400;
+                width: 80%;
+                text-align: center;
+                opacity: 0.7;
+            }
+
+            .box__roadmap {
+                width: 100%;
+                height: 50%;
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                row-gap: 20px;
+                column-gap: 20px;
+                padding: 0 10px;
+
+                .roadmap__camera {
+                    @include RoadmapBoxStyles(black);
+                }
+
+                .roadmap__conditioner {
+                    @include RoadmapBoxStyles(black);
+                }
+
+                .roadmap__installation {
+                    @include RoadmapBoxStyles(black);
+                }
+            }
+        }
+    }
+}
+
+@media (width < 1200px) {
+
+    .article_first__box {
+        row-gap: 30px !important;
+
+        .box__description {
+            font-size: 16px !important;
+        }
+
+        .box__roadmap {
+            column-gap: 10px !important;
+
+            .roadmap__item {
+                height: 85% !important;
+                border-radius: 10px 10px 50px 50px !important;
+
+                .roadmap__el__list_points {
+                    .list_points__point {
+                        font-size: 12px !important;
+
+                        .point__main_text {
+                            font-size: 14px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (width < 900px) {
+    .advantages__article_first {
+        height: 100% !important;
+        padding-bottom: 20px !important;
+
+        .box__roadmap {
+            flex-direction: column !important;
+            row-gap: 50px !important;
+
+            .roadmap__item {
+                width: 350px !important;
+                height: 350px !important;
+                row-gap: 20px;
+                padding: 15px !important;
+
+                .roadmap__el__list_points {
+                    row-gap: 20px !important;
+                }
+            }
+        }
+    }
+}

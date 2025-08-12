@@ -1,0 +1,119 @@
+@mixin HiddenElement ($x, $y, $scale) {
+    opacity: 0;
+    transform: translateX($x) translateY($y) scale($scale);
+    transition: opacity 0.7s ease-in-out,
+        transform 0.7s ease-in-out;
+}
+
+@mixin AnimatedElement ($x, $y, $scale, $name) {
+    @keyframes #{$name} {
+        0% {
+            opacity: 0;
+            transform: translateX($x) translateY($y) scale($scale);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0) translateY(0) scale(1);
+        }
+    }
+
+    animation: #{$name} 0.7s ease-in-out;
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale(1);
+    transition: opacity 0.7s ease-in-out,
+    transform 0.7s ease-in-out;
+}
+
+//
+.hidden_p {
+    @include HiddenElement(0, 30px, 1);
+}
+
+.animated_p {
+    @include AnimatedElement(0, 30px, 1, p);
+}
+
+//
+.hidden_h {
+    @include HiddenElement(0, -30px, 1);
+}
+
+.animated_h {
+    @include AnimatedElement(0, -30px, 1, h);
+}
+
+//
+.hidden_img {
+    @include HiddenElement(0, 0, 0.8);
+}
+
+.animated_img {
+    @include AnimatedElement(0, 0, 0.8, img);
+}
+
+//
+.hidden_li {
+    @include HiddenElement(-50px, 0, 1);
+}
+
+.animated_li {
+    @include AnimatedElement(-50px, 0, 1, li);
+}
+
+//
+.hidden_a {
+    @include HiddenElement(0, 0, 1);
+}
+
+.animated_a {
+    @include AnimatedElement(0, 0, 1, a);
+}
+
+//
+.hidden_hr {
+    @include HiddenElement(-100px, 0, 1);
+}
+
+.animated_hr {
+    @include AnimatedElement(-100px, 0, 1, hr);
+}
+
+//
+.link_active {
+    position: relative;
+
+    @keyframes AppereanceActiveLink {
+        0% {
+            scale: 1.5;
+            opacity: 0;
+        }
+
+        100% {
+            scael: 1;
+            opacity: 0.3;
+        }
+    }
+
+    &::before {
+        content: "";
+        background-color: #515A61;
+        opacity: 0.3;
+        position: absolute;
+        width: 150%;
+        height: 300%;
+        left: -25%;
+        top: -100%;
+        border-radius: 1000px;
+        z-index: -1;
+        animation: AppereanceActiveLink 0.5s ease-in-out;
+    }
+}
+
+@media (width < 900px) {
+    .link_active {
+        &::before {
+            background-color: #6c8598;
+        }
+    }
+}

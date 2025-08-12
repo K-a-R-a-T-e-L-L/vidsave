@@ -1,0 +1,134 @@
+.information {
+    width: 100%;
+    max-width: 1344px;
+    height: 200vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    .information__article_first {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 30px 0 30px;
+        position: relative;
+
+        .article_first__box_text {
+            width: 49%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 30px;
+
+            .box_text__title {
+                width: 60%;
+                letter-spacing: 3px;
+            }
+
+            .box_text__description {
+                width: 80%;
+                font-size: 16px;
+                font-weight: 400;
+                color: rgba(0, 0, 0, 0.773);
+                line-height: 30px;
+            }
+        }
+
+        .article_first__box_image {
+            width: 50%;
+            height: 50%;
+            position: relative;
+        }
+
+        .article_first__box_slider {
+            width: 100vw;
+            aspect-ratio: 100/10;
+            max-width: 1344px;
+            position: relative;
+        }
+    }
+
+    .information__article_last {
+        width: 70vw;
+        max-width: 1344px;
+        height: 90vh;
+        padding: 0 30px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+        position: relative;
+    }
+}
+
+@media (width < 1200px) {
+    .article_first__box_text {
+        row-gap: 10px !important;
+
+        .box_text__title{
+            font-size: 28px !important;
+        }
+
+        .box_text__description {
+            line-height: 20px !important;
+        }
+    }
+}
+
+@media (width < 900px) {
+    .information {
+        padding-top: 80px;
+        height: 180vh;
+        overflow: hidden;
+
+        .information__article_first {
+            justify-content: start !important;
+            flex-wrap: nowrap !important;
+            flex-direction: column !important;
+            height: 50%;
+
+            .article_first__box_image {
+                width: 110% !important;
+                height: 70%;
+                position: absolute !important;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+
+            .article_first__box_text {
+                width: calc(100% + 30px) !important;
+                height: auto !important;
+                height: 70% !important;
+                transform: translateX(-30px);
+                padding-left: 60px;
+                background: linear-gradient(to right, #515a6190, rgba(255, 255, 255, 0)) !important;
+
+                .box_text__title {
+                    width: 60%;
+                    color: white !important;
+                    font-size: 22px !important;
+                }
+
+                .box_text__description {
+                    width: 80% !important;
+                    font-size: 14px !important;
+                    color: white !important;
+                }
+            }
+
+            .article_first__box_slider {
+                margin-top: 80px;
+            }
+        }
+
+        .information__article_last{
+            height: 80vh !important;
+            width: 90vw;
+            position: relative;
+            left: -30px;
+        }
+    }
+}

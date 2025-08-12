@@ -1,0 +1,1 @@
+export type SectionsType = "home" | "information" | "advantages" | "priceList" | "contacts";
