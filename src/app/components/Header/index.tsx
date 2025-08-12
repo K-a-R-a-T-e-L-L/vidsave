@@ -75,7 +75,7 @@ const Header = () => {
             else setHeaderClass(true);
         };
 
-        window.addEventListener('scroll', handleScrollPage);
+        window.addEventListener('scroll', handleScrollPage, {passive: true});
 
         return () => window.removeEventListener('scroll', handleScrollPage);
     }, []);
@@ -85,7 +85,7 @@ const Header = () => {
             <div className={style.header__unification}>
                 <Link href="#home" className={style.header__mini_info}>
                     <div className={style.mini_info__logo_box}>
-                        <Image alt="Logo" src={"/images/logo.png"} objectFit='contain' layout='fill' />
+                        <Image alt="Логотип компании видеохранитель" src={"/images/logo.png"} style={{objectFit: 'contain'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
                     </div>
                     ВИДЕОХРАНИТЕЛЬ
                 </Link>

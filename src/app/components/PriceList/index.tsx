@@ -4,40 +4,20 @@ import style from './styles.module.scss';
 import React, { useState } from 'react';
 
 type IformationCardType = {
-    all: [
-        {
-            icon: string,
-            title: string,
-            description: string
-        },
-        {
-            icon: string,
-            title: string,
-            description: string
-        },
-        {
-            icon: string,
-            title: string,
-            description: string
-        }
-    ],
-    basic: [
-        {
-            preview: string,
-            title: string,
-            description: string
-        },
-        {
-            preview: string,
-            title: string,
-            description: string
-        },
-        {
-            preview: string,
-            title: string,
-            description: string
-        }
-    ]
+    all:
+    {
+        icon: string,
+        title: string,
+        description: string,
+        alt: string
+    }[],
+    basic:
+    {
+        preview: string,
+        title: string,
+        description: string,
+        alt: string
+    }[]
 };
 
 const PriceList: React.FC = () => {
@@ -45,19 +25,22 @@ const PriceList: React.FC = () => {
     const [InformationCard, setIformationCard] = useState<IformationCardType>({
         all: [
             {
-                icon: '/images/project_8.jpg',
+                icon: '/images/installing_cameras.jpg',
                 title: 'Проектирование и монтаж систем видеонаблюдения',
                 description: 'Обеспечение полного контроля над вашей территорией, днем и ночью.',
+                alt: 'Белая камера видеонаблюдения на стене'
             },
             {
-                icon: '/images/project_10.png',
+                icon: '/images/installing_air_conditioners.jpg',
                 title: 'Установка кондиционеров',
                 description: 'Создание идеального микроклимата, который подарит вам прохладу летом и тепло зимой, а также позаботится о чистоте воздуха с помощью бризера.',
+                alt: 'Белый кондиционер'
             },
             {
-                icon: '/images/project_9.jpg',
+                icon: '/images/electrical_installation.jpg',
                 title: 'Электромонтажные работы',
                 description: 'От прокладки кабеля и установки розеток до полного электроснабжения объектов.',
+                alt: 'Электромонтажные работы в Кемеровской области'
             },
         ],
         basic: [
@@ -65,16 +48,19 @@ const PriceList: React.FC = () => {
                 preview: '/images/camera_left.png',
                 title: 'Проектирование и монтаж систем видеонаблюдения',
                 description: 'Создаем индивидуальные решения для любого типа объекта.',
+                alt: 'Установка камер видеонаблюдения в Кемерово'
             },
             {
                 preview: '/images/pc_tel.png',
                 title: 'Настройка оборудование и обучение пользованию',
                 description: 'Получите возможность удаленного доступа к камерам через смартфон или компьютер, просматривайте записи в любое время и будьте спокойны за своих близких и свое дело.',
+                alt: 'Настройка удаленного доступа'
             },
             {
                 preview: '/images/technical_support.png',
                 title: 'Обслуживание и техническая поддрежка',
                 description: 'Мы работаем в строгом соответствии с действующими нормами и правилами, используя только сертифицированные материалы и проверенные технологии.',
+                alt: 'Обслуживание и тех. поддержка оборудования в Кузбассе'
             },
         ]
     });
@@ -88,10 +74,9 @@ const PriceList: React.FC = () => {
                     {InformationCard.all.length > 0 ? InformationCard.all.map((el, i) => {
                         return (
                             <div className={style.box_services__card} key={i}>
-                                <div className={style.card__icon}><Image src={el.icon} alt='icon' fill style={{ objectFit: 'cover' }} /></div>
+                                <div className={style.card__icon}><Image src={el.icon} alt={el.alt} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill /></div>
                                 <h3 className={style.card__title}>{el.title}</h3>
                                 <p className={style.card__description}>{el.description}</p>
-                                <span className={style.card__price}>От 1000 ₽</span>
                             </div>
                         )
                     }) : (<></>)}
@@ -104,7 +89,7 @@ const PriceList: React.FC = () => {
                     {InformationCard.basic.length > 0 ? InformationCard.basic.map((el, i) => {
                         return (
                             <div className={style.box_services__card} key={i}>
-                                <div className={style.card__preview}><Image src={el.preview} alt='icon' fill style={{ objectFit: 'cover' }} /></div>
+                                <div className={style.card__preview}><Image src={el.preview} alt={el.alt} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill /></div>
                                 <h3 className={style.card__title}>{el.title}</h3>
                                 <p className={style.card__description}>{el.description}</p>
                             </div>

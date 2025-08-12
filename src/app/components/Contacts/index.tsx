@@ -11,25 +11,29 @@ const Contacts = () => {
             icon: '/images/email_icon.png',
             coloredIcon: '/images/colored_email_icon.png',
             title: 'Электронная почта',
-            link: ['denis.zaichuk@yandex.ru']
+            link: ['denis.zaichuk@yandex.ru'],
+            alt: 'Иконка электронной почты яндекс'
         },
         {
             icon: '/images/telephone_icon.png',
             coloredIcon: '/images/colored_telephone_icon.png',
             title: 'Телефон',
-            link: ['8-904-574-52-07', '8-995-065-67-77']
+            link: ['8-904-574-52-07', '8-995-065-67-77'],
+            alt: 'Иконка телефона'
         },
         {
             icon: '/images/avito_icon.png',
             coloredIcon: '/images/colored_avito_icon.png',
             title: 'Авито',
-            link: ['https://www.avito.ru/user/808b4759c3612b86a06b7fd6eb936f30/profile?src=sharing']
+            link: ['https://www.avito.ru/user/808b4759c3612b86a06b7fd6eb936f30/profile?src=sharing'],
+            alt: 'Иконка авито'
         },
         {
             icon: '/images/whatsapp_icon.png',
             coloredIcon: '/images/colored_whatsapp_icon.png',
             title: 'Whatsapp',
-            link: ['8-995-065-67-77']
+            link: ['8-995-065-67-77'],
+            alt: 'Иконка ватсапа'
         },
     ];
 
@@ -44,7 +48,7 @@ const Contacts = () => {
                     {ArrayLinksInfo.map((el, i) => {
                         return (
                             <div className={style.container__contact} key={i}>
-                                <div className={style.contacts__icon}><Image src={el.icon} alt='icon' fill style={{ objectFit: 'contain' }} /></div>
+                                <div className={style.contacts__icon}><Image src={el.icon} alt={el.alt} style={{objectFit: 'contain'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill /></div>
                                 <h3 className={style.contact__title}>{el.title}</h3>
                                 {el.link.length === 2 ? (
                                     <>
@@ -66,7 +70,7 @@ const Contacts = () => {
                             {ArrayLinksInfo.map((el, i) => {
                                 return (
                                     <Link key={i} href={el.link[0]} className={style.contacts_buttons__link}>
-                                        <Image src={el.coloredIcon} alt='icon' fill style={{ objectFit: 'cover' }} />
+                                        <Image src={el.coloredIcon} alt={el.alt} style={{objectFit: 'cover'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
                                     </Link>
                                 )
                             })}

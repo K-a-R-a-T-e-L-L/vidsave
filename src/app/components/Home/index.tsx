@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import style from './styles.module.scss';
 import Link from 'next/link';
 import React from 'react';
@@ -18,18 +17,6 @@ const Home: React.FC = () => {
                         <Link href={'#information'} className={`${style.buttons_box__two_button} `}>Подробнее</Link>
                     </div>
                 </div>
-            </article>
-            <article className={style.home__article_last}>
-                <div className={style.article_last__box_text}>
-                    <h2 className={style.box_text__title}>Будьте спокойны за сохранность имущества и близких</h2>
-                    <p className={style.box_text__description}>
-                        Мы ценим ваше время и доверие, поэтому предлагаем качественные услуги «под ключ» с индивидуальным подходом к каждому клиенту. Доверьте нам заботу о Вашем комфорте и безопасности!
-                    </p>
-                    <hr className={style.box_text__line} />
-                </div>
-                    <div className={style.article_last__box_image}>
-                        <Image src={'/images/home_image.png'} alt='img' fill style={{ objectFit: 'cover' }} />
-                    </div>
             </article>
         </section>
     );

@@ -56,7 +56,7 @@ const Layout: React.FC = () => {
         <div className={style.layout}>
             <Header />
             <main className={style.layout__main}>
-                <Home />
+                <Home /> 
                 <PriceList />
                 <Advantages />
                 <Information />

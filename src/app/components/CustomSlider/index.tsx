@@ -4,23 +4,9 @@ import 'slick-carousel/slick/slick-theme.css';
 import './styles.scss';
 import React from 'react';
 import Image from 'next/image';
+import { SliderProps } from '@/app/types/SliderProps';
 
-interface CustomSliderProps {
-    props: {
-        title: string
-        arrayURL: string[],
-        settings: Record<string, number | string | boolean>,
-        styles: {
-            container: Record<string, string>,
-            title: Record<string, string>,
-            buttons: boolean,
-            imgSizes: string,
-            class: string
-        }
-    }
-};
-
-const CustomSlider: React.FC<CustomSliderProps> = ({ props }) => {
+const CustomSlider: React.FC<SliderProps> = ({ props }) => {
 
     const StylesContainer = {
         ...props.styles.container,
@@ -39,7 +25,7 @@ const CustomSlider: React.FC<CustomSliderProps> = ({ props }) => {
                 {props.arrayURL.map((el, i) => {
                     return (
                         <div key={i} className={'item_slider'}>
-                            <Image src={el} alt='img' className={props.styles.class} fill objectFit={props.styles.imgSizes} />
+                            <Image src={el[0]} alt={el[1]} className={props.styles.class} style={{objectFit: props.styles.imgSizes}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill  />
                         </div>
                     )
                 })}

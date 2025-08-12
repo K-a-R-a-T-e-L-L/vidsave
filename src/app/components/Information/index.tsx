@@ -2,26 +2,37 @@ import React from 'react';
 import style from './styles.module.scss';
 import Image from 'next/image';
 import CustomSlider from '../CustomSlider';
+import { SliderProps } from '@/app/types/SliderProps';
 
 const Information: React.FC = () => {
 
     const ArrayImagesSlider = {
         brands: [
-            '/images/hivideo_logo.png',
-            '/images/ezviz_logo.png',
-            '/images/iflow_logo.png',
-            '/images/novicam_logo.png',
-            '/images/alhua_logo.png',
+            ['/images/hivideo_logo.png', 'Логотип бренда компании HiVideo Electronics Limited'],
+            ['/images/ezviz_logo.png', 'Логотип международного бренда EZVIZ,  интеллектуальных решений для безопасности и жизни'],
+            ['/images/iflow_logo.png', 'Логотип бренда iFLOW, поставляющий оборудование и интеллектуальные решения в сфере комплексных систем безопасности.'],
+            ['/images/novicam_logo.png', 'Логотип бренда Novicam, производитель оборудования для систем видеонаблюдения, контроля доступа (СКУД) и домофонии'],
+            ['/images/alhua_logo.png', 'Логотип компании Alhua Technology Co Ltd., производящая камеры и цифровые видеорегистраторы для систем видеонаблюдения (CCTV)'],
         ],
         projects: [
-            '/images/project_1.jpg',
-            '/images/project_2.jpg',
-            '/images/project_3.jpg',
-            '/images/project_4.jpg',
-            '/images/project_5.jpg',
-            '/images/project_6.jpg',
-            '/images/project_7.jpg',
-            '/images/project_8.jpg',
+            ['/images/project_1.jpg', ''],
+            ['/images/project_2.jpg', ''],
+            ['/images/project_3.jpg', ''],
+            ['/images/project_4.jpg', ''],
+            ['/images/project_5.jpg', ''],
+            ['/images/project_6.jpg', ''],
+            ['/images/project_7.jpg', ''],
+            ['/images/project_9.jpg', ''],
+            ['/images/project_10.jpg', ''],
+            ['/images/project_11.jpg', ''],
+            ['/images/project_12.jpg', ''],
+            ['/images/project_13.jpg', ''],
+            ['/images/project_14.jpg', ''],
+            ['/images/project_15.jpg', ''],
+            ['/images/project_16.jpg', ''],
+            ['/images/project_17.jpg', ''],
+            ['/images/project_18.jpg', ''],
+            ['/images/project_19.jpg', ''],
         ]
     };
 
@@ -102,11 +113,11 @@ const Information: React.FC = () => {
                         Мы ценим ваше время и доверие, поэтому предлагаем качественные услуги по установке кондиционеров, систем видеонаблюдения и прочих электромонтажных работ «под ключ» с индивидуальным подходом к каждому клиенту. Доверьте нам заботу о Вашем комфорте и безопасности!
                     </p>
                 </div>
-                <div className={style.article_first__box_image}><Image src={'/images/information_image.png'} alt='img' fill style={{ objectFit: 'cover' }} /></div>
-                <div className={style.article_first__box_slider}><CustomSlider props={SliderProps.brands} /></div>
+                <div className={style.article_first__box_image}><Image src={'/images/information_image.png'} alt='Универсальная камера для наблюдения на доме' style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill /></div>
+                <div className={style.article_first__box_slider}><CustomSlider props={SliderProps.brands as SliderProps["props"]} /></div>
             </article>
             <article className={style.information__article_last}>
-                <CustomSlider props={SliderProps.projects} />
+                <CustomSlider props={SliderProps.projects as SliderProps["props"]} />
             </article>
         </section>
     );
