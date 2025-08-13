@@ -1,11 +1,11 @@
-@mixin HiddenElement ($x, $y, $scale) {
+@mixin HiddenElement ($x, $y, $scale, $time) {
     opacity: 0;
     transform: translateX($x) translateY($y) scale($scale);
-    transition: opacity 0.7s ease-in-out,
-        transform 0.7s ease-in-out;
+    transition: opacity $time ease-in-out,
+        transform $time ease-in-out;
 }
 
-@mixin AnimatedElement ($x, $y, $scale, $name, $opacity) {
+@mixin AnimatedElement ($x, $y, $scale, $name, $opacity, $time) {
     @keyframes #{$name} {
         0% {
             opacity: 0;
@@ -18,65 +18,65 @@
         }
     }
 
-    animation: #{$name} 0.7s ease-in-out;
+    animation: #{$name} $time ease-in-out;
     opacity: $opacity;
     transform: translateX(0) translateY(0) scale(1);
-    transition: opacity 0.7s ease-in-out,
-    transform 0.7s ease-in-out;
+    transition: opacity $time ease-in-out,
+    transform $time ease-in-out;
 }
 
 //
 .hidden_p {
-    @include HiddenElement(0, 30px, 1);
+    @include HiddenElement(0, 30px, 1, 0.7s);
 }
 
 .animated_p {
-    @include AnimatedElement(0, 30px, 1, p, 0.7);
+    @include AnimatedElement(0, 30px, 1, p, 0.7, 0.7s);
 }
 
 //
 .hidden_h {
-    @include HiddenElement(0, -30px, 1);
+    @include HiddenElement(0, -30px, 1, 0.7s);
 }
 
 .animated_h {
-    @include AnimatedElement(0, -30px, 1, h, 1);
+    @include AnimatedElement(0, -30px, 1, h, 1, 0.7s);
 }
 
 //
 .hidden_img {
-    @include HiddenElement(0, 0, 0.9);
+    @include HiddenElement(0, 0, 0.9, 0.5s);
 }
 
 .animated_img {
-    @include AnimatedElement(0, 0, 0.8, img, 1);
+    @include AnimatedElement(0, 0, 0.8, img, 1, 0.5s);
 }
 
 //
 .hidden_li {
-    @include HiddenElement(-50px, 0, 1);
+    @include HiddenElement(-50px, 0, 1, 0.7s);
 }
 
 .animated_li {
-    @include AnimatedElement(-50px, 0, 1, li, 1);
+    @include AnimatedElement(-50px, 0, 1, li, 1, 0.7s);
 }
 
 //
 .hidden_a {
-    @include HiddenElement(0, 0, 1);
+    @include HiddenElement(0, 0, 1, 0.7s);
 }
 
 .animated_a {
-    @include AnimatedElement(0, 0, 1, a, 1);
+    @include AnimatedElement(0, 0, 1, a, 1, 0.7s);
 }
 
 //
 .hidden_hr {
-    @include HiddenElement(-100px, 0, 1);
+    @include HiddenElement(-100px, 0, 1, 0.7s);
 }
 
 .animated_hr {
-    @include AnimatedElement(-100px, 0, 1, hr, 1);
+    @include AnimatedElement(-100px, 0, 1, hr, 1, 0.7s);
 }
 
 //

@@ -76,10 +76,12 @@
         }
 
         .slick-dots {
+            max-height: 40px;
+            overflow: hidden;
 
             li {
                 button {
-                    &::before{
+                    &::before {
                         font-size: 10px;
                     }
                 }

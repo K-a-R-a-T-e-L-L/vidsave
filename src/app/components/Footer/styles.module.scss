@@ -59,8 +59,9 @@
             align-items: center;
             justify-content: center;
 
-            *{
-                color: rgba(255, 255, 255, 0.6);;
+            * {
+                color: rgba(255, 255, 255, 0.6);
+                ;
             }
 
             .info__title {
@@ -101,5 +102,111 @@
 @media (width < 700px) {
     .navigation__list_link {
         gap: 20px !important;
+    }
+
+}
+
+@media (width < 600px) {
+    .footer {
+        height: 200px;
+    }
+
+    .box__info {
+        height: 50% !important;
+    }
+
+    .box__navigation {
+        height: 50% !important;
+    }
+
+    .navigation__list_link {
+        display: grid;
+        grid-template-columns: 70px 70px 115px 75px !important;
+    }
+
+    .box__info {
+        width: 400px !important;
+    }
+
+    .list_link__link {
+        font-size: 10px !important;
+    }
+
+    .info__title {
+        font-size: 16px !important;
+    }
+
+    .info__description {
+        font-size: 6px !important;
+    }
+}
+
+@media (width < 600px) {
+    .footer {
+        height: 200px;
+    }
+
+    .box__info {
+        height: 50% !important;
+    }
+
+    .box__navigation {
+        height: 50% !important;
+    }
+
+    .navigation__list_link {
+        display: grid;
+        grid-template-columns: 70px 70px 115px 75px !important;
+    }
+
+    .box__info {
+        width: 400px !important;
+    }
+
+    .list_link__link {
+        font-size: 10px !important;
+    }
+
+    .info__title {
+        font-size: 16px !important;
+    }
+
+    .info__description {
+        font-size: 6px !important;
+    }
+}
+
+@media (width < 450px) {
+    .footer {
+        height: 200px;
+    }
+
+    .box__info {
+        height: 50% !important;
+    }
+
+    .box__navigation {
+        height: 50% !important;
+    }
+
+    .navigation__list_link {
+        display: grid;
+        grid-template-columns: 55px 55px 95px 60px !important;
+    }
+
+    .box__info {
+        width: 300px !important;
+    }
+
+    .list_link__link {
+        font-size: 8px !important;
+    }
+
+    .info__title {
+        font-size: 14px !important;
+    }
+
+    .info__description {
+        font-size: 6px !important;
     }
 }

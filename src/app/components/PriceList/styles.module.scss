@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     .price_list__article_first {
         width: 100%;
         max-width: 1344px;
@@ -80,7 +80,7 @@
     .price_list__article_last {
         width: 100%;
         max-width: 1344px;
-        min-height: 100vh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -199,9 +199,9 @@
     }
 
     .price_list__article_last {
-        padding: 50px 30px !important;
+        padding: 0px 30px 50px 30px !important;
         row-gap: 20px !important;
-        min-height: 150vh !important;
+        min-height: 130vh !important;
 
         .article_last__description {
             text-align: center;

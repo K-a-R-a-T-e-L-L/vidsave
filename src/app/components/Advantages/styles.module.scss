@@ -131,12 +131,14 @@
             }
 
             .roadmap__item {
-                height: 85% !important;
-                min-width: 300px !important;
-                min-height: 350px !important;
+                height: 80% !important;
+                min-width: 270px !important;
+                min-height: 300px !important;
                 border-radius: 10px 10px 50px 50px !important;
+                row-gap: 10px !important;
 
                 .roadmap__el__list_points {
+                    height: 80% !important;
                     .list_points__point {
                         font-size: 10px !important;
 
