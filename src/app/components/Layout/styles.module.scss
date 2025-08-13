@@ -4,6 +4,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 
     .layout__main{
         width: 100%;

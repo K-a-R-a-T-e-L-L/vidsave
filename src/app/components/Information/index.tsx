@@ -53,7 +53,7 @@ const Information: React.FC = () => {
         },
         projects: {
             dots: true,
-            infinity: true,
+            infinity: false,
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
