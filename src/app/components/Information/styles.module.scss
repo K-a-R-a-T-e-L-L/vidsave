@@ -67,7 +67,7 @@
     .article_first__box_text {
         row-gap: 10px !important;
 
-        .box_text__title{
+        .box_text__title {
             font-size: 28px !important;
         }
 
@@ -80,7 +80,7 @@
 @media (width < 900px) {
     .information {
         padding-top: 80px;
-        height: 180vh;
+        height: 190vh;
         overflow: hidden;
 
         .information__article_first {
@@ -112,9 +112,10 @@
                 }
 
                 .box_text__description {
-                    width: 70% !important;
-                    font-size: 14px !important;
+                    width: 60% !important;
+                    font-size: 16px !important;
                     color: white !important;
+                    text-shadow: 0 0 2px black;
                 }
             }
 
@@ -123,11 +124,19 @@
             }
         }
 
-        .information__article_last{
-            height: 80vh !important;
+        .information__article_last {
+            height: 90vh !important;
             width: 90vw;
             position: relative;
             left: -30px;
+            padding: 0 0 0 30px !important;
         }
+    }
+}
+
+@media (width < 500px) {
+    .information__article_last {
+        padding: 0 0 0 30px !important;
+        width: 100vw !important;
     }
 }

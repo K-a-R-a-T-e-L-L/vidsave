@@ -47,7 +47,7 @@ const Layout: React.FC = () => {
             });
         }, { threshold: 0.3 });
 
-        document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, img, li, a, hr, #home').forEach((el) => {
+        document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, img, li:not(.slick-dots li), a, hr, #home').forEach((el) => {
             if (el) Observer.observe(el);
         });
     }, []);

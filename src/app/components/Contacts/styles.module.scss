@@ -131,14 +131,14 @@
         font-size: 12px !important;
     }
 
-    .box_text__title{
+    .box_text__title {
         font-size: 28px !important;
     }
 
-    .box_contacts__container{
+    .box_contacts__container {
         justify-content: start !important;
     }
-    
+
     .container__contact {
         width: 200px !important;
         height: 150px !important;
@@ -162,37 +162,41 @@
 }
 
 @media (width < 900px) {
-    .contacts__box_contacts {
-        flex-direction: column;
-        row-gap: 30px;
+    .contacts {
+        height: 1200px;
 
-        .box_contacts__container {
-            height: auto !important;
-            width: 100% !important;
-            flex-wrap: wrap;
-            flex-direction: row !important;
-        }
-
-        .box_contacts__maps {
-            width: 100% !important;
-            min-height: 55% !important;
-            display: flex;
+        .contacts__box_contacts {
             flex-direction: column;
-            row-gap: 20px !important;
-            padding-bottom: 50px !important;
+            row-gap: 30px;
 
-            .maps__info {
-                height: 60px !important;
+            .box_contacts__container {
+                height: auto !important;
+                width: 100% !important;
+                flex-wrap: wrap;
+                flex-direction: row !important;
+            }
 
-                .info__contacts_buttons {
-                    .contacts_buttons__link {
-                        width: 30px !important;
-                        height: 30px !important;
+            .box_contacts__maps {
+                width: 100% !important;
+                min-height: 75% !important;
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px !important;
+                padding-bottom: 50px !important;
+
+                .maps__info {
+                    height: 60px !important;
+
+                    .info__contacts_buttons {
+                        .contacts_buttons__link {
+                            width: 30px !important;
+                            height: 30px !important;
+                        }
                     }
-                }
 
-                .info__address {
-                    font-size: 10px;
+                    .info__address {
+                        font-size: 10px;
+                    }
                 }
             }
         }
