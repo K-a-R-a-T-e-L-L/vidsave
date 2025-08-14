@@ -32,7 +32,7 @@ const Contacts = () => {
             icon: '/images/whatsapp_icon.png',
             coloredIcon: '/images/colored_whatsapp_icon.png',
             title: 'Whatsapp',
-            link: ['8-995-065-67-77'],
+            link: ['https://wa.me/7995706576777'],
             alt: 'Иконка ватсапа'
         },
     ];
@@ -52,11 +52,11 @@ const Contacts = () => {
                                 <h3 className={style.contact__title}>{el.title}</h3>
                                 {el.link.length === 2 ? (
                                     <>
-                                        <h5 className={style.contact__link}><Link href={el.link[0]}>{el.link[0]}</Link></h5>
-                                        <h5 className={style.contact__link}><Link href={el.link[1]}>{el.link[1]}</Link></h5>
+                                        <h5 className={style.contact__link}><Link target='_blank' href={`tel:${el.link[0]}`}>{el.link[0]}</Link></h5>
+                                        <h5 className={style.contact__link}><Link target='_blank' href={`tel:${el.link[1]}`}>{el.link[1]}</Link></h5>
                                     </>
                                 ) : (
-                                    <h5 className={style.contact__link}><Link href={el.link[0]}>{el.link}</Link></h5>
+                                    <h5 className={style.contact__link}><Link target='_blank' href={`${el.title === 'Электронная почта' ? 'mailto:[' : ''}${el.link[0]}${el.title === 'Электронная почта' ? ']' : ''}`}>{el.link}</Link></h5>
                                 )}
                             </div>
                         )

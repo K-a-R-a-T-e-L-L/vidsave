@@ -30,7 +30,7 @@
             font-weight: 400;
         }
 
-        .article_first__title{
+        .article_first__title {
             text-align: center
         }
 
@@ -238,10 +238,9 @@
 @media (width < 600px) {
     .price_list {
 
-        height: calc(1400px + 1500px) !important;
+        height: calc(1300px + 1500px) !important;
 
         .price_list__article_last {
-
             min-height: 1300px !important;
 
             .article_last__box_services {

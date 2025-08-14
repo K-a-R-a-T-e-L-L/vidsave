@@ -150,6 +150,7 @@
 @media (width < 700px) {
     .information {
         height: calc(1200px + 900px);
+        padding-top: 0px !important;
 
         .information__article_first {
             justify-content: start !important;
@@ -211,8 +212,12 @@
 }
 
 @media (width < 500px) {
-    .information__article_last {
-        padding: 0 0 0 30px !important;
-        width: 100vw !important;
+    .information {
+         height: calc(1200px + 600px);
+        .information__article_last {
+            height: 600px !important;
+            padding: 0 0 0 30px !important;
+            width: 90vw !important;
+        }
     }
 }

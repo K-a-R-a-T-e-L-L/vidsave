@@ -205,6 +205,8 @@
 
 @media (width < 460px) {
     .contacts {
-        height: 1800px;
+        height: 1600px;
+        justify-content: start !important;
+        padding-top: 150px !important;
     }
 }
