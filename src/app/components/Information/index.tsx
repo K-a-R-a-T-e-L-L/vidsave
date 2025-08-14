@@ -87,7 +87,7 @@ const Information: React.FC = () => {
                 marginTop: '60px'
             },
             buttons: true,
-            imgSizes: 'cover',
+            imgSizes: 'contain',
             class: ''
         }
     };
