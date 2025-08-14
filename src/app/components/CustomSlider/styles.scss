@@ -78,6 +78,7 @@
         .slick-dots {
             max-height: 40px;
             overflow: hidden;
+            display: none !important;
 
             li {
                 button {
@@ -107,6 +108,24 @@
         &::before {
             font-size: 100px !important;
         }
+    }
+}
+
+@media (width < 900px) {
+    .slick-next {
+        &::before {
+            font-size: 100px !important;
+        }
+
+        right: -8% !important;
+    }
+
+    .slick-prev {
+        &::before {
+            font-size: 100px !important;
+        }
+
+        left: -8% !important;
     }
 }
 
