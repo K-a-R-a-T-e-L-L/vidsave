@@ -158,7 +158,7 @@
             height: 1200px;
 
             .article_first__box_image {
-                width: 110% !important;
+                width: 100% !important;
                 height: 40%;
                 position: relative !important;
                 top: 0;
@@ -187,6 +187,25 @@
 
         .information__article_last {
             height: 900px !important;
+        }
+    }
+}
+
+@media (width < 600px) {
+    .information {
+        .information__article_first {
+            .article_first__box_text {
+                height: 45% !important;
+
+                .box_text__title {
+                    width: 100%;
+                }
+
+                .box_text__description {
+                    width: 100% !important;
+                    font-size: 14px !important;
+                }
+            }
         }
     }
 }
