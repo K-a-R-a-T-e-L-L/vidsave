@@ -50,14 +50,14 @@ const Footer = () => {
                 <nav className={style.box__navigation}>
                     <ul className={style.navigation__list_link}>
                         {ListLinks.map((el, i) => {
-                            return <li key={i} className={style.list_link__link} tabIndex={0}><Link href={el.url}>{el.text}</Link></li>
+                            return <li key={i} className={`${style.list_link__link} hidden_li`} tabIndex={0}><Link href={el.url}>{el.text}</Link></li>
                         })}
                     </ul>
                 </nav>
                 <div className={style.box__info}>
-                    <h4 className={style.info__title}>Торгово-монтажная компания «ВИДЕОХРАНИТЕЛЬ»</h4>
-                    <hr className={style.info__decoration_line} />
-                    <h6 className={style.info__description}>
+                    <h4 className={`${style.info__title} hidden_h`}>Торгово-монтажная компания «ВИДЕОХРАНИТЕЛЬ»</h4>
+                    <hr className={`${style.info__decoration_line} hidden_hr`} />
+                    <h6 className={`${style.info__description} hidden_h`}>
                         ИП Зайчук Денис Евгеньевич ИНН 423085052501 ЕГРИП 324420500109616
                         650010 Россия, Кемеровская область - Кузбасс, г. Кемерово, ул. Тельбесская, д. 61
                     </h6>

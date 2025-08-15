@@ -1,9 +1,11 @@
 @mixin HiddenElement ($x, $y, $scale, $time) {
-    opacity: 0;
-    transform: translateX($x) translateY($y) scale($scale);
+    opacity: 0 !important;
+    transform: translateX($x) translateY($y) scale($scale) translate3d(0, 0, 0);
     transition: opacity $time ease-in-out,
         transform $time ease-in-out;
-        backface-visibility: hidden;
+    backface-visibility: hidden;
+    will-change: opacity, transform;
+    -webkit-font-smoothing: antialiased;
 }
 
 @mixin AnimatedElement ($x, $y, $scale, $name, $opacity, $time) {
@@ -20,11 +22,14 @@
     }
 
     animation: #{$name} $time ease-in-out;
-    opacity: $opacity;
-    transform: translateX(0) translateY(0) scale(1);
+    animation-fill-mode: backwards;
+    opacity: $opacity !important;
+    transform: translateX(0) translateY(0) scale(1) translate3d(0, 0, 0);
     transition: opacity $time ease-in-out,
     transform $time ease-in-out;
     backface-visibility: hidden;
+    will-change: opacity, transform;
+    -webkit-font-smoothing: antialiased;
 }
 
 //

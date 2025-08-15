@@ -40,23 +40,23 @@ const Contacts = () => {
     return (
         <section className={style.contacts} id='contacts'>
             <div className={style.contacts__box_text}>
-                <h2 className={style.box_text__title}>Свяжитесь с нами</h2>
-                <p className={style.box_text__description}>Мы всегда готовы ответить на ваши вопросы.</p>
+                <h2 className={`${style.box_text__title} hidden_h`}>Свяжитесь с нами</h2>
+                <p className={`${style.box_text__description} hidden_p`}>Мы всегда готовы ответить на ваши вопросы.</p>
             </div>
             <div className={style.contacts__box_contacts}>
                 <div className={style.box_contacts__container}>
                     {ArrayLinksInfo.map((el, i) => {
                         return (
                             <div className={style.container__contact} key={i}>
-                                <div className={style.contacts__icon}><Image src={el.icon} alt={el.alt} style={{objectFit: 'contain'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill /></div>
-                                <h3 className={style.contact__title}>{el.title}</h3>
+                                <div className={style.contacts__icon}><Image src={el.icon} alt={el.alt} className='hidden_img' style={{ objectFit: 'contain' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill /></div>
+                                <h3 className={`${style.contact__title} hidden_h`}>{el.title}</h3>
                                 {el.link.length === 2 ? (
                                     <>
-                                        <h5 className={style.contact__link}><Link target='_blank' href={`tel:${el.link[0]}`}>{el.link[0]}</Link></h5>
-                                        <h5 className={style.contact__link}><Link target='_blank' href={`tel:${el.link[1]}`}>{el.link[1]}</Link></h5>
+                                        <Link target='_blank' className={`${style.contact__link} hidden_li`} href={`tel:${el.link[0]}`}>{el.link[0]}</Link>
+                                        <Link target='_blank' className={`${style.contact__link} hidden_li`} href={`tel:${el.link[1]}`}>{el.link[1]}</Link>
                                     </>
                                 ) : (
-                                    <h5 className={style.contact__link}><Link target='_blank' href={`${el.title === 'Электронная почта' ? 'mailto:[' : ''}${el.link[0]}${el.title === 'Электронная почта' ? ']' : ''}`}>{el.link}</Link></h5>
+                                    <Link target='_blank' className={`${style.contact__link} hidden_li`} href={`${el.title === 'Электронная почта' ? 'mailto:[' : ''}${el.link[0]}${el.title === 'Электронная почта' ? ']' : ''}`}>{el.link}</Link>
                                 )}
                             </div>
                         )
@@ -69,14 +69,14 @@ const Contacts = () => {
                             <div className={style.contacts_buttons__line}></div>
                             {ArrayLinksInfo.map((el, i) => {
                                 return (
-                                    <Link target='_blank' key={i} href={`${el.title === 'Электронная почта' ? 'mailto:[' : (el.title === 'Телефон' ? 'tel:' : '')}${el.link[0]}${el.title === 'Электронная почта' ? ']' : ''}`} className={style.contacts_buttons__link}>
-                                        <Image src={el.coloredIcon} alt={el.alt} style={{objectFit: 'cover'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
+                                    <Link target='_blank' key={i} href={`${el.title === 'Электронная почта' ? 'mailto:[' : (el.title === 'Телефон' ? 'tel:' : '')}${el.link[0]}${el.title === 'Электронная почта' ? ']' : ''}`} className={`${style.contacts_buttons__link} hidden_li`}>
+                                        <Image src={el.coloredIcon} alt={el.alt} className='hidden_img' style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
                                     </Link>
                                 )
                             })}
                             <div className={style.contacts_buttons__line}></div>
                         </div>
-                        <h5 className={style.info__address}>Россия, г. Кемерово, ул. Шестакова, д. 6А</h5>
+                        <h5 className={`${style.info__address} hidden_h`}>Россия, г. Кемерово, ул. Шестакова, д. 6А</h5>
                     </div>
                 </div>
             </div>

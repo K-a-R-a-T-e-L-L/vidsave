@@ -18,27 +18,19 @@ const Layout: React.FC = () => {
                 
                 try {
                     if (TagName === 'p') {
-                        entry.target.classList.toggle('hidden_p', !entry.isIntersecting);
                         entry.target.classList.toggle('animated_p', entry.isIntersecting);
                     }
                     else if (TagName === 'h1' || TagName === 'h2' || TagName === 'h3' || TagName === 'h4' || TagName === 'h5' || TagName === 'h6') {
-                        entry.target.classList.toggle('hidden_h', !entry.isIntersecting);
                         entry.target.classList.toggle('animated_h', entry.isIntersecting);
                     }
                     if (TagName === 'img' && !entry.target.classList.contains('no_animated')) {
-                        entry.target.classList.toggle('hidden_img', !entry.isIntersecting);
                         entry.target.classList.toggle('animated_img', entry.isIntersecting);
                     }
-                    if (TagName === 'li') {
-                        entry.target.classList.toggle('hidden_li', !entry.isIntersecting);
+                    if (TagName === 'li' || TagName === 'a') {
                         entry.target.classList.toggle('animated_li', entry.isIntersecting);
                     }
-                    if (TagName === 'a') {
-                        entry.target.classList.toggle('hidden_a', !entry.isIntersecting);
-                        entry.target.classList.toggle('animated_a', entry.isIntersecting);
-                    }
                     if (TagName === 'hr') {
-                        entry.target.classList.toggle('hidden_hr', !entry.isIntersecting);
+                        // entry.target.classList.toggle('hidden_hr', !entry.isIntersecting);
                         entry.target.classList.toggle('animated_hr', entry.isIntersecting);
                     }
                 } catch (error) {

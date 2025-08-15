@@ -88,7 +88,7 @@ const Information: React.FC = () => {
             },
             buttons: true,
             imgSizes: 'contain',
-            class: ''
+            class: 'hidden_img'
         }
     };
 
@@ -111,8 +111,8 @@ const Information: React.FC = () => {
         <section className={style.information} id='information'>
             <article className={style.information__article_first}>
                 <div className={style.article_first__box_text}>
-                    <h2 className={style.box_text__title}>О компании</h2>
-                    <p className={style.box_text__description}>
+                    <h2 className={`${style.box_text__title} hidden_h`}>О компании</h2>
+                    <p className={`${style.box_text__description} hidden_p`}>
                         🏢 Компания «ВИДЕОХРАНИТЕЛЬ» внедряет передовые комплексы видеонаблюдения с функцией распознавания лиц, автоматического отслеживания движений и интеллектуального анализа событий. <br />
                         💡 Благодаря таким решениям:
                         Вам не нужны десятки сторожей и контролёров объекте.
@@ -123,7 +123,9 @@ const Information: React.FC = () => {
                         Ваш объект всегда под защитой - без лишних затрат.
                     </p>
                 </div>
-                <div className={style.article_first__box_image}><Image src={'/images/information_image.png'} alt='Универсальная камера для наблюдения на доме' style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill /></div>
+                <div className={style.article_first__box_image}>
+                    <Image src={'/images/information_image.png'} alt='Универсальная камера для наблюдения на доме' className='hidden_img' style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
+                </div>
                 <div className={style.article_first__box_slider}><CustomSlider props={SliderProps.brands as SliderProps["props"]} /></div>
             </article>
             <article className={style.information__article_last}>
