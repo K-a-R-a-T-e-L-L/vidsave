@@ -117,7 +117,7 @@
             font-size: 100px !important;
         }
 
-        right: -8% !important;
+        right: -12% !important;
     }
 
     .slick-prev {
@@ -125,7 +125,7 @@
             font-size: 100px !important;
         }
 
-        left: -8% !important;
+        left: -12% !important;
     }
 }
 
@@ -135,7 +135,7 @@
             font-size: 100px !important;
         }
 
-        right: -13% !important;
+        right: -10% !important;
     }
 
     .slick-prev {
@@ -143,6 +143,24 @@
             font-size: 100px !important;
         }
 
-        left: -13% !important;
+        left: -10% !important;
+    }
+}
+
+@media (width < 450px) {
+    .slick-next {
+        &::before {
+            font-size: 50px !important;
+        }
+
+        right: -12% !important;
+    }
+
+    .slick-prev {
+        &::before {
+            font-size: 50px !important;
+        }
+
+        left: -12% !important;
     }
 }

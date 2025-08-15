@@ -15,7 +15,7 @@ const Header = () => {
     const [ListLinks, setListLinks] = useState<ListLinksType>([
         {
             url: 'priceList',
-            text: 'Услуги и цены',
+            text: 'Услуги',
             class: ''
         },
         {

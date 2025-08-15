@@ -126,7 +126,7 @@
 
         .information__article_last {
             height: 90vh !important;
-            width: 90vw;
+            width: 80vw;
             position: relative;
             left: -30px;
             padding: 0 0 0 30px !important;
@@ -213,11 +213,12 @@
 
 @media (width < 500px) {
     .information {
-         height: calc(1200px + 600px);
+        height: calc(1200px + 600px);
+
         .information__article_last {
             height: 600px !important;
             padding: 0 0 0 30px !important;
-            width: 90vw !important;
+            width: 80vw !important;
         }
     }
 }

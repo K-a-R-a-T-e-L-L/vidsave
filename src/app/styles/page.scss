@@ -3,6 +3,7 @@
     transform: translateX($x) translateY($y) scale($scale);
     transition: opacity $time ease-in-out,
         transform $time ease-in-out;
+        backface-visibility: hidden;
 }
 
 @mixin AnimatedElement ($x, $y, $scale, $name, $opacity, $time) {
@@ -23,6 +24,7 @@
     transform: translateX(0) translateY(0) scale(1);
     transition: opacity $time ease-in-out,
     transform $time ease-in-out;
+    backface-visibility: hidden;
 }
 
 //
