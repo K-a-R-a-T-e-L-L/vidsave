@@ -32,7 +32,7 @@ const Contacts = () => {
             icon: '/images/whatsapp_icon.png',
             coloredIcon: '/images/colored_whatsapp_icon.png',
             title: 'Whatsapp',
-            link: ['https://wa.me/7995706576777'],
+            link: ['https://wa.me/79950656777'],
             alt: 'Иконка ватсапа'
         },
     ];
@@ -56,7 +56,7 @@ const Contacts = () => {
                                         <Link target='_blank' className={`${style.contact__link} hidden_li`} href={`tel:${el.link[1]}`}>{el.link[1]}</Link>
                                     </>
                                 ) : (
-                                    <Link target='_blank' className={`${style.contact__link} hidden_li`} href={`${el.title === 'Электронная почта' ? 'mailto:[' : ''}${el.link[0]}${el.title === 'Электронная почта' ? ']' : ''}`}>{el.link}</Link>
+                                    <Link target='_blank' className={`${style.contact__link} hidden_li`} href={`${el.title === 'Электронная почта' ? 'mailto:' : ''}`}>{el.link}</Link>
                                 )}
                             </div>
                         )
@@ -69,7 +69,7 @@ const Contacts = () => {
                             <div className={style.contacts_buttons__line}></div>
                             {ArrayLinksInfo.map((el, i) => {
                                 return (
-                                    <Link target='_blank' key={i} href={`${el.title === 'Электронная почта' ? 'mailto:[' : (el.title === 'Телефон' ? 'tel:' : '')}${el.link[0]}${el.title === 'Электронная почта' ? ']' : ''}`} className={`${style.contacts_buttons__link} hidden_li`}>
+                                    <Link target='_blank' key={i} href={`${el.title === 'Электронная почта' ? 'mailto:' : (el.title === 'Телефон' ? 'tel:' : '')}${el.link[0]}}`} className={`${style.contacts_buttons__link} hidden_li`}>
                                         <Image src={el.coloredIcon} alt={el.alt} className='hidden_img' style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
                                     </Link>
                                 )

@@ -16,6 +16,8 @@ const Map: React.FC<MapProps> = ({ latitude, longitude, address, sizes, borderRa
     const MapURL = `https://yandex.ru/map-widget/v1/?ll=${longitude},${latitude}&mode=whatshere&whatshere%5Bpoint%5D=${longitude},${latitude}&whatshere%5Bzoom%5D=17&z=17&text=${encodeURIComponent(address)}`;
 
     useEffect(() => {
+        const RefCurrent = Ref.current;
+
         const Observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
@@ -25,12 +27,12 @@ const Map: React.FC<MapProps> = ({ latitude, longitude, address, sizes, borderRa
             });
         }, { threshold: 0.2 });
 
-        if (Ref.current) {
-            Observer.observe(Ref.current);
+        if (RefCurrent) {
+            Observer.observe(RefCurrent);
         };
 
         return () => {
-            if (Ref.current) Observer.unobserve(Ref.current);
+            if (RefCurrent) Observer.unobserve(RefCurrent);
         };
     }, []);
 

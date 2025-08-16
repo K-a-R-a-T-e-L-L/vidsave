@@ -85,7 +85,7 @@ const Header = () => {
             <div className={style.header__unification}>
                 <Link href="#home" className={`${style.header__mini_info} hidden_li`}>
                     <div className={style.mini_info__logo_box}>
-                        <Image alt="Логотип компании видеохранитель" src={"/images/logo.png"} className='hidden_img' style={{objectFit: 'contain'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
+                        <Image alt="Логотип компании видеохранитель" src={"/images/logo.png"} style={{objectFit: 'contain'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
                     </div>
                     ВИДЕОХРАНИТЕЛЬ
                 </Link>
@@ -94,7 +94,7 @@ const Header = () => {
                     <ul className={style.navigation__list_link}>
                         {ListLinks.map((el, i) => {
                             return (
-                                <li key={i} className={`${style.list_link__link} ${el.class} hidden_li`}><Link href={`#${el.url}`} onClick={() => BurgerMenu ? setBurgerMenu(false) : null}>{el.text}</Link></li>
+                                <li key={i} className={`${style.list_link__link} ${el.class} `}><Link href={`#${el.url}`} onClick={() => BurgerMenu ? setBurgerMenu(false) : null}>{el.text}</Link></li>
                             )
                         })}
                     </ul>

@@ -1,95 +1,3 @@
-@mixin HiddenElement ($x, $y, $scale, $time) {
-    opacity: 0 !important;
-    transform: translateX($x) translateY($y) scale($scale) translate3d(0, 0, 0);
-    transition: opacity $time ease-in-out,
-        transform $time ease-in-out;
-    backface-visibility: hidden;
-    will-change: opacity, transform;
-    -webkit-font-smoothing: antialiased;
-}
-
-@mixin AnimatedElement ($x, $y, $scale, $name, $opacity, $time) {
-    @keyframes #{$name} {
-        0% {
-            opacity: 0;
-            transform: translateX($x) translateY($y) scale($scale);
-        }
-
-        100% {
-            opacity: $opacity;
-            transform: translateX(0) translateY(0) scale(1);
-        }
-    }
-
-    animation: #{$name} $time ease-in-out;
-    animation-fill-mode: backwards;
-    opacity: $opacity !important;
-    transform: translateX(0) translateY(0) scale(1) translate3d(0, 0, 0);
-    transition: opacity $time ease-in-out,
-    transform $time ease-in-out;
-    backface-visibility: hidden;
-    will-change: opacity, transform;
-    -webkit-font-smoothing: antialiased;
-}
-
-//
-.hidden_p {
-    @include HiddenElement(0, 30px, 1, 0.7s);
-}
-
-.animated_p {
-    @include AnimatedElement(0, 30px, 1, p, 0.7, 0.7s);
-}
-
-//
-.hidden_h {
-    @include HiddenElement(0, -30px, 1, 0.7s);
-}
-
-.animated_h {
-    @include AnimatedElement(0, -30px, 1, h, 1, 0.7s);
-}
-
-//
-.hidden_img {
-    @include HiddenElement(0, 0, 0.9, 0.5s);
-}
-
-.animated_img {
-    @include AnimatedElement(0, 0, 0.8, img, 1, 0.5s);
-}
-
-//
-.hidden_li {
-    @include HiddenElement(-50px, 0, 1, 0.7s);
-}
-
-.animated_li {
-    @include AnimatedElement(-50px, 0, 1, li, 1, 0.7s);
-}
-
-//
-.hidden_a {
-    @include HiddenElement(0, 0, 1, 0.7s);
-}
-
-.animated_a {
-    @include AnimatedElement(0, 0, 1, a, 1, 0.7s);
-}
-
-//
-.hidden_hr {
-    @include HiddenElement(-100px, 0, 1, 0.7s);
-}
-
-.animated_hr {
-    @include AnimatedElement(-100px, 0, 1, hr, 1, 0.7s);
-}
-
-//
-.link_active {
-    position: relative;
-
     @keyframes AppereanceActiveLink {
         0% {
             scale: 1.5;
@@ -102,25 +10,108 @@
         }
     }
 
-    &::before {
-        content: "";
-        background-color: #515A61;
-        opacity: 0.3;
-        position: absolute;
-        width: 150%;
-        height: 300%;
-        left: -25%;
-        top: -100%;
-        border-radius: 1000px;
-        z-index: -1;
-        animation: AppereanceActiveLink 0.5s ease-in-out;
+    @mixin HiddenElement ($x, $y, $scale, $time) {
+        opacity: 0 !important;
+        transform: translateX($x) translateY($y) scale($scale) translate3d(0, 0, 0);
+        transition: opacity $time ease-in-out, transform $time ease-in-out;
+        backface-visibility: hidden;
+        will-change: opacity, transform;
+        -webkit-font-smoothing: antialiased;
     }
-}
 
-@media (width < 900px) {
-    .link_active {
-        &::before {
-            background-color: #6c8598;
+    @mixin AnimatedElement ($x, $y, $scale, $name, $opacity, $time) {
+        @keyframes #{$name} {
+            0% {
+                opacity: 0;
+                transform: translateX($x) translateY($y) scale($scale);
+            }
+
+            100% {
+                opacity: $opacity;
+                transform: translateX(0) translateY(0) scale(1);
+            }
+        }
+
+        & {
+            animation: #{$name} $time ease-in-out;
+            animation-fill-mode: backwards;
+            opacity: $opacity !important;
+            transform: translateX(0) translateY(0) scale(1) translate3d(0, 0, 0);
+            transition: opacity $time ease-in-out, transform $time ease-in-out;
+            backface-visibility: hidden;
+            will-change: opacity, transform;
+            -webkit-font-smoothing: antialiased;
         }
     }
-}
+
+    //
+    .hidden_p {
+        @include HiddenElement(0, 30px, 1, 0.7s);
+    }
+
+    .animated_p {
+        @include AnimatedElement(0, 30px, 1, p, 0.7, 0.7s);
+    }
+
+    //
+    .hidden_h {
+        @include HiddenElement(0, -30px, 1, 0.7s);
+    }
+
+    .animated_h {
+        @include AnimatedElement(0, -30px, 1, h, 1, 0.7s);
+    }
+
+    //
+    .hidden_img {
+        @include HiddenElement(0, 0, 0.9, 0.5s);
+    }
+
+    .animated_img {
+        @include AnimatedElement(0, 0, 0.8, img, 1, 0.5s);
+    }
+
+    //
+    .hidden_li {
+        @include HiddenElement(-50px, 0, 1, 0.7s);
+    }
+
+    .animated_li {
+        @include AnimatedElement(-50px, 0, 1, li, 1, 0.7s);
+    }
+
+    //
+    .hidden_hr {
+        @include HiddenElement(-100px, 0, 1, 0.7s);
+    }
+
+    .animated_hr {
+        @include AnimatedElement(-100px, 0, 1, hr, 1, 0.7s);
+    }
+
+    //
+    .link_active {
+        position: relative;
+
+        &::before {
+            content: "";
+            background-color: #515A61;
+            opacity: 0.3;
+            position: absolute;
+            width: 150%;
+            height: 300%;
+            left: -25%;
+            top: -100%;
+            border-radius: 1000px;
+            z-index: -1;
+            animation: AppereanceActiveLink 0.5s ease-in-out;
+        }
+    }
+
+    @media (width < 900px) {
+        .link_active {
+            &::before {
+                background-color: #6c8598;
+            }
+        }
+    }

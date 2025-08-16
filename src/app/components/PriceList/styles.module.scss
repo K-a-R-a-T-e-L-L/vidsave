@@ -42,7 +42,7 @@
                 height: 100%;
                 display: flex;
                 flex-direction: column;
-                align-items: start;
+                align-items: flex-start;
                 justify-content: space-evenly;
                 row-gap: 15px;
                 padding: 10px;
@@ -102,8 +102,8 @@
         }
 
         .article_last__box_services {
+            align-items: flex-start;
             @include StylesBoxesServices(space-between, 30px);
-            align-items: start;
 
             .box_services__card {
                 width: 30%;
@@ -237,7 +237,6 @@
 
 @media (width < 600px) {
     .price_list {
-
         height: calc(1300px + 1500px) !important;
 
         .price_list__article_last {

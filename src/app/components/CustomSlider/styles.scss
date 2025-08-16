@@ -31,25 +31,25 @@
         }
 
         .slick-next {
+            right: -10%;
+
             &::before {
                 content: "⟩";
                 font-size: 150px;
                 color: #515A61;
                 text-shadow: 0 0 2px white;
             }
-
-            right: -10%;
         }
 
         .slick-prev {
+            left: -10%;
+
             &::before {
                 content: "⟨";
                 font-size: 150px;
                 color: #515A61;
                 text-shadow: 0 0 2px white;
             }
-
-            left: -10%;
         }
 
         .slick-list {
@@ -113,54 +113,48 @@
 
 @media (width < 900px) {
     .slick-next {
+        right: -12% !important;
         &::before {
             font-size: 100px !important;
         }
-
-        right: -12% !important;
     }
 
     .slick-prev {
+        left: -12% !important;
         &::before {
             font-size: 100px !important;
         }
-
-        left: -12% !important;
     }
 }
 
 @media (width < 500px) {
     .slick-next {
+        right: -10% !important;
         &::before {
             font-size: 100px !important;
         }
-
-        right: -10% !important;
     }
 
     .slick-prev {
+        left: -10% !important;
         &::before {
             font-size: 100px !important;
         }
-
-        left: -10% !important;
     }
 }
 
 @media (width < 450px) {
     .slick-next {
+        right: -12% !important;
         &::before {
             font-size: 50px !important;
         }
-
-        right: -12% !important;
     }
 
     .slick-prev {
+        left: -12% !important;
         &::before {
             font-size: 50px !important;
         }
-
-        left: -12% !important;
     }
 }

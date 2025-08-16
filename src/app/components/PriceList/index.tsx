@@ -22,7 +22,7 @@ type IformationCardType = {
 
 const PriceList: React.FC = () => {
 
-    const [InformationCard, setIformationCard] = useState<IformationCardType>({
+    const [InformationCard] = useState<IformationCardType>({
         all: [
             {
                 icon: '/images/installing_cameras.jpg',

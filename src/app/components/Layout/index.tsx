@@ -30,7 +30,6 @@ const Layout: React.FC = () => {
                         entry.target.classList.toggle('animated_li', entry.isIntersecting);
                     }
                     if (TagName === 'hr') {
-                        // entry.target.classList.toggle('hidden_hr', !entry.isIntersecting);
                         entry.target.classList.toggle('animated_hr', entry.isIntersecting);
                     }
                 } catch (error) {
