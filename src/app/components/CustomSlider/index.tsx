@@ -2,7 +2,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './styles.scss';
-import React from 'react';
+import React, { useEffect } from 'react';
 import Image from 'next/image';
 import { SliderProps } from '@/app/types/SliderProps';
 
@@ -16,6 +16,20 @@ const CustomSlider: React.FC<SliderProps> = ({ props }) => {
         ...props.styles.title,
         '--fontSizeMobile': props.styles.title.fontSizeMobile,
     };
+
+    useEffect(() => {
+        const Slides = document.querySelectorAll('.slick-slide');
+
+        Slides.forEach((el) => {
+            const ActiveSlide = el.classList.contains('slick-active') && el.getAttribute('area-hidden') === 'false';
+            if (ActiveSlide) {
+                el.removeAttribute('inert');
+            }
+            else {
+                el.setAttribute('inert', 'true');
+            };
+        });
+    }, []);
 
     return (
         <div className={'container_slider'} style={StylesContainer as React.CSSProperties}>

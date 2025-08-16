@@ -71,7 +71,7 @@ const Contacts = () => {
                                     <Link
                                         target="_blank"
                                         className={`${style.contact__link} hidden_li`}
-                                        href={`${el.title === 'Электронная почта' ? 'mailto:' : ''}`}
+                                        href={`${el.title === 'Электронная почта' ? 'mailto:' : '' } ${el.link[0]}`}
                                     >
                                         {el.link}
                                     </Link>

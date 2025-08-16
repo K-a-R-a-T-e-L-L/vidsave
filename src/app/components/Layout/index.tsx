@@ -17,27 +17,26 @@ const Layout: React.FC = () => {
                     const TagName = entry.target.localName;
 
                     try {
-                        if (entry.isIntersecting && TagName === 'p') {
-                            entry.target.classList.add('animated_p');
-                        } else if (
-                            entry.isIntersecting &&
-                            (TagName === 'h1' ||
-                                TagName === 'h2' ||
-                                TagName === 'h3' ||
-                                TagName === 'h4' ||
-                                TagName === 'h5' ||
-                                TagName === 'h6')
-                        ) {
-                            entry.target.classList.add('animated_h');
-                        }
-                        if (entry.isIntersecting && TagName === 'img' && !entry.target.classList.contains('no_animated')) {
-                            entry.target.classList.add('animated_img');
-                        }
-                        if (entry.isIntersecting && (TagName === 'li' || TagName === 'a')) {
-                            entry.target.classList.add('animated_li');
-                        }
-                        if (entry.isIntersecting && TagName === 'hr') {
-                            entry.target.classList.add('animated_hr');
+                        if (entry.isIntersecting) {
+                            const addingAnimation = () => {
+                                if (TagName === 'p') {
+                                    entry.target.classList.add('animated_p');
+                                }
+                                else if (['h1', 'h2', 'h3', 'h4', 'h5', 'h6'].includes(TagName)) {
+                                    entry.target.classList.add('animated_h');
+                                }
+                                else if (TagName === 'img' && !entry.target.classList.contains('no_animated')) {
+                                    entry.target.classList.add('animated_img');
+                                }
+                                else if (['li', 'a'].includes(TagName)) {
+                                    entry.target.classList.add('animated_li');
+                                }
+                                else if (TagName === 'hr') {
+                                    entry.target.classList.add('animated_hr');
+                                };
+                            };
+
+                            requestAnimationFrame(addingAnimation);
                         }
                     } catch (error) {
                         console.log(error);
@@ -47,9 +46,17 @@ const Layout: React.FC = () => {
             { threshold: 0.3 },
         );
 
-        document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, img, li:not(.slick-dots li), a, hr, #home').forEach((el) => {
+        const AnimatedElements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, img, li:not(.slick-dots li), a, hr, #home');
+        AnimatedElements.forEach((el) => {
             if (el) Observer.observe(el);
         });
+
+        return () => {
+            AnimatedElements.forEach((el) => {
+                if (el) Observer.unobserve(el);
+            });
+            Observer.disconnect;
+        };
     }, []);
 
     return (
