@@ -5,33 +5,32 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 type ListLinksType = {
-    url: string,
-    text: string,
-    class: string
+    url: string;
+    text: string;
+    class: string;
 }[];
 
 const Header = () => {
-
     const [ListLinks, setListLinks] = useState<ListLinksType>([
         {
             url: 'priceList',
             text: 'Услуги',
-            class: ''
+            class: '',
         },
         {
             url: 'advantages',
             text: 'Преимущества',
-            class: ''
+            class: '',
         },
         {
             url: 'information',
             text: 'О компании',
-            class: ''
+            class: '',
         },
         {
             url: 'contacts',
             text: 'Контакты',
-            class: ''
+            class: '',
         },
     ]);
 
@@ -39,30 +38,32 @@ const Header = () => {
     const [BurgerMenu, setBurgerMenu] = useState(false);
 
     useEffect(() => {
-        const Observer = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-                try {
-                    if (entry.isIntersecting) {
-                        setListLinks((prevState) => {
-                            const newLinks = prevState.map((el) => {
-                                if (el.url === entry.target.id) {
-                                    return {
-                                        ...el,
-                                        class: el.class === "link_active" ? '' : 'link_active'
+        const Observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    try {
+                        if (entry.isIntersecting) {
+                            setListLinks((prevState) => {
+                                const newLinks = prevState.map((el) => {
+                                    if (el.url === entry.target.id) {
+                                        return {
+                                            ...el,
+                                            class: el.class === 'link_active' ? '' : 'link_active',
+                                        };
+                                    } else {
+                                        return { ...el, class: '' };
                                     }
-                                }
-                                else {
-                                    return { ...el, class: '' }
-                                }
+                                });
+                                return newLinks;
                             });
-                            return newLinks;
-                        });
-                    };
-                } catch (error) {
-                    console.log(error);
-                }
-            });
-        }, { threshold: 0.3 });
+                        }
+                    } catch (error) {
+                        console.log(error);
+                    }
+                });
+            },
+            { threshold: 0.3 },
+        );
 
         document.querySelectorAll('#home, #priceList, #advantages, #information, #contacts').forEach((el) => {
             if (el) Observer.observe(el);
@@ -75,7 +76,7 @@ const Header = () => {
             else setHeaderClass(true);
         };
 
-        window.addEventListener('scroll', handleScrollPage, {passive: true});
+        window.addEventListener('scroll', handleScrollPage, { passive: true });
 
         return () => window.removeEventListener('scroll', handleScrollPage);
     }, []);
@@ -85,17 +86,30 @@ const Header = () => {
             <div className={style.header__unification}>
                 <Link href="#home" className={`${style.header__mini_info} hidden_li`}>
                     <div className={style.mini_info__logo_box}>
-                        <Image alt="Логотип компании видеохранитель" src={"/images/logo.png"} style={{objectFit: 'contain'}} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
+                        <Image
+                            alt="Логотип компании видеохранитель"
+                            src={'/images/logo.png'}
+                            style={{ objectFit: 'contain' }}
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            fill
+                        />
                     </div>
                     ВИДЕОХРАНИТЕЛЬ
                 </Link>
                 <nav className={`${style.header__navigation} ${BurgerMenu ? style.header__navigation_burger : ''}`}>
-                    <button className={`${style.navigation__burger} ${BurgerMenu ? style.navigation__burger_active : ''}`} onClick={() => setBurgerMenu(!BurgerMenu)}></button>
+                    <button
+                        className={`${style.navigation__burger} ${BurgerMenu ? style.navigation__burger_active : ''}`}
+                        onClick={() => setBurgerMenu(!BurgerMenu)}
+                    ></button>
                     <ul className={style.navigation__list_link}>
                         {ListLinks.map((el, i) => {
                             return (
-                                <li key={i} className={`${style.list_link__link} ${el.class} `}><Link href={`#${el.url}`} onClick={() => BurgerMenu ? setBurgerMenu(false) : null}>{el.text}</Link></li>
-                            )
+                                <li key={i} className={`${style.list_link__link} ${el.class} `}>
+                                    <Link href={`#${el.url}`} onClick={() => (BurgerMenu ? setBurgerMenu(false) : null)}>
+                                        {el.text}
+                                    </Link>
+                                </li>
+                            );
                         })}
                     </ul>
                 </nav>

@@ -1,4 +1,4 @@
-@mixin StylesBoxesServices ($justify, $margin) {
+@mixin StylesBoxesServices($justify, $margin) {
     width: 100%;
     display: flex;
     justify-content: $justify;
@@ -31,7 +31,7 @@
         }
 
         .article_first__title {
-            text-align: center
+            text-align: center;
         }
 
         .article_first__box_services {
@@ -47,7 +47,9 @@
                 row-gap: 15px;
                 padding: 10px;
                 cursor: pointer;
-                transition: box-shadow 0.2s ease-in-out, scale 0.2s ease-in-out;
+                transition:
+                    box-shadow 0.2s ease-in-out,
+                    scale 0.2s ease-in-out;
 
                 &:hover {
                     box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.1);
@@ -190,7 +192,6 @@
                 margin-right: auto;
                 text-align: center;
             }
-
 
             .article_first__box_services {
                 flex-direction: column;
