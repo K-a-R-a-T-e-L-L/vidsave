@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './styles/globals.css';
 import Head from 'next/head';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'Установка систем видеонаблюдения в Кемерово с компанией «ВИДЕОХРАНИТЕЛЬ»',
@@ -17,7 +18,10 @@ export default function RootLayout({
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <body>{children}</body>
+      <body>
+        <SpeedInsights/>
+        {children}
+        </body>
     </html>
   );
 }
