@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import './styles/globals.css';
-import { SpeedInsights } from '@vercel/speed-insights/next';
 import SchemaOrg from './components/SchemaOrg';
 
 export const metadata: Metadata = {
@@ -17,6 +16,9 @@ export const metadata: Metadata = {
     'установка кондиционеров',
     'безопасность дома',
     'монтаж камер',
+    'камеры видеонаблюдения кемерово в режиме онлайн',
+    'камеры видеонаблюдения кемерово в режиме онлайн в реальном времени бесплатно',
+    'установить кондиционер в кемерово'
   ],
   authors: [{ name: 'Компания «ВИДЕОХРАНИТЕЛЬ»' }],
   applicationName: '«ВИДЕОХРАНИТЕЛЬ»',
@@ -29,7 +31,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://videohramitel.ru/images/og-image.jpg',
+        url: '/images/project_13.jpg',
         width: 1200,
         height: 630,
         alt: 'Установка видеонаблюдения, кондиционеров и электромонтажные работы в Кемерово',
@@ -50,7 +52,6 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body>
-        <SpeedInsights />
         <SchemaOrg/>
         {children}
       </body>

@@ -29,7 +29,13 @@ const SchemaOrg = () => {
             aggregateRating: {
                 ratingValue: '5',
                 reviewCount: '39'
-            }
+            },
+            sameAs: [
+                'https://recsave.ru',
+                'https://vk.com/khranitel_video',
+                'https://www.avito.ru/user/808b4759c3612b86a06b7fd6eb936f30/profile?src=sharing',
+                'https://wa.me/79950656777'
+            ]
         };
         
         const script = document.createElement('script');
