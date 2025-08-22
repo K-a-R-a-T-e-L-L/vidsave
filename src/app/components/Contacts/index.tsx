@@ -10,6 +10,7 @@ const Contacts = () => {
             icon: '/images/email_icon.png',
             coloredIcon: '/images/colored_email_icon.png',
             title: 'Электронная почта',
+            description: 'Отправьте нам письмо с вашими вопросами',
             link: ['denis.zaichuk@yandex.ru'],
             alt: 'Иконка электронной почты яндекс',
         },
@@ -17,6 +18,7 @@ const Contacts = () => {
             icon: '/images/telephone_icon.png',
             coloredIcon: '/images/colored_telephone_icon.png',
             title: 'Телефон',
+            description: 'Позвоните нам по любому из номеров',
             link: ['8-995-065-67-77', '8-904-574-52-07'],
             alt: 'Иконка телефона',
         },
@@ -24,15 +26,25 @@ const Contacts = () => {
             icon: '/images/avito_icon.png',
             coloredIcon: '/images/colored_avito_icon.png',
             title: 'Авито',
-            link: ['https://www.avito.ru/user/808b4759c3612b86a06b7fd6eb936f30/profile?src=sharing'],
+            description: 'Найдите нас на популярной торговой площадке',
+            link: ['https://www.avito.ru/user/546aa53ca0c817d582afaacd3c4e46c5/profile?src=sharing'],
             alt: 'Иконка авито',
         },
         {
             icon: '/images/whatsapp_icon.png',
             coloredIcon: '/images/colored_whatsapp_icon.png',
-            title: 'Whatsapp',
+            title: 'Ватсапп',
+            description: 'Напишите нам в WhatsApp для быстрой связи',
             link: ['https://wa.me/79950656777'],
             alt: 'Иконка ватсапа',
+        },
+        {
+            icon: '/images/vk_icon.png',
+            coloredIcon: '/images/colored_vk_icon.png',
+            title: 'ВКонтакте',
+            description: 'Подпишитесь на нашу страницу и будьте в курсе новостей',
+            link: ['https://vk.com/khranitel_video'],
+            alt: 'Иконка ВКонтакте',
         },
     ];
 
@@ -47,35 +59,42 @@ const Contacts = () => {
                     {ArrayLinksInfo.map((el, i) => {
                         return (
                             <div className={style.container__contact} key={i}>
-                                <div className={style.contacts__icon}>
-                                    <Image
-                                        src={el.icon}
-                                        alt={el.alt}
-                                        className="hidden_img"
-                                        style={{ objectFit: 'contain' }}
-                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                        fill
-                                    />
+                                <div className={style.contact__icon_box}>
+                                    <div className={style.icon_box__icon}>
+                                        <div className={style.icon__icon}>
+                                            <Image
+                                                src={el.icon}
+                                                alt={el.alt}
+                                                className="hidden_img"
+                                                style={{ objectFit: 'contain' }}
+                                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                                fill
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
-                                <h3 className={`${style.contact__title} hidden_h`}>{el.title}</h3>
-                                {el.link.length === 2 ? (
-                                    <>
-                                        <Link target="_blank" className={`${style.contact__link} hidden_li`} href={`tel:${el.link[0]}`}>
-                                            {el.link[0]}
+                                <div className={style.contact__text_content}>
+                                    <h3 className={style.text_content__title}>{el.title}</h3>
+                                    <p className={style.text_content__description}>{el.description}</p>
+                                    {el.link.length === 2 ? (
+                                        <>
+                                            <Link target="_blank" className={`${style.text_content__link} hidden_li`} href={`tel:${el.link[0]}`}>
+                                                {el.link[0]}
+                                            </Link>
+                                            <Link target="_blank" className={`${style.text_content__link} hidden_li`} href={`tel:${el.link[1]}`}>
+                                                {el.link[1]}
+                                            </Link>
+                                        </>
+                                    ) : (
+                                        <Link
+                                            target="_blank"
+                                            className={`${style.text_content__link} hidden_li`}
+                                            href={`${el.title === 'Электронная почта' ? 'mailto:' : ''}${el.link[0]}`}
+                                        >
+                                            {el.link}
                                         </Link>
-                                        <Link target="_blank" className={`${style.contact__link} hidden_li`} href={`tel:${el.link[1]}`}>
-                                            {el.link[1]}
-                                        </Link>
-                                    </>
-                                ) : (
-                                    <Link
-                                        target="_blank"
-                                        className={`${style.contact__link} hidden_li`}
-                                        href={`${el.title === 'Электронная почта' ? 'mailto:' : ''}${el.link[0]}`}
-                                    >
-                                        {el.link}
-                                    </Link>
-                                )}
+                                    )}
+                                </div>
                             </div>
                         );
                     })}

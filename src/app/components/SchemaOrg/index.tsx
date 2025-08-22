@@ -33,7 +33,7 @@ const SchemaOrg = () => {
             sameAs: [
                 'https://recsave.ru',
                 'https://vk.com/khranitel_video',
-                'https://www.avito.ru/user/808b4759c3612b86a06b7fd6eb936f30/profile?src=sharing',
+                'https://www.avito.ru/user/546aa53ca0c817d582afaacd3c4e46c5/profile?src=sharing',
                 'https://wa.me/79950656777'
             ]
         };

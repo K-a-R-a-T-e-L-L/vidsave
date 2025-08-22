@@ -19,8 +19,8 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           port: 22
           script: |
-            cd /var/www/recsave
+            cd /var/www/vidsave
             git pull origin main
             npm install
             npm run build
-            pm2 reload recsaveStart || pm2 start npm --name "recsaveStart" -- run start
+            pm2 reload vidsaveStart || pm2 start npm --name "vidsaveStart" -- run start
