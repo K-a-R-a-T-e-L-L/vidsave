@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Установка видеонаблюдения и кондиционеров в Кемерово | «ВИДЕОХРАНИТЕЛЬ»',
     description: 'Профессиональная установка систем видеонаблюдения, кондиционеров и электромонтажных работ в Кемерово.',
-    url: 'https://recsave.ru',
+    url: 'https://vidsave.ru',
     siteName: '«ВИДЕОХРАНИТЕЛЬ»',
     locale: 'ru_RU',
     type: 'website',
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: 'https://recsave.ru',
+    canonical: 'https://vidsave.ru',
   },
-  metadataBase: new URL('https://recsave.ru')
+  metadataBase: new URL('https://vidsave.ru')
 };
 
 export default function RootLayout({

@@ -9,7 +9,7 @@ const SchemaOrg = () => {
             '@type': 'localBusiness',
             name: '«ВИДЕОХРАНИТЕЛЬ»',
             image: '/images/',
-            url: 'https://recsave.ru',
+            url: 'https://vidsave.ru',
             telephone: '+7-995-065-67-77',
             address: {
                 '@type': 'PostalAddress',
@@ -31,7 +31,7 @@ const SchemaOrg = () => {
                 reviewCount: '39'
             },
             sameAs: [
-                'https://recsave.ru',
+                'https://vidsave.ru',
                 'https://vk.com/khranitel_video',
                 'https://www.avito.ru/user/546aa53ca0c817d582afaacd3c4e46c5/profile?src=sharing',
                 'https://wa.me/79950656777'

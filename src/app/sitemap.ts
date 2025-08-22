@@ -1,7 +1,7 @@
 const sitemap = () => {
     return [
         {
-            url: 'https://recsave.ru',
+            url: 'https://vidsave.ru',
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 1
