@@ -94,14 +94,14 @@ const Contacts = () => {
                     })}
                 </div>
                 <div className={style.box_contacts__maps}>
-                    {/* <Map
+                    <Map
                         latitude={55.362173}
                         longitude={86.068001}
                         address="Кемерово, Шестакова 6А"
                         title="Яндекс карты"
                         sizes={['100%', '80%']}
                         borderRadius="20px"
-                    /> */}
+                    />
                     <div className={style.maps__info}>
                         <div className={style.info__contacts_buttons}>
                             <div className={style.contacts_buttons__line}></div>
