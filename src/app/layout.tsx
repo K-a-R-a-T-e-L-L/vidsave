@@ -14,11 +14,11 @@ export const metadata: Metadata = {
     'электромонтажные работы Кемерово',
     'кондиционеры Кемерово',
     'установка кондиционеров',
-    'безопасность дома',
+    'Видеонаблюдение Кемерово онлайн',
     'монтаж камер',
     'камеры видеонаблюдения кемерово в режиме онлайн',
     'камеры видеонаблюдения кемерово в режиме онлайн в реальном времени бесплатно',
-    'установить кондиционер в кемерово'
+    'установить кондиционер в кемерово',
   ],
   authors: [{ name: 'Компания «ВИДЕОХРАНИТЕЛЬ»' }],
   applicationName: '«ВИДЕОХРАНИТЕЛЬ»',
@@ -41,7 +41,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://vidsave.ru',
   },
-  metadataBase: new URL('https://vidsave.ru')
+  metadataBase: new URL('https://vidsave.ru'),
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+    ],
+    apple: { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
@@ -52,7 +62,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body>
-        <SchemaOrg/>
+        <SchemaOrg />
         {children}
       </body>
     </html>
