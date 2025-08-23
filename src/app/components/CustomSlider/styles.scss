@@ -32,9 +32,11 @@
         }
 
         .slick-next {
+            font-family: 'Times New Roman', Times, serif;
             right: -10%;
 
             &::before {
+                font-family: 'Times New Roman', Times, serif;
                 content: '⟩';
                 font-size: 150px;
                 color: #515a61;
@@ -43,9 +45,11 @@
         }
 
         .slick-prev {
+            font-family: 'Times New Roman', Times, serif;
             left: -10%;
 
             &::before {
+                font-family: 'Times New Roman', Times, serif;
                 content: '⟨';
                 font-size: 150px;
                 color: #515a61;

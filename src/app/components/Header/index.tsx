@@ -87,6 +87,7 @@ const Header = () => {
                     <button
                         className={`${style.navigation__burger} ${BurgerMenu ? style.navigation__burger_active : ''}`}
                         onClick={() => setBurgerMenu(!BurgerMenu)}
+                        aria-label='Открыть меню навигации'
                     ></button>
                     <ul className={style.navigation__list_link}>
                         {ListLinks.map((el, i) => {
