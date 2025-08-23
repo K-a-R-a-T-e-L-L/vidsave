@@ -68,8 +68,8 @@ const PriceList: React.FC = () => {
     return (
         <section className={style.price_list} id="priceList">
             <article className={style.price_list__article_first}>
-                <h2 className={`${style.article_first__title} hidden_h`}>Наши популярные услуги</h2>
-                <p className={`${style.article_first__description} hidden_p`}>
+                <h2 className={`${style.article_first__title}`}>Наши популярные услуги</h2>
+                <p className={`${style.article_first__description}`}>
                     Мы предоставляем широкий спектр услуг в области монтажной деятельности
                 </p>
                 <div className={style.article_first__box_services}>
@@ -81,14 +81,13 @@ const PriceList: React.FC = () => {
                                         <Image
                                             src={el.icon}
                                             alt={el.alt}
-                                            className="hidden_img"
                                             style={{ objectFit: 'cover' }}
                                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                             fill
                                         />
                                     </div>
-                                    <h3 className={`${style.card__title} hidden_h`}>{el.title}</h3>
-                                    <p className={`${style.card__description} hidden_p`}>{el.description}</p>
+                                    <h3 className={`${style.card__title}`}>{el.title}</h3>
+                                    <p className={`${style.card__description}`}>{el.description}</p>
                                 </div>
                             );
                         })
@@ -98,8 +97,8 @@ const PriceList: React.FC = () => {
                 </div>
             </article>
             <article className={style.price_list__article_last}>
-                <h2 className={`${style.article_last__title} hidden_h`}>Ключевые услуги по видеонаблюдению</h2>
-                <p className={`${style.article_last__description} hidden_p`}>
+                <h2 className={`${style.article_last__title}`}>Ключевые услуги по видеонаблюдению</h2>
+                <p className={`${style.article_last__description}`}>
                     Мы предлагаем полный спектр услуг по проектированию и монтажу систем видеонаблюдения. Наша команда гарантирует
                     надежность и высокое качество обслуживания.
                 </p>
@@ -112,14 +111,13 @@ const PriceList: React.FC = () => {
                                         <Image
                                             src={el.preview}
                                             alt={el.alt}
-                                            className="hidden_img"
                                             style={{ objectFit: 'cover' }}
                                             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                             fill
                                         />
                                     </div>
-                                    <h3 className={`${style.card__title} hidden_h`}>{el.title}</h3>
-                                    <p className={`${style.card__description} hidden_p`}>{el.description}</p>
+                                    <h3 className={`${style.card__title}`}>{el.title}</h3>
+                                    <p className={`${style.card__description}`}>{el.description}</p>
                                 </div>
                             );
                         })

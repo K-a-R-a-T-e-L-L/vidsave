@@ -210,20 +210,21 @@
 }
 
 @media (width < 550px) {
-   .contacts{
-     .contacts_buttons__line {
-        width: 20% !important;
-    }
+    .contacts {
+        .contacts_buttons__line {
+            width: 20% !important;
+        }
 
-    .container__contact {
-        .text_content__description {
-            font-size: 12px !important;
-        }
-         .text_content__link {
-            font-size: 12px !important;
+        .container__contact {
+            .text_content__description {
+                font-size: 12px !important;
+            }
+
+            .text_content__link {
+                font-size: 12px !important;
+            }
         }
     }
-   }
 }
 
 @media (width < 450px) {

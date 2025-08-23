@@ -33,7 +33,7 @@ const CustomSlider: React.FC<SliderProps> = ({ props }) => {
 
     return (
         <div className={'container_slider'} style={StylesContainer as React.CSSProperties}>
-            <h2 style={StylesTitle as React.CSSProperties} className={'hidden_h'}>
+            <h2 style={StylesTitle as React.CSSProperties}>
                 {props.title}
             </h2>
             <Slider {...props.settings}>

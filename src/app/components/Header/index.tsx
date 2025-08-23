@@ -12,26 +12,10 @@ type ListLinksType = {
 
 const Header = () => {
     const [ListLinks, setListLinks] = useState<ListLinksType>([
-        {
-            url: 'priceList',
-            text: 'Услуги',
-            class: '',
-        },
-        {
-            url: 'advantages',
-            text: 'Преимущества',
-            class: '',
-        },
-        {
-            url: 'information',
-            text: 'О компании',
-            class: '',
-        },
-        {
-            url: 'contacts',
-            text: 'Контакты',
-            class: '',
-        },
+        { url: 'priceList', text: 'Услуги', class: '' },
+        { url: 'advantages', text: 'Преимущества', class: '' },
+        { url: 'information', text: 'О компании', class: '' },
+        { url: 'contacts', text: 'Контакты', class: '' },
     ]);
 
     const [HeaderClass, setHeaderClass] = useState(false);
@@ -76,6 +60,8 @@ const Header = () => {
             else setHeaderClass(true);
         };
 
+        handleScrollPage();
+
         window.addEventListener('scroll', handleScrollPage, { passive: true });
 
         return () => window.removeEventListener('scroll', handleScrollPage);
@@ -84,7 +70,7 @@ const Header = () => {
     return (
         <header className={`${style.header} ${HeaderClass ? style.header_active : ''}`}>
             <div className={style.header__unification}>
-                <Link href="#home" className={`${style.header__mini_info} hidden_li`}>
+                <Link href="#home" className={`${style.header__mini_info}`}>
                     <div className={style.mini_info__logo_box}>
                         <Image
                             alt="Логотип компании видеохранитель"

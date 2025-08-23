@@ -10,24 +10,12 @@
     }
 }
 
-@mixin HiddenElement($x, $y, $scale, $time) {
-    opacity: 0 !important;
-    transform: translateX($x) translateY($y) scale($scale) translate3d(0, 0, 0);
-    transition:
-        opacity $time ease-in-out,
-        transform $time ease-in-out;
-    backface-visibility: hidden;
-    will-change: opacity, transform;
-    -webkit-font-smoothing: antialiased;
-}
-
 @mixin AnimatedElement($x, $y, $scale, $name, $opacity, $time) {
     @keyframes #{$name} {
         0% {
             opacity: 0;
             transform: translateX($x) translateY($y) scale($scale);
         }
-
         100% {
             opacity: $opacity;
             transform: translateX(0) translateY(0) scale(1);
@@ -35,62 +23,48 @@
     }
 
     & {
-        animation: #{$name} $time ease-in-out;
-        animation-fill-mode: backwards;
-        opacity: $opacity !important;
-        transform: translateX(0) translateY(0) scale(1) translate3d(0, 0, 0);
-        transition:
-            opacity $time ease-in-out,
-            transform $time ease-in-out;
+        animation: #{$name} $time ease-in-out forwards;
         backface-visibility: hidden;
         will-change: opacity, transform;
         -webkit-font-smoothing: antialiased;
     }
 }
 
-//
-.hidden_p {
-    @include HiddenElement(0, 30px, 1, 0.7s);
+p, h1, h2, h3, h4, h5, h6, img, li, a, hr {
+    @media (max-width: 768px) {
+        opacity: 1 !important;
+        transform: none !important;
+        animation: none !important;
+    }
 }
 
-.animated_p {
-    @include AnimatedElement(0, 30px, 1, p, 0.7, 0.7s);
-}
+@media (min-width: 769px) {
+    p {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    h1, h2, h3, h4, h5, h6 {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    img:not(.no_animated) {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    a {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    hr {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
 
-//
-.hidden_h {
-    @include HiddenElement(0, -30px, 1, 0.7s);
-}
-
-.animated_h {
-    @include AnimatedElement(0, -30px, 1, h, 1, 0.7s);
-}
-
-//
-.hidden_img {
-    @include HiddenElement(0, 0, 0.9, 0.5s);
-}
-
-.animated_img {
-    @include AnimatedElement(0, 0, 0.8, img, 1, 0.5s);
-}
-
-//
-.hidden_li {
-    @include HiddenElement(-50px, 0, 1, 0.7s);
-}
-
-.animated_li {
-    @include AnimatedElement(-50px, 0, 1, li, 1, 0.7s);
-}
-
-//
-.hidden_hr {
-    @include HiddenElement(-100px, 0, 1, 0.7s);
-}
-
-.animated_hr {
-    @include AnimatedElement(-100px, 0, 1, hr, 1, 0.7s);
+    .animated_p { @include AnimatedElement(0, 30px, 1, p, 0.7, 0.7s); }
+    .animated_h { @include AnimatedElement(0, -30px, 1, h, 1, 0.7s); }
+    .animated_img { @include AnimatedElement(0, 0, 0.8, img, 1, 0.5s); }
+    .animated_li { @include AnimatedElement(-50px, 0, 1, li, 1, 0.7s); }
+    .animated_hr { @include AnimatedElement(-100px, 0, 1, hr, 1, 0.7s); }
 }
 
 //

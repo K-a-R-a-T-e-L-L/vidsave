@@ -1,54 +1,3 @@
-@mixin RoadmapBoxStyles($color) {
-    border: 1px solid $color;
-    width: 30%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    border-radius: 20px 20px 80px 80px;
-    padding: 15px;
-    transition:
-        transform 0.2s ease-in-out,
-        box-shadow 0.1s ease-in-out;
-    box-shadow: 3px 3px 10px 6px rgba(0, 65, 66, 0.476);
-    overflow: hidden;
-
-    .roadmap__el__title {
-        width: 100%;
-        text-align: center;
-        color: $color;
-    }
-
-    .roadmap__el__list_points {
-        width: 93%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-        .list_points__point {
-            color: $color;
-            font-size: 14px;
-            list-style-type: circle;
-
-            .point__main_text {
-                color: $color;
-                font-weight: 900;
-                font-size: 16px;
-            }
-        }
-    }
-
-    &:hover {
-        transform: translateY(-5px);
-        cursor: pointer;
-    }
-
-    &:active {
-        box-shadow: 0 0 10px 6px rgba(0, 65, 66, 0.476);
-    }
-}
-
 .advantages {
     width: 100%;
     min-height: 100vh;
@@ -86,7 +35,6 @@
                 font-weight: 400;
                 width: 80%;
                 text-align: center;
-                opacity: 0.7;
             }
 
             .box__roadmap {
@@ -100,16 +48,55 @@
                 column-gap: 20px;
                 padding: 0 10px;
 
-                .roadmap__camera {
-                    @include RoadmapBoxStyles(black);
-                }
+                .roadmap__item {
+                    border: 1px solid black;
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    border-radius: 20px 20px 80px 80px;
+                    padding: 15px;
+                    transition:
+                        transform 0.2s ease-in-out,
+                        box-shadow 0.1s ease-in-out;
+                    box-shadow: 3px 3px 10px 6px rgba(0, 65, 66, 0.476);
+                    overflow: hidden;
 
-                .roadmap__conditioner {
-                    @include RoadmapBoxStyles(black);
-                }
+                    .item__title {
+                        width: 100%;
+                        text-align: center;
+                        color: black;
+                    }
 
-                .roadmap__installation {
-                    @include RoadmapBoxStyles(black);
+                    .item__list_points {
+                        width: 93%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+
+                        .list_points__point {
+                            color: black;
+                            font-size: 14px;
+                            list-style-type: circle;
+
+                            .point__main_text {
+                                color: black;
+                                font-weight: 900;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    &:hover {
+                        transform: translateY(-5px);
+                        cursor: pointer;
+                    }
+
+                    &:active {
+                        box-shadow: 0 0 10px 6px rgba(0, 65, 66, 0.476);
+                    }
                 }
             }
         }
@@ -131,25 +118,25 @@
         .box__roadmap {
             column-gap: 10px !important;
 
-            .roadmap__el__title {
-                font-size: 20px !important;
-            }
-
             .roadmap__item {
                 height: 80% !important;
                 min-width: 270px !important;
-                min-height: 300px !important;
+                min-height: 400px !important;
                 border-radius: 10px 10px 50px 50px !important;
-                row-gap: 10px !important;
+                row-gap: 20px !important;
 
-                .roadmap__el__list_points {
+                .item__title {
+                    font-size: 20px !important;
+                }
+
+                .item__list_points {
                     height: 80% !important;
 
                     .list_points__point {
-                        font-size: 10px !important;
+                        font-size: 12px !important;
 
                         .point__main_text {
-                            font-size: 12px !important;
+                            font-size: 14px !important;
                         }
                     }
                 }
@@ -172,10 +159,11 @@
                 height: 70% !important;
 
                 .roadmap__item {
-                    row-gap: 20px;
                     padding: 15px !important;
+                    min-width: 300px !important;
+                    min-height: 350px !important;
 
-                    .roadmap__el__list_points {
+                    .item__list_points {
                         row-gap: 20px !important;
                     }
                 }
