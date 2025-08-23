@@ -16,6 +16,7 @@
             opacity: 0;
             transform: translateX($x) translateY($y) scale($scale);
         }
+
         100% {
             opacity: $opacity;
             transform: translateX(0) translateY(0) scale(1);
@@ -31,30 +32,34 @@
 }
 
 p, h1, h2, h3, h4, h5, h6, img, li, a, hr {
-    @media (max-width: 768px) {
+    @media (width <= 768px) {
         opacity: 1 !important;
         transform: none !important;
         animation: none !important;
     }
 }
 
-@media (min-width: 769px) {
+@media (width >= 769px) {
     p {
         opacity: 0;
         transform: translateY(30px);
     }
+
     h1, h2, h3, h4, h5, h6 {
         opacity: 0;
         transform: translateY(-30px);
     }
+
     img:not(.no_animated) {
         opacity: 0;
         transform: scale(0.8);
     }
+
     a {
         opacity: 0;
         transform: translateX(-50px);
     }
+
     hr {
         opacity: 0;
         transform: translateX(-100px);

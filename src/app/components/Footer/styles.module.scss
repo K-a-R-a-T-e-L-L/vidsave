@@ -3,7 +3,7 @@
     height: 150px;
     display: flex;
     justify-content: center;
-    background-color: rgb(14, 2, 27);
+    background-color: rgb(14 2 27);
     padding: 0 30px;
 
     .footer__box {
@@ -37,10 +37,10 @@
                     cursor: pointer;
 
                     a {
-                        color: rgba(255, 255, 255, 0.6);
+                        color: rgb(255 255 255 / 60%);
 
                         &:hover {
-                            color: rgba(255, 255, 255, 0.931);
+                            color: rgb(255 255 255 / 93.1%);
                         }
 
                         &:active {
@@ -60,7 +60,7 @@
             justify-content: center;
 
             * {
-                color: rgba(255, 255, 255, 0.6);
+                color: rgb(255 255 255 / 60%);
             }
 
             .info__title {
@@ -162,7 +162,6 @@
 }
 
 @media (width < 450px) {
-
     .navigation__list_link{
         width: 300px;
     }

@@ -28,7 +28,7 @@
     height: 80px;
     display: flex;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgb(255 255 255 / 0%);
     position: fixed;
     left: 0;
     transition: background-color 0.3s ease-in-out;
@@ -82,11 +82,10 @@
             .navigation__burger {
                 width: 40px;
                 height: 40px;
-                background-image: url(/images/menu_burger.png);
+                background-image: url("/images/menu_burger.png");
                 background-size: contain;
                 border: 0;
                 background-color: transparent;
-                display: grid;
                 place-items: center;
                 display: none;
                 position: absolute;

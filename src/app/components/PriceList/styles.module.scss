@@ -2,8 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: $justify;
-    column-gap: 30px;
-    row-gap: 30px;
+    gap: 30px;
     margin-top: $margin;
 }
 
@@ -23,7 +22,7 @@
         align-items: center;
         justify-content: center;
         row-gap: 40px;
-        padding: 50px 30px 30px 30px;
+        padding: 50px 30px 30px;
 
         .article_first__description {
             font-size: 16px;
@@ -52,7 +51,7 @@
                     scale 0.2s ease-in-out;
 
                 &:hover {
-                    box-shadow: 0 0 10px 6px rgba(0, 0, 0, 0.1);
+                    box-shadow: 0 0 10px 6px rgb(0 0 0 / 10%);
                 }
 
                 &:active {
@@ -97,6 +96,7 @@
 
         .article_last__box_services {
             align-items: flex-start;
+
             @include StylesBoxesServices(space-between, 30px);
 
             .box_services__card {
@@ -142,6 +142,7 @@
 @media (width < 1200px) {
     .price_list__article_first {
         row-gap: 30px !important;
+        margin: 0px;
     }
 
     .article_first__title {
@@ -174,7 +175,7 @@
         height: calc(1300px + 1300px) !important;
 
         .price_list__article_first {
-            padding: 50px 30px 0 30px !important;
+            padding: 50px 30px 0 !important;
             row-gap: 20px !important;
             min-height: 1300px !important;
 
@@ -199,7 +200,7 @@
         }
 
         .price_list__article_last {
-            padding: 0px 30px 50px 30px !important;
+            padding: 0 30px 50px !important;
             row-gap: 20px !important;
             min-height: 1300px !important;
 

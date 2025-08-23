@@ -43,13 +43,13 @@
                 border-radius: 20px;
                 padding: 20px;
                 display: flex;
-                box-shadow: 5px 5px 15px 0px #515a616b;
+                box-shadow: 5px 5px 15px 0 #515a616b;
                 column-gap: 20px;
                 transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 
                 &:hover {
                     transform: translateY(-3px);
-                    box-shadow: 0px 0px 10px 0px #515a616b;
+                    box-shadow: 0 0 10px 0 #515a616b;
                 }
 
                 .contact__icon_box {
