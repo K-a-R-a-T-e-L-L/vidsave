@@ -1,5 +1,5 @@
-import type { Metadata } from 'next';
 import './styles/globals.css';
+import type { Metadata } from 'next';
 import SchemaOrg from './components/SchemaOrg';
 import { YMCounter } from './components/YMCounter';
 
@@ -65,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body>
-        <YMCounter/>
+        <YMCounter />
         <SchemaOrg />
         {children}
       </body>

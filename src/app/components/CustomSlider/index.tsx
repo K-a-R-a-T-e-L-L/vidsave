@@ -47,6 +47,8 @@ const CustomSlider: React.FC<SliderProps> = ({ props }) => {
                                 style={{ objectFit: props.styles.imgSizes }}
                                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                 fill
+                                placeholder={el.length === 3 ? 'blur' : 'empty'}
+                                blurDataURL={el.length === 3 ? el[2] : ''}
                             />
                         </div>
                     );
