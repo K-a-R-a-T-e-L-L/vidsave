@@ -7,15 +7,9 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 31536000,
   },
 
-  experimental: {
-    optimizePackageImports: ['react-icons', 'lucide-react'],
-  },
-
   eslint: {
     ignoreDuringBuilds: true,
   },
-
-  swcMinify: true,
 };
 
 export default nextConfig;
