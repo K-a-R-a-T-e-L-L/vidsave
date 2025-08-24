@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2025-04-05 12:00">
+    <shop>
+        <name>ВИДЕОХРАНИТЕЛЬ</name>
+        <company>ВИДЕОХРАНИТЕЛЬ</company>
+        <url>https://vidsave.ru</url>
+        <platform>Custom</platform>
+        <email>denis.zaichuk@yandex.ru</email>
+        <currencies>
+            <currency id="RUB" rate="1" />
+        </currencies>
+        <categories>
+            <category id="1">Установка и настройка систем видеонаблюдения</category>
+            <category id="2">Монтаж и обслуживание кондиционеров</category>
+            <category id="3">Электромонтажные работы</category>
+        </categories>
+        <contacts>
+            <phone>+7 (995) 065-67-77</phone>
+            <address>Кемеровская область, г. Кемерово</address>
+            <email>denis.zaichuk@yandex.ru</email>
+        </contacts>
+
+        <offers>
+            <!-- Видеонаблюдение -->
+            <offer id="1" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка AHD камеры до 3 метров</name>
+                <description>
+                    Профессиональная установка и настройка аналоговой AHD камеры на высоте
+                    до 3 метров. Включает крепление, подключение, настройку и тестирование
+                    работоспособности. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>2000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+            </offer>
+            <offer id="2" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка AHD камеры до 5 метров</name>
+                <description>
+                    Профессиональная установка и настройка аналоговой AHD камеры на высоте
+                    до 5 метров. Включает крепление, подключение, настройку и тестирование
+                    работоспособности. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>2500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+            </offer>
+            <offer id="3" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка AHD камеры свыше 5 метров</name>
+                <description>
+                    Профессиональная установка и настройка аналоговой AHD камеры на высоте
+                    свыше 5 метров. Включает крепление, подключение, настройку и тестирование
+                    работоспособности. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>3500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+            </offer>
+            <offer id="4" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка IP камеры до 3 метров</name>
+                <description>
+                    Профессиональная установка и настройка IP камеры на высоте до 3 метров.
+                    Включает крепление, подключение к сети, настройку и тестирование
+                    работоспособности. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>2500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+            </offer>
+            <offer id="5" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка IP камеры до 5 метров</name>
+                <description>
+                    Профессиональная установка и настройка IP камеры на высоте до 5 метров.
+                    Включает крепление, подключение к сети, настройку и тестирование
+                    работоспособности. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>3000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+            </offer>
+            <offer id="6" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка IP камеры свыше 5 метров</name>
+                <description>
+                    Профессиональная установка и настройка IP камеры на высоте свыше 5
+                    метров. Включает крепление, подключение к сети, настройку и тестирование
+                    работоспособности. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>4000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+            </offer>
+            <offer id="7" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Подключение сетевого Poe коммутатора</name>
+                <description>
+                    Профессиональное подключение и настройка сетевого Poe коммутатора для
+                    организации питания камер по Ethernet. Включает установку, настройку и
+                    тестирование. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>900</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+            </offer>
+            <offer id="8" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка DVR (AHD) видеорегистратора 4 канала</name>
+                <description>
+                    Профессиональная установка и настройка 4-канального DVR (AHD)
+                    видеорегистратора. Включает монтаж, подключение камер, настройку записи и
+                    удаленного доступа. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>1600</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="9" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка DVR (AHD) видеорегистратора 8 каналов</name>
+                <description>
+                    Профессиональная установка и настройка 8-канального DVR (AHD)
+                    видеорегистратора. Включает монтаж, подключение камер, настройку записи и
+                    удаленного доступа. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>2200</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="10" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка DVR (AHD) видеорегистратора 16 каналов</name>
+                <description>
+                    Профессиональная установка и настройка 16-канального DVR (AHD)
+                    видеорегистратора. Включает монтаж, подключение камер, настройку записи и
+                    удаленного доступа. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>2800</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="11" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка DVR (AHD) видеорегистратора 32 канала</name>
+                <description>
+                    Профессиональная установка и настройка 32-канального DVR (AHD)
+                    видеорегистратора. Включает монтаж, подключение камер, настройку записи и
+                    удаленного доступа. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>3500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="12" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка NVR (IP) видеорегистратора 8 каналов</name>
+                <description>
+                    Профессиональная установка и настройка 8-канального NVR (IP)
+                    видеорегистратора. Включает монтаж, подключение камер, настройку записи и
+                    удаленного доступа. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>3000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="13" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка NVR (IP) видеорегистратора 16 каналов</name>
+                <description>
+                    Профессиональная установка и настройка 16-канального NVR (IP)
+                    видеорегистратора. Включает монтаж, подключение камер, настройку записи и
+                    удаленного доступа. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>3700</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="14" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка NVR (IP) видеорегистратора 32 канала</name>
+                <description>
+                    Профессиональная установка и настройка 32-канального NVR (IP)
+                    видеорегистратора. Включает монтаж, подключение камер, настройку записи и
+                    удаленного доступа. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>4500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="15" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Замена HDD (жесткого диска)</name>
+                <description>
+                    Замена жесткого диска в видеорегистраторе. Включает демонтаж старого
+                    диска, установку нового, настройку системы записи. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>1500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="16" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Установка 4G WIFI Роутера</name>
+                <description>
+                    Профессиональная установка и настройка 4G WIFI Роутера для организации
+                    удаленного доступа к системе видеонаблюдения. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>1500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="17" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Сборка коммуникационного шкафа</name>
+                <description>
+                    Профессиональная сборка коммуникационного шкафа для размещения
+                    оборудования системы видеонаблюдения. Включает монтаж оборудования, прокладку
+                    кабелей, настройку. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>1500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="18" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Прокладка кабеля UTP до 3 метров</name>
+                <description>
+                    Прокладка кабеля UTP для систем видеонаблюдения на высоту до 3 метров.
+                    Включает подготовку трассы, прокладку кабеля, фиксацию. Цена за погонный метр.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>60</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="19" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Прокладка кабеля UTP до 5 метров</name>
+                <description>
+                    Прокладка кабеля UTP для систем видеонаблюдения на высоту до 5 метров.
+                    Включает подготовку трассы, прокладку кабеля, фиксацию. Цена за погонный метр.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>80</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="20" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Прокладка кабеля UTP свыше 5 метров</name>
+                <description>
+                    Прокладка кабеля UTP для систем видеонаблюдения на высоту свыше 5
+                    метров. Включает подготовку трассы, прокладку кабеля, фиксацию. Цена за погонный
+                    метр.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>120</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="21" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Прокладка кабеля в гофре</name>
+                <description>
+                    Прокладка кабеля в гофре для защиты от механических повреждений и
+                    внешних воздействий. Дополнительная стоимость к базовой прокладке кабеля. Цена
+                    за погонный метр.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>30</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="22" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Прокладка кабеля по воздуху</name>
+                <description>
+                    Прокладка кабеля по воздуху между зданиями или на открытых участках.
+                    Включает установку кронштейнов, натяжение троса, монтаж кабеля. Цена за погонный
+                    метр.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>80</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="23" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Скрытая прокладка кабеля в земле</name>
+                <description>
+                    Скрытая прокладка кабеля в земле с использованием защитных труб.
+                    Включает рытье траншеи, укладку труб, монтаж кабеля, засыпку. Цена за погонный
+                    метр.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>90</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="24" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Поиск обрыва / тест кабеля</name>
+                <description>
+                    Диагностика и поиск обрыва в кабеле системы видеонаблюдения с
+                    использованием профессионального оборудования. Включает тестирование
+                    работоспособности всей линии.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>2500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+            <offer id="25" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>security</serviceType>
+                <categoryId>1</categoryId>
+                <name>Бесплатный выезд специалиста</name>
+                <description>
+                    Бесплатный выезд специалиста для осмотра объекта и консультации по
+                    установке системы видеонаблюдения. При заключении договора.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>0</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+            </offer>
+
+            <!-- Кондиционеры -->
+            <offer id="26" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>airconditioning</serviceType>
+                <categoryId>2</categoryId>
+                <name>Прокладка трассы под кондиционер</name>
+                <description>
+                    Прокладка трассы (магистрали) под кондиционер без штрабления. Включает
+                    подготовку трассы, прокладку коммуникаций, фиксацию. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>2000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!-- <picture>
+                    https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+            </offer>
+            <offer id="27" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>airconditioning</serviceType>
+                <categoryId>2</categoryId>
+                <name>Штрабление стен</name>
+                <description>
+                    Штрабление стен для прокладки коммуникаций кондиционера. Включает
+                    разметку, штробление, очистку канавок. Цена за погонный метр. Гарантия 12
+                    месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>600</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!-- <picture>
+                    https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+            </offer>
+            <offer id="28" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>airconditioning</serviceType>
+                <categoryId>2</categoryId>
+                <name>Монтаж кондиционера на готовую трассу</name>
+                <description>
+                    Монтаж кондиционера на готовую трассу (магистраль). Включает установку
+                    внутреннего и наружного блоков, подключение к электросети, запуск в работу.
+                    Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>8500</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!-- <picture>
+                    https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+            </offer>
+            <offer id="29" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>airconditioning</serviceType>
+                <categoryId>2</categoryId>
+                <name>Монтаж кондиционера "под ключ"</name>
+                <description>
+                    Полный монтаж кондиционера "под ключ". Включает прокладку трассы,
+                    штрабление, установку внутреннего и наружного блоков, подключение к электросети,
+                    запуск в работу. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>15000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!-- <picture>
+                    https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+            </offer>
+            <offer id="30" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>airconditioning</serviceType>
+                <categoryId>2</categoryId>
+                <name>Обслуживание кондиционера</name>
+                <description>
+                    Профессиональное обслуживание кондиционера. Включает чистку фильтров,
+                    проверку уровня хладагента, диагностику работоспособности всех узлов.
+                    Рекомендуется 1 раз в год.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>4000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!-- <picture>
+                    https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+            </offer>
+
+            <!-- Электромонтажные работы -->
+            <offer id="31" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>electrical</serviceType>
+                <categoryId>3</categoryId>
+                <name>Электромонтаж в 1-комнатной квартире</name>
+                <description>
+                    Полный электромонтаж под ключ в 1-комнатной квартире. Включает
+                    проектирование, штробление, прокладку кабеля, установку розеток и выключателей,
+                    сборку электрощита. Гарантия 24 месяца.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>35000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+            </offer>
+            <offer id="32" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>electrical</serviceType>
+                <categoryId>3</categoryId>
+                <name>Электромонтаж в 2-комнатной квартире</name>
+                <description>
+                    Полный электромонтаж под ключ в 2-комнатной квартире. Включает
+                    проектирование, штробление, прокладку кабеля, установку розеток и выключателей,
+                    сборку электрощита. Гарантия 24 месяца.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>50000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+            </offer>
+            <offer id="33" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>electrical</serviceType>
+                <categoryId>3</categoryId>
+                <name>Электромонтаж в 3-комнатной квартире</name>
+                <description>
+                    Полный электромонтаж под ключ в 3-комнатной квартире. Включает
+                    проектирование, штробление, прокладку кабеля, установку розеток и выключателей,
+                    сборку электрощита. Гарантия 24 месяца.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>75000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+            </offer>
+            <offer id="34" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>electrical</serviceType>
+                <categoryId>3</categoryId>
+                <name>Штрабление стен</name>
+                <description>
+                    Штрабление стен для прокладки электропроводки. Включает разметку,
+                    штробление, очистку канавок. Цена за погонный метр. Гарантия 12 месяцев.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>600</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+            </offer>
+            <offer id="35" type="SERVICE" available="true">
+                <typePrefix>Услуга</typePrefix>
+                <serviceType>electrical</serviceType>
+                <categoryId>3</categoryId>
+                <name>Сборка электробокса</name>
+                <description>
+                    Профессиональная сборка электробокса (распределительного щита).
+                    Включает монтаж автоматов, УЗО, шин, настройку системы защиты. Гарантия 24
+                    месяца.
+                </description>
+                <url>https://vidsave.ru</url>
+                <price>5000</price>
+                <currencyId>RUB</currencyId>
+                <region>Кемеровская область</region>
+                <!--
+                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
