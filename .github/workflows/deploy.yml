@@ -22,5 +22,6 @@ jobs:
             cd /var/www/vidsave
             git pull origin main
             npm install
+            rm -r .next/
             npm run build
-            pm2 reload vidsaveStart || pm2 start npm --name "vidsaveStart" -- run start
+            pm2 delete all || pm2 start npm --name "vidsaveStart" -- run start
