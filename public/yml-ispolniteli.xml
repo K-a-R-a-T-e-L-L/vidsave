@@ -36,6 +36,13 @@
                 <price>2000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="height">до 3 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка камеры</param>
+                    <param name="device_type">AHD</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
             </offer>
@@ -53,6 +60,13 @@
                 <price>2500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="height">до 5 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка камеры</param>
+                    <param name="device_type">AHD</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
             </offer>
@@ -70,6 +84,13 @@
                 <price>3500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="height">свыше 5 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка камеры</param>
+                    <param name="device_type">AHD</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
             </offer>
@@ -87,6 +108,13 @@
                 <price>2500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="height">до 3 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка камеры</param>
+                    <param name="device_type">IP</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
             </offer>
@@ -104,6 +132,13 @@
                 <price>3000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="height">до 5 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка камеры</param>
+                    <param name="device_type">IP</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
             </offer>
@@ -121,6 +156,13 @@
                 <price>4000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="height">свыше 5 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка камеры</param>
+                    <param name="device_type">IP</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
             </offer>
@@ -128,9 +170,9 @@
                 <typePrefix>Услуга</typePrefix>
                 <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
-                <name>Подключение сетевого Poe коммутатора</name>
+                <name>Подключение сетевого POE коммутатора</name>
                 <description>
-                    Профессиональное подключение и настройка сетевого Poe коммутатора для
+                    Профессиональное подключение и настройка сетевого POE коммутатора для
                     организации питания камер по Ethernet. Включает установку, настройку и
                     тестирование. Гарантия 12 месяцев.
                 </description>
@@ -138,6 +180,12 @@
                 <price>900</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Подключение сетевого коммутатора</param>
+                    <param name="device_type">POE</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
             </offer>
@@ -155,6 +203,13 @@
                 <price>1600</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="channels">4</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка видеорегистратора</param>
+                    <param name="device_type">DVR (AHD)</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -172,6 +227,13 @@
                 <price>2200</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="channels">8</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка видеорегистратора</param>
+                    <param name="device_type">DVR (AHD)</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -189,6 +251,13 @@
                 <price>2800</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="channels">16</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка видеорегистратора</param>
+                    <param name="device_type">DVR (AHD)</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -206,6 +275,13 @@
                 <price>3500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="channels">32</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка видеорегистратора</param>
+                    <param name="device_type">DVR (AHD)</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -223,6 +299,13 @@
                 <price>3000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="channels">8</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка видеорегистратора</param>
+                    <param name="device_type">NVR (IP)</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -240,6 +323,13 @@
                 <price>3700</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="channels">16</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка видеорегистратора</param>
+                    <param name="device_type">NVR (IP)</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -257,6 +347,13 @@
                 <price>4500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="channels">32</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка видеорегистратора</param>
+                    <param name="device_type">NVR (IP)</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -273,6 +370,12 @@
                 <price>1500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Замена жесткого диска</param>
+                    <param name="device_type">HHD</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -280,7 +383,7 @@
                 <typePrefix>Услуга</typePrefix>
                 <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
-                <name>Установка 4G WIFI Роутера</name>
+                <name>Установка 4G WIFI роутера</name>
                 <description>
                     Профессиональная установка и настройка 4G WIFI Роутера для организации
                     удаленного доступа к системе видеонаблюдения. Гарантия 12 месяцев.
@@ -289,6 +392,12 @@
                 <price>1500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка роутера</param>
+                    <param name="device_type">4G WIFI</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -306,6 +415,11 @@
                 <price>1500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Сборка коммуникационного шкафа</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -322,6 +436,13 @@
                 <price>60</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Погонный метр</param>
+                    <param name="height">до 3 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Прокладка кабеля</param>
+                    <param name="cable_type">UTP</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -338,6 +459,13 @@
                 <price>80</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Погонный метр</param>
+                    <param name="height">до 5 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Прокладка кабеля</param>
+                    <param name="cable_type">UTP</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -355,6 +483,13 @@
                 <price>120</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Погонный метр</param>
+                    <param name="height">свыше 5 метров</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Прокладка кабеля</param>
+                    <param name="cable_type">UTP</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -372,6 +507,12 @@
                 <price>30</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Погонный метр</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Прокладка кабеля</param>
+                    <param name="cable_type">в гофре</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -389,6 +530,12 @@
                 <price>80</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Погонный метр</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Прокладка кабеля</param>
+                    <param name="cable_type">по воздуху</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -406,6 +553,12 @@
                 <price>90</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Погонный метр</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Прокладка кабеля</param>
+                    <param name="cable_type">в земле</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -423,6 +576,11 @@
                 <price>2500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Диагностика кабеля</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -439,6 +597,11 @@
                 <price>0</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Выезд на осмотр</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
             </offer>
@@ -457,6 +620,11 @@
                 <price>2000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Прокладка магистрали</param>
+                </params>
                 <!-- <picture>
                     https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
             </offer>
@@ -474,6 +642,11 @@
                 <price>600</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Погонный метр</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Штрабление</param>
+                </params>
                 <!-- <picture>
                     https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
             </offer>
@@ -491,6 +664,11 @@
                 <price>8500</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Установка сплит-системы</param>
+                </params>
                 <!-- <picture>
                     https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
             </offer>
@@ -508,6 +686,11 @@
                 <price>15000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Монтаж сплит-системы «под ключ»</param>
+                </params>
                 <!-- <picture>
                     https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
             </offer>
@@ -525,6 +708,11 @@
                 <price>4000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Обслуживание сплит-системы</param>
+                </params>
                 <!-- <picture>
                     https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
             </offer>
@@ -544,6 +732,12 @@
                 <price>35000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Объект</param>
+                    <param name="apartment_type">1-комнатная</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Электромонтажные работы</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
             </offer>
@@ -561,6 +755,12 @@
                 <price>50000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Объект</param>
+                    <param name="apartment_type">2-комнатная</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Электромонтажные работы</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
             </offer>
@@ -578,22 +778,12 @@
                 <price>75000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
-            </offer>
-            <offer id="34" type="SERVICE" available="true">
-                <typePrefix>Услуга</typePrefix>
-                <serviceType>electrical</serviceType>
-                <categoryId>3</categoryId>
-                <name>Штрабление стен</name>
-                <description>
-                    Штрабление стен для прокладки электропроводки. Включает разметку,
-                    штробление, очистку канавок. Цена за погонный метр. Гарантия 12 месяцев.
-                </description>
-                <url>https://vidsave.ru</url>
-                <price>600</price>
-                <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Объект</param>
+                    <param name="apartment_type">3-комнатная</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Электромонтажные работы</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
             </offer>
@@ -611,6 +801,11 @@
                 <price>5000</price>
                 <currencyId>RUB</currencyId>
                 <region>Кемеровская область</region>
+                <params>
+                    <param name="unit">Услуга</param>
+                    <param name="service_area">Кемеровская область</param>
+                    <param name="service_type">Сборка электробокса</param>
+                </params>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
             </offer>
