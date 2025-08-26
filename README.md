@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🃏 ВИДЕОХРАНИТЕЛЬ  📹 
 
-## Getting Started
+# Сайт-визитка для компании занимающейся установкой камер видеонаблюдения
 
-First, run the development server:
+## 🛠️ Технологии  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Frontend**: Next.js, React, TypeScript, SCSS  
+- **Дополнительно**:  slick-carousel, yandex.api ...
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Запуск
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Клонировать репозиторий:  
+   ```bash
+   git clone https://github.com/K-a-R-a-T-e-L-L/vidsave
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Переход в корневую папку:
+   ```bash
+   cd "vidsave"
 
-## Learn More
+3. Установка зависимостей:
+   ```bash
+    npm install
 
-To learn more about Next.js, take a look at the following resources:
+4. Сборка и запуск:
+   ```bash
+   npm run build && npm run start
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+7. В режиме разработки запуск осуществляется так:
+   ```bash
+   npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📞 Контакты
+   ● **Телеграм** — [@K_a_R_a_T_e_L_L](https://t.me/K_a_R_a_T_e_L_L)
+   
+   ● **Email** — kirillcuhorukov6@gmail.com
