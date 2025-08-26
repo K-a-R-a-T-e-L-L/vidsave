@@ -14,24 +14,20 @@
             <category id="2">Монтаж и обслуживание кондиционеров</category>
             <category id="3">Электромонтажные работы</category>
         </categories>
-        <contacts>
-            <phone>+7 (995) 065-67-77</phone>
-            <address>Кемеровская область, г. Кемерово</address>
-            <email>denis.zaichuk@yandex.ru</email>
-        </contacts>
+        <phone>+7 (995) 065-67-77</phone>
+        <address>Кемеровская область, г. Кемерово</address>
+        <email>denis.zaichuk@yandex.ru</email>
 
         <offers>
             <!-- Видеонаблюдение -->
             <offer id="1" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка AHD камеры до 3 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>2000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -42,7 +38,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="height">до 3 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка камеры</param>
                     <param name="device_type">AHD</param>
                 </params>
@@ -51,14 +47,12 @@
             </offer>
             <offer id="2" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка AHD камеры до 5 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -69,7 +63,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="height">до 5 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка камеры</param>
                     <param name="device_type">AHD</param>
                 </params>
@@ -78,14 +72,12 @@
             </offer>
             <offer id="3" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка AHD камеры свыше 5 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>3500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -96,7 +88,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="height">свыше 5 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка камеры</param>
                     <param name="device_type">AHD</param>
                 </params>
@@ -105,14 +97,12 @@
             </offer>
             <offer id="4" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка IP камеры до 3 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -123,7 +113,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="height">до 3 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка камеры</param>
                     <param name="device_type">IP</param>
                 </params>
@@ -132,14 +122,12 @@
             </offer>
             <offer id="5" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка IP камеры до 5 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -150,7 +138,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="height">до 5 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка камеры</param>
                     <param name="device_type">IP</param>
                 </params>
@@ -159,14 +147,12 @@
             </offer>
             <offer id="6" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка IP камеры свыше 5 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>4000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -177,7 +163,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="height">свыше 5 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка камеры</param>
                     <param name="device_type">IP</param>
                 </params>
@@ -186,14 +172,12 @@
             </offer>
             <offer id="7" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Подключение сетевого POE коммутатора</description>
                 <url>https://vidsave.ru</url>
                 <price>900</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -203,7 +187,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Подключение сетевого коммутатора</param>
                     <param name="device_type">POE</param>
                 </params>
@@ -212,14 +196,12 @@
             </offer>
             <offer id="8" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка DVR (AHD) видеорегистратора 4 канала</description>
                 <url>https://vidsave.ru</url>
                 <price>1600</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -230,7 +212,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="channels">4</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка видеорегистратора</param>
                     <param name="device_type">DVR (AHD)</param>
                 </params>
@@ -239,14 +221,12 @@
             </offer>
             <offer id="9" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка DVR (AHD) видеорегистратора 8 каналов</description>
                 <url>https://vidsave.ru</url>
                 <price>2200</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -257,7 +237,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="channels">8</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка видеорегистратора</param>
                     <param name="device_type">DVR (AHD)</param>
                 </params>
@@ -266,14 +246,12 @@
             </offer>
             <offer id="10" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка DVR (AHD) видеорегистратора 16 каналов</description>
                 <url>https://vidsave.ru</url>
                 <price>2800</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -284,7 +262,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="channels">16</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка видеорегистратора</param>
                     <param name="device_type">DVR (AHD)</param>
                 </params>
@@ -293,14 +271,12 @@
             </offer>
             <offer id="11" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка DVR (AHD) видеорегистратора 32 канала</description>
                 <url>https://vidsave.ru</url>
                 <price>3500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -311,7 +287,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="channels">32</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка видеорегистратора</param>
                     <param name="device_type">DVR (AHD)</param>
                 </params>
@@ -320,14 +296,12 @@
             </offer>
             <offer id="12" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка NVR (IP) видеорегистратора 8 каналов</description>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -338,7 +312,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="channels">8</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка видеорегистратора</param>
                     <param name="device_type">NVR (IP)</param>
                 </params>
@@ -347,14 +321,12 @@
             </offer>
             <offer id="13" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка NVR (IP) видеорегистратора 16 каналов</description>
                 <url>https://vidsave.ru</url>
                 <price>3700</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -365,7 +337,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="channels">16</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка видеорегистратора</param>
                     <param name="device_type">NVR (IP)</param>
                 </params>
@@ -374,14 +346,12 @@
             </offer>
             <offer id="14" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка NVR (IP) видеорегистратора 32 канала</description>
                 <url>https://vidsave.ru</url>
                 <price>4500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -392,7 +362,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
                     <param name="channels">32</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка видеорегистратора</param>
                     <param name="device_type">NVR (IP)</param>
                 </params>
@@ -401,14 +371,12 @@
             </offer>
             <offer id="15" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Замена HDD (жесткого диска)</description>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -418,7 +386,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Замена жесткого диска</param>
                     <param name="device_type">HHD</param>
                 </params>
@@ -427,14 +395,12 @@
             </offer>
             <offer id="16" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Установка 4G WIFI роутера</description>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -444,7 +410,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка роутера</param>
                     <param name="device_type">4G WIFI</param>
                 </params>
@@ -453,14 +419,12 @@
             </offer>
             <offer id="17" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Сборка коммуникационного шкафа</description>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -470,7 +434,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Сборка коммуникационного шкафа</param>
                 </params>
                 <!--
@@ -478,14 +442,12 @@
             </offer>
             <offer id="18" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Прокладка кабеля UTP до 3 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>60</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -496,7 +458,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Погонный метр</param>
                     <param name="height">до 3 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Прокладка кабеля</param>
                     <param name="cable_type">UTP</param>
                 </params>
@@ -505,14 +467,12 @@
             </offer>
             <offer id="19" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Прокладка кабеля UTP до 5 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>80</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -523,7 +483,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Погонный метр</param>
                     <param name="height">до 5 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Прокладка кабеля</param>
                     <param name="cable_type">UTP</param>
                 </params>
@@ -532,14 +492,12 @@
             </offer>
             <offer id="20" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Прокладка кабеля UTP свыше 5 метров</description>
                 <url>https://vidsave.ru</url>
                 <price>120</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -550,7 +508,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Погонный метр</param>
                     <param name="height">свыше 5 метров</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Прокладка кабеля</param>
                     <param name="cable_type">UTP</param>
                 </params>
@@ -559,14 +517,12 @@
             </offer>
             <offer id="21" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Прокладка кабеля в гофре</description>
                 <url>https://vidsave.ru</url>
                 <price>30</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -576,7 +532,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Погонный метр</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Прокладка кабеля</param>
                     <param name="cable_type">в гофре</param>
                 </params>
@@ -585,14 +541,12 @@
             </offer>
             <offer id="22" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Прокладка кабеля по воздуху</description>
                 <url>https://vidsave.ru</url>
                 <price>80</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -602,7 +556,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Погонный метр</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Прокладка кабеля</param>
                     <param name="cable_type">по воздуху</param>
                 </params>
@@ -611,14 +565,12 @@
             </offer>
             <offer id="23" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Скрытая прокладка кабеля в земле</description>
                 <url>https://vidsave.ru</url>
                 <price>90</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -628,7 +580,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Погонный метр</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Прокладка кабеля</param>
                     <param name="cable_type">в земле</param>
                 </params>
@@ -637,14 +589,12 @@
             </offer>
             <offer id="24" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Поиск обрыва / тест кабеля</description>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -654,7 +604,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Диагностика кабеля</param>
                 </params>
                 <!--
@@ -662,14 +612,12 @@
             </offer>
             <offer id="25" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>security</serviceType>
                 <categoryId>1</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Бесплатный выезд специалиста</description>
                 <url>https://vidsave.ru</url>
                 <price>0</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -679,7 +627,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Выезд на осмотр</param>
                 </params>
                 <!--
@@ -689,14 +637,12 @@
             <!-- Кондиционеры -->
             <offer id="26" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>airconditioning</serviceType>
                 <categoryId>2</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Прокладка трассы под кондиционер</description>
                 <url>https://vidsave.ru</url>
                 <price>2000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -706,7 +652,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Прокладка магистрали</param>
                 </params>
                 <!-- <picture>
@@ -714,14 +660,12 @@
             </offer>
             <offer id="27" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>airconditioning</serviceType>
                 <categoryId>2</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Штрабление стен</description>
                 <url>https://vidsave.ru</url>
                 <price>600</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -731,7 +675,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Погонный метр</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Штрабление</param>
                 </params>
                 <!-- <picture>
@@ -739,14 +683,12 @@
             </offer>
             <offer id="28" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>airconditioning</serviceType>
                 <categoryId>2</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Монтаж кондиционера на готовую трассу</description>
                 <url>https://vidsave.ru</url>
                 <price>8500</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -756,7 +698,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Установка сплит-системы</param>
                 </params>
                 <!-- <picture>
@@ -764,14 +706,12 @@
             </offer>
             <offer id="29" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>airconditioning</serviceType>
                 <categoryId>2</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Монтаж кондиционера «под ключ»</description>
                 <url>https://vidsave.ru</url>
                 <price>15000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -781,7 +721,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Монтаж сплит-системы «под ключ»</param>
                 </params>
                 <!-- <picture>
@@ -789,14 +729,12 @@
             </offer>
             <offer id="30" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>airconditioning</serviceType>
                 <categoryId>2</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Обслуживание кондиционера</description>
                 <url>https://vidsave.ru</url>
                 <price>4000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -806,7 +744,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Обслуживание сплит-системы</param>
                 </params>
                 <!-- <picture>
@@ -816,14 +754,12 @@
             <!-- Электромонтажные работы -->
             <offer id="31" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>electrical</serviceType>
                 <categoryId>3</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Электромонтаж в 1-комнатной квартире</description>
                 <url>https://vidsave.ru</url>
                 <price>35000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -834,7 +770,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Объект</param>
                     <param name="apartment_type">1-комнатная</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Электромонтажные работы</param>
                 </params>
                 <!--
@@ -842,14 +778,12 @@
             </offer>
             <offer id="32" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>electrical</serviceType>
                 <categoryId>3</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Электромонтаж в 2-комнатной квартире</description>
                 <url>https://vidsave.ru</url>
                 <price>50000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -860,7 +794,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Объект</param>
                     <param name="apartment_type">2-комнатная</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Электромонтажные работы</param>
                 </params>
                 <!--
@@ -868,14 +802,12 @@
             </offer>
             <offer id="33" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>electrical</serviceType>
                 <categoryId>3</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Электромонтаж в 3-комнатной квартире</description>
                 <url>https://vidsave.ru</url>
                 <price>75000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -886,7 +818,7 @@
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Объект</param>
                     <param name="apartment_type">3-комнатная</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Электромонтажные работы</param>
                 </params>
                 <!--
@@ -894,14 +826,12 @@
             </offer>
             <offer id="35" type="on.demand" available="true">
                 <typePrefix>Услуга</typePrefix>
-                <serviceType>electrical</serviceType>
                 <categoryId>3</categoryId>
                 <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <description>Сборка электробокса</description>
                 <url>https://vidsave.ru</url>
                 <price>5000</price>
                 <currencyId>RUB</currencyId>
-                <region>Кемеровская область</region>
                 <set-ids>
                     <id>0827</id>
                 </set-ids>
@@ -911,7 +841,7 @@
                     <param name="Годы опыта">10</param>
                     <param name="Конверсия">0.4</param>
                     <param name="unit">Услуга</param>
-                    <param name="service_area">Кемеровская область</param>
+                    <param name="Регион">Кемеровская область</param>
                     <param name="service_type">Сборка электробокса</param>
                 </params>
                 <!--
