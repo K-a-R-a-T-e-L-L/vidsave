@@ -21,18 +21,18 @@ jobs:
           script: |
             cd /var/www/vidsave
 
-            if [-f package-lock.json]; then
+            if [ -f package-lock.json ]; then
               cp package-lock.json package-lock.json.old
             fi
 
             git pull origin main
 
-            if ! cmp -s package-lock.json package-lock.json; then
-              echo "package-lock.json
+            if [ -f package-lock.json.old ] && ! cmp -s package-lock.json.old package-lock.json; then
+              echo "package-lock.json"
               rm -rf node_modules
               npm ci --omit=dev
             else 
-              echo "package-lock.json
+              echo "package-lock.json"
             fi
 
             rm -rf .next/
@@ -43,4 +43,4 @@ jobs:
             
             pm2 start npm --name "vidsaveStart" -- run start
 
-            rm -f package.lock.json
+            rm -f package.lock.json.old
