@@ -36,7 +36,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -64,7 +64,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -92,7 +92,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -120,7 +120,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -148,7 +148,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -176,7 +176,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -204,7 +204,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -231,7 +231,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -259,7 +259,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -287,7 +287,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -315,7 +315,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -343,7 +343,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -371,7 +371,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -399,7 +399,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -427,7 +427,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -454,7 +454,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -481,7 +481,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -507,7 +507,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -535,7 +535,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -563,7 +563,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -591,7 +591,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -618,7 +618,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -645,7 +645,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -672,7 +672,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -698,7 +698,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -724,7 +724,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -750,7 +750,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -776,7 +776,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -802,7 +802,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -828,7 +828,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -854,7 +854,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -881,7 +881,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -908,7 +908,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
@@ -935,7 +935,7 @@
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
-                <param name="Число отзывов">40</param>
+                <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
                 <param name="Конверсия">0.4</param>
