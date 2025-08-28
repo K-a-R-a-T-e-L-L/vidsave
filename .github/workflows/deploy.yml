@@ -43,4 +43,4 @@ jobs:
             
             pm2 start npm --name "vidsaveStart" -- run start
 
-            rm -f package.lock.json.old
+            rm -f package-lock.json.old
