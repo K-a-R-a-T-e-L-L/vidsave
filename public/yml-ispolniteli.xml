@@ -24,7 +24,7 @@
         <offers>
 
             <offer id="1" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка AHD камеры до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2000</price>
                 <currencyId>RUR</currencyId>
@@ -52,7 +52,7 @@
 
             <!-- 2 -->
             <offer id="2" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка AHD камеры до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
                 <currencyId>RUR</currencyId>
@@ -80,7 +80,7 @@
 
             <!-- 3 -->
             <offer id="3" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка AHD камеры свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>3500</price>
                 <currencyId>RUR</currencyId>
@@ -108,7 +108,7 @@
 
             <!-- 4 -->
             <offer id="4" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка IP камеры до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
                 <currencyId>RUR</currencyId>
@@ -136,7 +136,7 @@
 
             <!-- 5 -->
             <offer id="5" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ  — установка IP камеры до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
                 <currencyId>RUR</currencyId>
@@ -164,7 +164,7 @@
 
             <!-- 6 -->
             <offer id="6" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка IP камеры свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>4000</price>
                 <currencyId>RUR</currencyId>
@@ -192,7 +192,7 @@
 
             <!-- 7 -->
             <offer id="7" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — подключение сетевого POE коммутатора</name>
                 <url>https://vidsave.ru</url>
                 <price>900</price>
                 <currencyId>RUR</currencyId>
@@ -219,7 +219,7 @@
 
             <!-- 8 -->
             <offer id="8" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка DVR (AHD) видеорегистратора 4 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>1600</price>
                 <currencyId>RUR</currencyId>
@@ -247,7 +247,7 @@
 
             <!-- 9 -->
             <offer id="9" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка DVR (AHD) видеорегистратора 8 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>2200</price>
                 <currencyId>RUR</currencyId>
@@ -275,7 +275,7 @@
 
             <!-- 10 -->
             <offer id="10" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка DVR (AHD) видеорегистратора 16 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>2800</price>
                 <currencyId>RUR</currencyId>
@@ -303,7 +303,7 @@
 
             <!-- 11 -->
             <offer id="11" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка DVR (AHD) видеорегистратора 32 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>3500</price>
                 <currencyId>RUR</currencyId>
@@ -331,7 +331,7 @@
 
             <!-- 12 -->
             <offer id="12" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка NVR (IP) видеорегистратора 8 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
                 <currencyId>RUR</currencyId>
@@ -359,7 +359,7 @@
 
             <!-- 13 -->
             <offer id="13" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка NVR (IP) видеорегистратора 16 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>3700</price>
                 <currencyId>RUR</currencyId>
@@ -387,7 +387,7 @@
 
             <!-- 14 -->
             <offer id="14" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ  — установка NVR (IP) видеорегистратора 32 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>4500</price>
                 <currencyId>RUR</currencyId>
@@ -415,7 +415,7 @@
 
             <!-- 15 -->
             <offer id="15" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — замена HDD (жесткого диска)</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
                 <currencyId>RUR</currencyId>
@@ -442,7 +442,7 @@
 
             <!-- 16 -->
             <offer id="16" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка 4G WIFI роутера</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
                 <currencyId>RUR</currencyId>
@@ -469,7 +469,7 @@
 
             <!-- 17 -->
             <offer id="17" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — сборка коммуникационного шкафа</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
                 <currencyId>RUR</currencyId>
@@ -495,7 +495,7 @@
 
             <!-- 18 -->
             <offer id="18" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля UTP до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>60</price>
                 <currencyId>RUR</currencyId>
@@ -523,7 +523,7 @@
 
             <!-- 19 -->
             <offer id="19" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля UTP до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>80</price>
                 <currencyId>RUR</currencyId>
@@ -551,7 +551,7 @@
 
             <!-- 20 -->
             <offer id="20" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля UTP свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>120</price>
                 <currencyId>RUR</currencyId>
@@ -579,7 +579,7 @@
 
             <!-- 21 -->
             <offer id="21" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля в гофре</name>
                 <url>https://vidsave.ru</url>
                 <price>30</price>
                 <currencyId>RUR</currencyId>
@@ -606,7 +606,7 @@
 
             <!-- 22 -->
             <offer id="22" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля по воздуху</name>
                 <url>https://vidsave.ru</url>
                 <price>80</price>
                 <currencyId>RUR</currencyId>
@@ -633,7 +633,7 @@
 
             <!-- 23 -->
             <offer id="23" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — скрытая прокладка кабеля в земле</name>
                 <url>https://vidsave.ru</url>
                 <price>90</price>
                 <currencyId>RUR</currencyId>
@@ -660,7 +660,7 @@
 
             <!-- 24 -->
             <offer id="24" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — поиск обрыва / тест кабеля</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
                 <currencyId>RUR</currencyId>
@@ -686,7 +686,7 @@
 
             <!-- 25 -->
             <offer id="25" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — бесплатный выезд специалиста</name>
                 <url>https://vidsave.ru</url>
                 <price>0</price>
                 <currencyId>RUR</currencyId>
@@ -712,7 +712,7 @@
 
             <!-- 26 -->
             <offer id="26" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — прокладка трассы под кондиционер</name>
                 <url>https://vidsave.ru</url>
                 <price>2000</price>
                 <currencyId>RUR</currencyId>
@@ -738,7 +738,7 @@
 
             <!-- 27 -->
             <offer id="27" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — шштрабление стен</name>
                 <url>https://vidsave.ru</url>
                 <price>600</price>
                 <currencyId>RUR</currencyId>
@@ -764,7 +764,7 @@
 
             <!-- 28 -->
             <offer id="28" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — монтаж кондиционера на готовую трассу</name>
                 <url>https://vidsave.ru</url>
                 <price>8500</price>
                 <currencyId>RUR</currencyId>
@@ -790,7 +790,7 @@
 
             <!-- 29 -->
             <offer id="29" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — монтаж кондиционера «под ключ»</name>
                 <url>https://vidsave.ru</url>
                 <price>15000</price>
                 <currencyId>RUR</currencyId>
@@ -816,7 +816,7 @@
 
             <!-- 30 -->
             <offer id="30" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — обслуживание кондиционера</name>
                 <url>https://vidsave.ru</url>
                 <price>4000</price>
                 <currencyId>RUR</currencyId>
@@ -842,7 +842,7 @@
 
             <!-- 31 -->
             <offer id="31" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — электромонтаж в 1-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>35000</price>
                 <currencyId>RUR</currencyId>
@@ -869,7 +869,7 @@
 
             <!-- 32 -->
             <offer id="32" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — электромонтаж в 2-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>50000</price>
                 <currencyId>RUR</currencyId>
@@ -896,7 +896,7 @@
 
             <!-- 33 -->
             <offer id="33" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — электромонтаж в 3-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>75000</price>
                 <currencyId>RUR</currencyId>
@@ -923,7 +923,7 @@
 
             <!-- 35 -->
             <offer id="34" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — сборка электробокса</name>
                 <url>https://vidsave.ru</url>
                 <price>5000</price>
                 <currencyId>RUR</currencyId>
