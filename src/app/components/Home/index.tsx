@@ -12,6 +12,7 @@ const Home: React.FC = () => {
                         Мы — ключ к Вашему комфорту! Знаем как сделать вашу жизнь современной и безопасной, ведь мы специализируемся
                         на создании комплексных решений, что позволяет решить любые задачи.
                     </p>
+                    
                     <div className={style.box__buttons_box}>
                         <Link href={'#contacts'} className={`${style.buttons_box__one_button}`}>
                             Оставить заявку
