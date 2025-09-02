@@ -35,7 +35,7 @@ const PriceList: React.FC = () => {
                 alt: 'Белый кондиционер',
             },
             {
-                icon: '/images/electrical_installation.jpg',
+                icon: '/images/electrical_installation.png',
                 title: 'Электромонтажные работы',
                 description: 'От прокладки кабеля и установки розеток до полного электроснабжения объектов.',
                 alt: 'Электромонтажные работы в Кемеровской области',
@@ -44,7 +44,7 @@ const PriceList: React.FC = () => {
         basic: [
             {
                 preview: '/images/camera_left.png',
-                title: 'Установка камер видеонаблюдения',
+                title: 'Установка камер видеонаблюдения в режиме онлайн',
                 description: 'Создаем индивидуальные решения для любого типа объекта.',
                 alt: 'Установка камер видеонаблюдения в Кемерово',
             },
@@ -97,7 +97,7 @@ const PriceList: React.FC = () => {
                 </div>
             </article>
             <article className={style.price_list__article_last}>
-                <h2 className={`${style.article_last__title}`}>Ключевые услуги по видеонаблюдению</h2>
+                <h2 className={`${style.article_last__title}`}>Наши ключевые услуги по видеонаблюдению в Кемерово и Кемеровской области</h2>
                 <p className={`${style.article_last__description}`}>
                     Мы предлагаем полный спектр услуг по проектированию и монтажу систем видеонаблюдения. Наша команда гарантирует
                     надежность и высокое качество обслуживания.
