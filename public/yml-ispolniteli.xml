@@ -15,8 +15,16 @@
         </categories>
 
         <sets>
-            <set id="s0827">
-                <name>Услуги по видеонаблюдению, кондиционерам и электромонтажу в Кемерово</name>
+            <set id="s0827-videonab">
+                <name>Установка и настройка систем видеонаблюдения в Кемерово</name>
+                <url>https://vidsave.ru</url>
+            </set>
+            <set id="s0827-conditioners">
+                <name>Монтаж и обслуживание кондиционеров в Кемерово</name>
+                <url>https://vidsave.ru</url>
+            </set>
+            <set id="s0827-electro">
+                <name>Электромонтажные работы в Кемерово</name>
                 <url>https://vidsave.ru</url>
             </set>
         </sets>
@@ -29,7 +37,7 @@
                 <price>2000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка AHD камеры до 3 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
@@ -57,7 +65,7 @@
                 <price>2500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка AHD камеры до 5 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
@@ -85,7 +93,7 @@
                 <price>3500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка AHD камеры свыше 5 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
@@ -113,7 +121,7 @@
                 <price>2500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка IP камеры до 3 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
@@ -136,12 +144,12 @@
 
             <!-- 5 -->
             <offer id="5" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ  — установка IP камеры до 5 метров</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка IP камеры до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка IP камеры до 5 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
@@ -169,7 +177,7 @@
                 <price>4000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка IP камеры свыше 5 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
@@ -197,7 +205,7 @@
                 <price>900</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Подключение сетевого POE коммутатора</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
@@ -224,7 +232,7 @@
                 <price>1600</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка DVR (AHD) видеорегистратора 4 канала</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -252,7 +260,7 @@
                 <price>2200</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка DVR (AHD) видеорегистратора 8 каналов</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -280,7 +288,7 @@
                 <price>2800</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка DVR (AHD) видеорегистратора 16 каналов</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -308,7 +316,7 @@
                 <price>3500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка DVR (AHD) видеорегистратора 32 канала</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -336,7 +344,7 @@
                 <price>3000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка NVR (IP) видеорегистратора 8 каналов</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -364,7 +372,7 @@
                 <price>3700</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка NVR (IP) видеорегистратора 16 каналов</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -387,12 +395,12 @@
 
             <!-- 14 -->
             <offer id="14" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ  — установка NVR (IP) видеорегистратора 32 каналов</name>
+                <name>ВИДЕОХРАНИТЕЛЬ — установка NVR (IP) видеорегистратора 32 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>4500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка NVR (IP) видеорегистратора 32 канала</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -420,7 +428,7 @@
                 <price>1500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Замена HDD (жесткого диска)</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -447,7 +455,7 @@
                 <price>1500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-videonab</set-ids>
                 <description>Установка 4G WIFI роутера</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -473,8 +481,8 @@
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Сборка коммуникационного шкафа</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -499,8 +507,8 @@
                 <url>https://vidsave.ru</url>
                 <price>60</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Прокладка кабеля UTP до 3 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -527,8 +535,8 @@
                 <url>https://vidsave.ru</url>
                 <price>80</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Прокладка кабеля UTP до 5 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -555,8 +563,8 @@
                 <url>https://vidsave.ru</url>
                 <price>120</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Прокладка кабеля UTP свыше 5 метров</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -583,8 +591,8 @@
                 <url>https://vidsave.ru</url>
                 <price>30</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Прокладка кабеля в гофре</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -610,8 +618,8 @@
                 <url>https://vidsave.ru</url>
                 <price>80</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Прокладка кабеля по воздуху</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -637,8 +645,8 @@
                 <url>https://vidsave.ru</url>
                 <price>90</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Скрытая прокладка кабеля в земле</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -664,8 +672,8 @@
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Поиск обрыва / тест кабеля</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -690,8 +698,8 @@
                 <url>https://vidsave.ru</url>
                 <price>0</price>
                 <currencyId>RUR</currencyId>
-                <categoryId>1</categoryId>
-                <set-ids>s0827</set-ids>
+                <categoryId>3</categoryId>
+                <set-ids>s0827-electro</set-ids>
                 <description>Бесплатный выезд специалиста</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
@@ -717,7 +725,7 @@
                 <price>2000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-conditioners</set-ids>
                 <description>Прокладка трассы под кондиционер</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
@@ -743,7 +751,7 @@
                 <price>600</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-conditioners</set-ids>
                 <description>Штрабление стен</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
@@ -769,7 +777,7 @@
                 <price>8500</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-conditioners</set-ids>
                 <description>Монтаж кондиционера на готовую трассу</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
@@ -795,7 +803,7 @@
                 <price>15000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-conditioners</set-ids>
                 <description>Монтаж кондиционера «под ключ»</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
@@ -821,7 +829,7 @@
                 <price>4000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-conditioners</set-ids>
                 <description>Обслуживание кондиционера</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
@@ -847,7 +855,7 @@
                 <price>35000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-electro</set-ids>
                 <description>Электромонтаж в 1-комнатной квартире</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
@@ -874,7 +882,7 @@
                 <price>50000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-electro</set-ids>
                 <description>Электромонтаж в 2-комнатной квартире</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
@@ -901,7 +909,7 @@
                 <price>75000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-electro</set-ids>
                 <description>Электромонтаж в 3-комнатной квартире</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
@@ -928,7 +936,7 @@
                 <price>5000</price>
                 <currencyId>RUR</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827</set-ids>
+                <set-ids>s0827-electro</set-ids>
                 <description>Сборка электробокса</description>
                 <!--
                 <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
