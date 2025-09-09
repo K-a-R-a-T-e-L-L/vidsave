@@ -6,7 +6,7 @@
         <url>https://vidsave.ru</url>
         <email>denis.zaichuk@yandex.ru</email>
         <currencies>
-            <currency id="RUR" rate="1" />
+            <currency id="RUB" rate="1"/>
         </currencies>
         <categories>
             <category id="1">Установка и настройка систем видеонаблюдения</category>
@@ -15,32 +15,51 @@
         </categories>
 
         <sets>
-            <set id="s0827-videonab">
-                <name>Установка и настройка систем видеонаблюдения в Кемерово</name>
-                <url>https://vidsave.ru</url>
-            </set>
-            <set id="s0827-conditioners">
-                <name>Монтаж и обслуживание кондиционеров в Кемерово</name>
-                <url>https://vidsave.ru</url>
-            </set>
-            <set id="s0827-electro">
-                <name>Электромонтажные работы в Кемерово</name>
-                <url>https://vidsave.ru</url>
-            </set>
+            <set id="set_1"><name>Установка AHD камеры до 3 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_2"><name>Установка AHD камеры до 5 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_3"><name>Установка AHD камеры свыше 5 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_4"><name>Установка IP камеры до 3 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_5"><name>Установка IP камеры до 5 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_6"><name>Установка IP камеры свыше 5 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_7"><name>Подключение сетевого POE коммутатора</name><url>https://vidsave.ru</url></set>
+            <set id="set_8"><name>Установка DVR (AHD) видеорегистратора 4 канала</name><url>https://vidsave.ru</url></set>
+            <set id="set_9"><name>Установка DVR (AHD) видеорегистратора 8 каналов</name><url>https://vidsave.ru</url></set>
+            <set id="set_10"><name>Установка DVR (AHD) видеорегистратора 16 каналов</name><url>https://vidsave.ru</url></set>
+            <set id="set_11"><name>Установка DVR (AHD) видеорегистратора 32 канала</name><url>https://vidsave.ru</url></set>
+            <set id="set_12"><name>Установка NVR (IP) видеорегистратора 8 каналов</name><url>https://vidsave.ru</url></set>
+            <set id="set_13"><name>Установка NVR (IP) видеорегистратора 16 каналов</name><url>https://vidsave.ru</url></set>
+            <set id="set_14"><name>Установка NVR (IP) видеорегистратора 32 канала</name><url>https://vidsave.ru</url></set>
+            <set id="set_15"><name>Замена HDD (жесткого диска)</name><url>https://vidsave.ru</url></set>
+            <set id="set_16"><name>Установка 4G WIFI роутера</name><url>https://vidsave.ru</url></set>
+            <set id="set_17"><name>Сборка коммуникационного шкафа</name><url>https://vidsave.ru</url></set>
+            <set id="set_18"><name>Прокладка кабеля UTP до 3 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_19"><name>Прокладка кабеля UTP до 5 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_20"><name>Прокладка кабеля UTP свыше 5 метров</name><url>https://vidsave.ru</url></set>
+            <set id="set_21"><name>Прокладка кабеля в гофре</name><url>https://vidsave.ru</url></set>
+            <set id="set_22"><name>Прокладка кабеля по воздуху</name><url>https://vidsave.ru</url></set>
+            <set id="set_23"><name>Скрытая прокладка кабеля в земле</name><url>https://vidsave.ru</url></set>
+            <set id="set_24"><name>Поиск обрыва / тест кабеля</name><url>https://vidsave.ru</url></set>
+            <set id="set_25"><name>Бесплатный выезд специалиста</name><url>https://vidsave.ru</url></set>
+            <set id="set_26"><name>Прокладка трассы под кондиционер</name><url>https://vidsave.ru</url></set>
+            <set id="set_27"><name>Штрабление стен</name><url>https://vidsave.ru</url></set>
+            <set id="set_28"><name>Монтаж кондиционера на готовую трассу</name><url>https://vidsave.ru</url></set>
+            <set id="set_29"><name>Монтаж кондиционера «под ключ»</name><url>https://vidsave.ru</url></set>
+            <set id="set_30"><name>Обслуживание кондиционера</name><url>https://vidsave.ru</url></set>
+            <set id="set_31"><name>Электромонтаж в 1-комнатной квартире</name><url>https://vidsave.ru</url></set>
+            <set id="set_32"><name>Электромонтаж в 2-комнатной квартире</name><url>https://vidsave.ru</url></set>
+            <set id="set_33"><name>Электромонтаж в 3-комнатной квартире</name><url>https://vidsave.ru</url></set>
+            <set id="set_34"><name>Сборка электробокса</name><url>https://vidsave.ru</url></set>
         </sets>
 
         <offers>
-
             <offer id="1" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка AHD камеры до 3 метров</name>
+                <name>Установка AHD камеры до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка AHD камеры до 3 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+                <set-ids>set_1</set-ids>
+                <description>Профессиональная установка и настройка аналоговой AHD камеры на высоте до 3 метров. Включает крепление, подключение, настройку и тестирование работоспособности. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -52,23 +71,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка камеры</param>
+                <param name="service_type">security</param>
                 <param name="device_type">AHD</param>
                 <param name="height">до 3 метров</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 2 -->
             <offer id="2" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка AHD камеры до 5 метров</name>
+                <name>Установка AHD камеры до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка AHD камеры до 5 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+                <set-ids>set_2</set-ids>
+                <description>Профессиональная установка и настройка аналоговой AHD камеры на высоте до 5 метров. Включает крепление, подключение, настройку и тестирование работоспособности. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -80,23 +96,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка камеры</param>
+                <param name="service_type">security</param>
                 <param name="device_type">AHD</param>
                 <param name="height">до 5 метров</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 3 -->
             <offer id="3" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка AHD камеры свыше 5 метров</name>
+                <name>Установка AHD камеры свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>3500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка AHD камеры свыше 5 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+                <set-ids>set_3</set-ids>
+                <description>Профессиональная установка и настройка аналоговой AHD камеры на высоте свыше 5 метров. Включает крепление, подключение, настройку и тестирование работоспособности. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -108,23 +121,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка камеры</param>
+                <param name="service_type">security</param>
                 <param name="device_type">AHD</param>
                 <param name="height">свыше 5 метров</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 4 -->
             <offer id="4" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка IP камеры до 3 метров</name>
+                <name>Установка IP камеры до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка IP камеры до 3 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+                <set-ids>set_4</set-ids>
+                <description>Профессиональная установка и настройка IP камеры на высоте до 3 метров. Включает крепление, подключение к сети, настройку и тестирование работоспособности. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -136,23 +146,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка камеры</param>
+                <param name="service_type">security</param>
                 <param name="device_type">IP</param>
                 <param name="height">до 3 метров</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 5 -->
             <offer id="5" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка IP камеры до 5 метров</name>
+                <name>Установка IP камеры до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка IP камеры до 5 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+                <set-ids>set_5</set-ids>
+                <description>Профессиональная установка и настройка IP камеры на высоте до 5 метров. Включает крепление, подключение к сети, настройку и тестирование работоспособности. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -164,23 +171,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка камеры</param>
+                <param name="service_type">security</param>
                 <param name="device_type">IP</param>
                 <param name="height">до 5 метров</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 6 -->
             <offer id="6" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка IP камеры свыше 5 метров</name>
+                <name>Установка IP камеры свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>4000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка IP камеры свыше 5 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+                <set-ids>set_6</set-ids>
+                <description>Профессиональная установка и настройка IP камеры на высоте свыше 5 метров. Включает крепление, подключение к сети, настройку и тестирование работоспособности. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -192,23 +196,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка камеры</param>
+                <param name="service_type">security</param>
                 <param name="device_type">IP</param>
                 <param name="height">свыше 5 метров</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 7 -->
             <offer id="7" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — подключение сетевого POE коммутатора</name>
+                <name>Подключение сетевого POE коммутатора</name>
                 <url>https://vidsave.ru</url>
                 <price>900</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Подключение сетевого POE коммутатора</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_cameras.jpg</picture> -->
+                <set-ids>set_7</set-ids>
+                <description>Профессиональное подключение и настройка сетевого Poe коммутатора для организации питания камер по Ethernet. Включает установку, настройку и тестирование. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -220,22 +221,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Подключение сетевого коммутатора</param>
-                <param name="device_type">POE</param>
+                <param name="service_type">security</param>
+                <param name="device_type">POE коммутатор</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 8 -->
             <offer id="8" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка DVR (AHD) видеорегистратора 4 канала</name>
+                <name>Установка DVR (AHD) видеорегистратора 4 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>1600</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка DVR (AHD) видеорегистратора 4 канала</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_8</set-ids>
+                <description>Профессиональная установка и настройка 4-канального DVR (AHD) видеорегистратора. Включает монтаж, подключение камер, настройку записи и удаленного доступа. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -247,23 +245,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка видеорегистратора</param>
+                <param name="service_type">security</param>
                 <param name="device_type">DVR (AHD)</param>
                 <param name="channels">4</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 9 -->
             <offer id="9" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка DVR (AHD) видеорегистратора 8 канала</name>
+                <name>Установка DVR (AHD) видеорегистратора 8 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>2200</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка DVR (AHD) видеорегистратора 8 каналов</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_9</set-ids>
+                <description>Профессиональная установка и настройка 8-канального DVR (AHD) видеорегистратора. Включает монтаж, подключение камер, настройку записи и удаленного доступа. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -275,23 +270,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка видеорегистратора</param>
+                <param name="service_type">security</param>
                 <param name="device_type">DVR (AHD)</param>
                 <param name="channels">8</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 10 -->
             <offer id="10" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка DVR (AHD) видеорегистратора 16 канала</name>
+                <name>Установка DVR (AHD) видеорегистратора 16 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>2800</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка DVR (AHD) видеорегистратора 16 каналов</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_10</set-ids>
+                <description>Профессиональная установка и настройка 16-канального DVR (AHD) видеорегистратора. Включает монтаж, подключение камер, настройку записи и удаленного доступа. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -303,23 +295,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка видеорегистратора</param>
+                <param name="service_type">security</param>
                 <param name="device_type">DVR (AHD)</param>
                 <param name="channels">16</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 11 -->
             <offer id="11" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка DVR (AHD) видеорегистратора 32 канала</name>
+                <name>Установка DVR (AHD) видеорегистратора 32 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>3500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка DVR (AHD) видеорегистратора 32 канала</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_11</set-ids>
+                <description>Профессиональная установка и настройка 32-канального DVR (AHD) видеорегистратора. Включает монтаж, подключение камер, настройку записи и удаленного доступа. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -331,23 +320,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка видеорегистратора</param>
+                <param name="service_type">security</param>
                 <param name="device_type">DVR (AHD)</param>
                 <param name="channels">32</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 12 -->
             <offer id="12" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка NVR (IP) видеорегистратора 8 каналов</name>
+                <name>Установка NVR (IP) видеорегистратора 8 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка NVR (IP) видеорегистратора 8 каналов</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_12</set-ids>
+                <description>Профессиональная установка и настройка 8-канального NVR (IP) видеорегистратора. Включает монтаж, подключение камер, настройку записи и удаленного доступа. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -359,23 +345,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка видеорегистратора</param>
+                <param name="service_type">security</param>
                 <param name="device_type">NVR (IP)</param>
                 <param name="channels">8</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 13 -->
             <offer id="13" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка NVR (IP) видеорегистратора 16 каналов</name>
+                <name>Установка NVR (IP) видеорегистратора 16 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>3700</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка NVR (IP) видеорегистратора 16 каналов</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_13</set-ids>
+                <description>Профессиональная установка и настройка 16-канального NVR (IP) видеорегистратора. Включает монтаж, подключение камер, настройку записи и удаленного доступа. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -387,23 +370,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка видеорегистратора</param>
+                <param name="service_type">security</param>
                 <param name="device_type">NVR (IP)</param>
                 <param name="channels">16</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 14 -->
             <offer id="14" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка NVR (IP) видеорегистратора 32 каналов</name>
+                <name>Установка NVR (IP) видеорегистратора 32 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>4500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка NVR (IP) видеорегистратора 32 канала</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_14</set-ids>
+                <description>Профессиональная установка и настройка 32-канального NVR (IP) видеорегистратора. Включает монтаж, подключение камер, настройку записи и удаленного доступа. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -415,23 +395,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка видеорегистратора</param>
+                <param name="service_type">security</param>
                 <param name="device_type">NVR (IP)</param>
                 <param name="channels">32</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 15 -->
             <offer id="15" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — замена HDD (жесткого диска)</name>
+                <name>Замена HDD (жесткого диска)</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Замена HDD (жесткого диска)</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_15</set-ids>
+                <description>Замена жесткого диска в видеорегистраторе. Включает демонтаж старого диска, установку нового, настройку системы записи. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -443,22 +420,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Замена жесткого диска</param>
+                <param name="service_type">security</param>
                 <param name="device_type">HDD</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 16 -->
             <offer id="16" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — установка 4G WIFI роутера</name>
+                <name>Установка 4G WIFI роутера</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>1</categoryId>
-                <set-ids>s0827-videonab</set-ids>
-                <description>Установка 4G WIFI роутера</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_16</set-ids>
+                <description>Профессиональная установка и настройка 4G WIFI роутера для организации удаленного доступа к системе видеонаблюдения. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -470,22 +444,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка роутера</param>
-                <param name="device_type">4G WIFI</param>
+                <param name="service_type">security</param>
+                <param name="device_type">4G роутер</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 17 -->
             <offer id="17" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — сборка коммуникационного шкафа</name>
+                <name>Сборка коммуникационного шкафа</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
-                <currencyId>RUR</currencyId>
-                <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Сборка коммуникационного шкафа</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <currencyId>RUB</currencyId>
+                <categoryId>1</categoryId>
+                <set-ids>set_17</set-ids>
+                <description>Профессиональная сборка коммуникационного шкафа для размещения оборудования системы видеонаблюдения. Включает монтаж оборудования, прокладку кабелей, настройку. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -497,21 +468,18 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Сборка коммуникационного шкафа</param>
+                <param name="service_type">security</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 18 -->
             <offer id="18" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля UTP до 3 метров</name>
+                <name>Прокладка кабеля UTP до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>60</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Прокладка кабеля UTP до 3 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_18</set-ids>
+                <description>Прокладка кабеля UTP для систем видеонаблюдения на высоту до 3 метров. Включает подготовку трассы, прокладку кабеля, фиксацию. Цена за погонный метр.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -523,23 +491,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Прокладка кабеля</param>
+                <param name="service_type">electrical</param>
                 <param name="cable_type">UTP</param>
                 <param name="height">до 3 метров</param>
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <!-- 19 -->
             <offer id="19" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля UTP до 5 метров</name>
+                <name>Прокладка кабеля UTP до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>80</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Прокладка кабеля UTP до 5 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_19</set-ids>
+                <description>Прокладка кабеля UTP для систем видеонаблюдения на высоту до 5 метров. Включает подготовку трассы, прокладку кабеля, фиксацию. Цена за погонный метр.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -551,23 +516,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Прокладка кабеля</param>
+                <param name="service_type">electrical</param>
                 <param name="cable_type">UTP</param>
                 <param name="height">до 5 метров</param>
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <!-- 20 -->
             <offer id="20" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля UTP свыше 5 метров</name>
+                <name>Прокладка кабеля UTP свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>120</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Прокладка кабеля UTP свыше 5 метров</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_20</set-ids>
+                <description>Прокладка кабеля UTP для систем видеонаблюдения на высоту свыше 5 метров. Включает подготовку трассы, прокладку кабеля, фиксацию. Цена за погонный метр.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -579,23 +541,20 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Прокладка кабеля</param>
+                <param name="service_type">electrical</param>
                 <param name="cable_type">UTP</param>
                 <param name="height">свыше 5 метров</param>
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <!-- 21 -->
             <offer id="21" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля в гофре</name>
+                <name>Прокладка кабеля в гофре</name>
                 <url>https://vidsave.ru</url>
                 <price>30</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Прокладка кабеля в гофре</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_21</set-ids>
+                <description>Прокладка кабеля в гофре для защиты от механических повреждений и внешних воздействий. Дополнительная стоимость к базовой прокладке кабеля. Цена за погонный метр.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -607,22 +566,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Прокладка кабеля</param>
+                <param name="service_type">electrical</param>
                 <param name="cable_type">в гофре</param>
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <!-- 22 -->
             <offer id="22" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — прокладка кабеля по воздуху</name>
+                <name>Прокладка кабеля по воздуху</name>
                 <url>https://vidsave.ru</url>
                 <price>80</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Прокладка кабеля по воздуху</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_22</set-ids>
+                <description>Прокладка кабеля по воздуху между зданиями или на открытых участках. Включает установку кронштейнов, натяжение троса, монтаж кабеля. Цена за погонный метр.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -634,22 +590,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Прокладка кабеля</param>
+                <param name="service_type">electrical</param>
                 <param name="cable_type">по воздуху</param>
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <!-- 23 -->
             <offer id="23" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — скрытая прокладка кабеля в земле</name>
+                <name>Скрытая прокладка кабеля в земле</name>
                 <url>https://vidsave.ru</url>
                 <price>90</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Скрытая прокладка кабеля в земле</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_23</set-ids>
+                <description>Скрытая прокладка кабеля в земле с использованием защитных труб. Включает рытье траншеи, укладку труб, монтаж кабеля, засыпку. Цена за погонный метр.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -661,22 +614,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Прокладка кабеля</param>
+                <param name="service_type">electrical</param>
                 <param name="cable_type">в земле</param>
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <!-- 24 -->
             <offer id="24" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — поиск обрыва / тест кабеля</name>
+                <name>Поиск обрыва / тест кабеля</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Поиск обрыва / тест кабеля</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_24</set-ids>
+                <description>Диагностика и поиск обрыва в кабеле системы видеонаблюдения с использованием профессионального оборудования. Включает тестирование работоспособности всей линии.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -688,21 +638,18 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Диагностика кабеля</param>
+                <param name="service_type">electrical</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 25 -->
             <offer id="25" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — бесплатный выезд специалиста</name>
+                <name>Бесплатный выезд специалиста</name>
                 <url>https://vidsave.ru</url>
                 <price>0</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Бесплатный выезд специалиста</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Fcamera_left.png</picture> -->
+                <set-ids>set_25</set-ids>
+                <description>Бесплатный выезд специалиста для осмотра объекта и консультации по установке системы видеонаблюдения. При заключении договора.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -714,21 +661,18 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Выезд на осмотр</param>
+                <param name="service_type">security</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 26 -->
             <offer id="26" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — прокладка трассы под кондиционер</name>
+                <name>Прокладка трассы под кондиционер</name>
                 <url>https://vidsave.ru</url>
                 <price>2000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827-conditioners</set-ids>
-                <description>Прокладка трассы под кондиционер</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+                <set-ids>set_26</set-ids>
+                <description>Прокладка трассы (магистрали) под кондиционер без штрабления. Включает подготовку трассы, прокладку коммуникаций, фиксацию. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -740,21 +684,18 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Прокладка магистрали</param>
+                <param name="service_type">airconditioning</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 27 -->
             <offer id="27" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — шштрабление стен</name>
+                <name>Штрабление стен</name>
                 <url>https://vidsave.ru</url>
                 <price>600</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827-conditioners</set-ids>
-                <description>Штрабление стен</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+                <set-ids>set_27</set-ids>
+                <description>Штрабление стен для прокладки коммуникаций кондиционера. Включает разметку, штробление, очистку канавок. Цена за погонный метр. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -766,21 +707,18 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Штрабление</param>
+                <param name="service_type">airconditioning</param>
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <!-- 28 -->
             <offer id="28" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — монтаж кондиционера на готовую трассу</name>
+                <name>Монтаж кондиционера на готовую трассу</name>
                 <url>https://vidsave.ru</url>
                 <price>8500</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827-conditioners</set-ids>
-                <description>Монтаж кондиционера на готовую трассу</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+                <set-ids>set_28</set-ids>
+                <description>Монтаж кондиционера на готовую трассу (магистраль). Включает установку внутреннего и наружного блоков, подключение к электросети, запуск в работу. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -792,21 +730,18 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Установка сплит-системы</param>
+                <param name="service_type">airconditioning</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 29 -->
             <offer id="29" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — монтаж кондиционера «под ключ»</name>
+                <name>Монтаж кондиционера «под ключ»</name>
                 <url>https://vidsave.ru</url>
                 <price>15000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827-conditioners</set-ids>
-                <description>Монтаж кондиционера «под ключ»</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+                <set-ids>set_29</set-ids>
+                <description>Полный монтаж кондиционера "под ключ". Включает прокладку трассы, штрабление, установку внутреннего и наружного блоков, подключение к электросети, запуск в работу. Гарантия 12 месяцев.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -818,21 +753,18 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Монтаж сплит-системы «под ключ»</param>
+                <param name="service_type">airconditioning</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 30 -->
             <offer id="30" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — обслуживание кондиционера</name>
+                <name>Обслуживание кондиционера</name>
                 <url>https://vidsave.ru</url>
                 <price>4000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>2</categoryId>
-                <set-ids>s0827-conditioners</set-ids>
-                <description>Обслуживание кондиционера</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Finstalling_air_conditioners.jpg</picture> -->
+                <set-ids>set_30</set-ids>
+                <description>Профессиональное обслуживание кондиционера. Включает чистку фильтров, проверку уровня хладагента, диагностику работоспособности всех узлов. Рекомендуется 1 раз в год.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -844,21 +776,18 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Обслуживание сплит-системы</param>
+                <param name="service_type">airconditioning</param>
                 <param name="unit">Услуга</param>
             </offer>
 
-            <!-- 31 -->
             <offer id="31" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — электромонтаж в 1-комнатной квартире</name>
+                <name>Электромонтаж в 1-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>35000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Электромонтаж в 1-комнатной квартире</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+                <set-ids>set_31</set-ids>
+                <description>Полный электромонтаж под ключ в 1-комнатной квартире. Включает проектирование, штробление, прокладку кабеля, установку розеток и выключателей, сборку электрощита. Гарантия 24 месяца.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -870,22 +799,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Электромонтажные работы</param>
+                <param name="service_type">electrical</param>
                 <param name="apartment_type">1-комнатная</param>
                 <param name="unit">Объект</param>
             </offer>
 
-            <!-- 32 -->
             <offer id="32" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — электромонтаж в 2-комнатной квартире</name>
+                <name>Электромонтаж в 2-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>50000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Электромонтаж в 2-комнатной квартире</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+                <set-ids>set_32</set-ids>
+                <description>Полный электромонтаж под ключ в 2-комнатной квартире. Включает проектирование, штробление, прокладку кабеля, установку розеток и выключателей, сборку электрощита. Гарантия 24 месяца.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -897,22 +823,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Электромонтажные работы</param>
+                <param name="service_type">electrical</param>
                 <param name="apartment_type">2-комнатная</param>
                 <param name="unit">Объект</param>
             </offer>
 
-            <!-- 33 -->
             <offer id="33" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — электромонтаж в 3-комнатной квартире</name>
+                <name>Электромонтаж в 3-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>75000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Электромонтаж в 3-комнатной квартире</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+                <set-ids>set_33</set-ids>
+                <description>Полный электромонтаж под ключ в 3-комнатной квартире. Включает проектирование, штробление, прокладку кабеля, установку розеток и выключателей, сборку электрощита. Гарантия 24 месяца.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -924,22 +847,19 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Электромонтажные работы</param>
+                <param name="service_type">electrical</param>
                 <param name="apartment_type">3-комнатная</param>
                 <param name="unit">Объект</param>
             </offer>
 
-            <!-- 35 -->
             <offer id="34" available="true">
-                <name>ВИДЕОХРАНИТЕЛЬ — сборка электробокса</name>
+                <name>Сборка электробокса</name>
                 <url>https://vidsave.ru</url>
                 <price>5000</price>
-                <currencyId>RUR</currencyId>
+                <currencyId>RUB</currencyId>
                 <categoryId>3</categoryId>
-                <set-ids>s0827-electro</set-ids>
-                <description>Сборка электробокса</description>
-                <!--
-                <picture>https://vidsave.ru/_next/image?url=%2Fimages%2Felectrical_installation.jpg</picture> -->
+                <set-ids>set_34</set-ids>
+                <description>Профессиональная сборка электробокса (распределительного щита). Включает монтаж автоматов, УЗО, шин, настройку системы защиты. Гарантия 24 месяца.</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>
                 <param name="Рейтинг">5</param>
@@ -951,10 +871,9 @@
                 <param name="Работа по договору">да</param>
                 <param name="Наличный расчет">да</param>
                 <param name="Безналичный расчет">да</param>
-                <param name="service_type">Сборка электробокса</param>
+                <param name="service_type">electrical</param>
                 <param name="unit">Услуга</param>
             </offer>
-
         </offers>
     </shop>
 </yml_catalog>
