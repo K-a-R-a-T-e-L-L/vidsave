@@ -52,7 +52,7 @@
         </sets>
 
         <offers>
-            <offer id="1" available="true">
+            <offer id="1">
                 <name>Установка AHD камеры до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2000</price>
@@ -77,7 +77,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="2" available="true">
+            <offer id="2">
                 <name>Установка AHD камеры до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
@@ -102,7 +102,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="3" available="true">
+            <offer id="3">
                 <name>Установка AHD камеры свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>3500</price>
@@ -127,7 +127,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="4" available="true">
+            <offer id="4">
                 <name>Установка IP камеры до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
@@ -152,7 +152,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="5" available="true">
+            <offer id="5">
                 <name>Установка IP камеры до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
@@ -177,7 +177,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="6" available="true">
+            <offer id="6">
                 <name>Установка IP камеры свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>4000</price>
@@ -202,7 +202,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="7" available="true">
+            <offer id="7">
                 <name>Подключение сетевого POE коммутатора</name>
                 <url>https://vidsave.ru</url>
                 <price>900</price>
@@ -226,7 +226,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="8" available="true">
+            <offer id="8">
                 <name>Установка DVR (AHD) видеорегистратора 4 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>1600</price>
@@ -251,7 +251,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="9" available="true">
+            <offer id="9">
                 <name>Установка DVR (AHD) видеорегистратора 8 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>2200</price>
@@ -276,7 +276,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="10" available="true">
+            <offer id="10">
                 <name>Установка DVR (AHD) видеорегистратора 16 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>2800</price>
@@ -301,7 +301,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="11" available="true">
+            <offer id="11">
                 <name>Установка DVR (AHD) видеорегистратора 32 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>3500</price>
@@ -326,7 +326,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="12" available="true">
+            <offer id="12">
                 <name>Установка NVR (IP) видеорегистратора 8 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>3000</price>
@@ -351,7 +351,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="13" available="true">
+            <offer id="13">
                 <name>Установка NVR (IP) видеорегистратора 16 каналов</name>
                 <url>https://vidsave.ru</url>
                 <price>3700</price>
@@ -376,7 +376,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="14" available="true">
+            <offer id="14">
                 <name>Установка NVR (IP) видеорегистратора 32 канала</name>
                 <url>https://vidsave.ru</url>
                 <price>4500</price>
@@ -401,7 +401,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="15" available="true">
+            <offer id="15">
                 <name>Замена HDD (жесткого диска)</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
@@ -425,7 +425,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="16" available="true">
+            <offer id="16">
                 <name>Установка 4G WIFI роутера</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
@@ -449,7 +449,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="17" available="true">
+            <offer id="17">
                 <name>Сборка коммуникационного шкафа</name>
                 <url>https://vidsave.ru</url>
                 <price>1500</price>
@@ -472,7 +472,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="18" available="true">
+            <offer id="18">
                 <name>Прокладка кабеля UTP до 3 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>60</price>
@@ -497,7 +497,7 @@
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <offer id="19" available="true">
+            <offer id="19">
                 <name>Прокладка кабеля UTP до 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>80</price>
@@ -522,7 +522,7 @@
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <offer id="20" available="true">
+            <offer id="20">
                 <name>Прокладка кабеля UTP свыше 5 метров</name>
                 <url>https://vidsave.ru</url>
                 <price>120</price>
@@ -547,7 +547,7 @@
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <offer id="21" available="true">
+            <offer id="21">
                 <name>Прокладка кабеля в гофре</name>
                 <url>https://vidsave.ru</url>
                 <price>30</price>
@@ -571,7 +571,7 @@
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <offer id="22" available="true">
+            <offer id="22">
                 <name>Прокладка кабеля по воздуху</name>
                 <url>https://vidsave.ru</url>
                 <price>80</price>
@@ -595,7 +595,7 @@
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <offer id="23" available="true">
+            <offer id="23">
                 <name>Скрытая прокладка кабеля в земле</name>
                 <url>https://vidsave.ru</url>
                 <price>90</price>
@@ -619,7 +619,7 @@
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <offer id="24" available="true">
+            <offer id="24">
                 <name>Поиск обрыва / тест кабеля</name>
                 <url>https://vidsave.ru</url>
                 <price>2500</price>
@@ -642,7 +642,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="25" available="true">
+            <offer id="25">
                 <name>Бесплатный выезд специалиста</name>
                 <url>https://vidsave.ru</url>
                 <price>0</price>
@@ -665,7 +665,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="26" available="true">
+            <offer id="26">
                 <name>Прокладка трассы под кондиционер</name>
                 <url>https://vidsave.ru</url>
                 <price>2000</price>
@@ -688,7 +688,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="27" available="true">
+            <offer id="27">
                 <name>Штрабление стен</name>
                 <url>https://vidsave.ru</url>
                 <price>600</price>
@@ -711,7 +711,7 @@
                 <param name="unit">Погонный метр</param>
             </offer>
 
-            <offer id="28" available="true">
+            <offer id="28">
                 <name>Монтаж кондиционера на готовую трассу</name>
                 <url>https://vidsave.ru</url>
                 <price>8500</price>
@@ -734,7 +734,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="29" available="true">
+            <offer id="29">
                 <name>Монтаж кондиционера «под ключ»</name>
                 <url>https://vidsave.ru</url>
                 <price>15000</price>
@@ -757,7 +757,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="30" available="true">
+            <offer id="30">
                 <name>Обслуживание кондиционера</name>
                 <url>https://vidsave.ru</url>
                 <price>4000</price>
@@ -780,7 +780,7 @@
                 <param name="unit">Услуга</param>
             </offer>
 
-            <offer id="31" available="true">
+            <offer id="31">
                 <name>Электромонтаж в 1-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>35000</price>
@@ -804,7 +804,7 @@
                 <param name="unit">Объект</param>
             </offer>
 
-            <offer id="32" available="true">
+            <offer id="32">
                 <name>Электромонтаж в 2-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>50000</price>
@@ -828,7 +828,7 @@
                 <param name="unit">Объект</param>
             </offer>
 
-            <offer id="33" available="true">
+            <offer id="33">
                 <name>Электромонтаж в 3-комнатной квартире</name>
                 <url>https://vidsave.ru</url>
                 <price>75000</price>
@@ -852,7 +852,7 @@
                 <param name="unit">Объект</param>
             </offer>
 
-            <offer id="34" available="true">
+            <offer id="34">
                 <name>Сборка электробокса</name>
                 <url>https://vidsave.ru</url>
                 <price>5000</price>
