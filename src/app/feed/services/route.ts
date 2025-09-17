@@ -34,7 +34,7 @@ export async function GET() {
 
     // Собираем все <set>
     const setsXml = servicesList.map(service => `
-            <set id="${generateSetId(service.id)}"><name>${escapeXml(service.name)}</name><url>${baseUrl}</url></set>`
+            <set id="${generateSetId(service.id)}"><name>${escapeXml(service.name)}</name><url>${baseUrl}/${service.serviceName}</url></set>`
     ).join("");
 
     // Собираем все <offer>
