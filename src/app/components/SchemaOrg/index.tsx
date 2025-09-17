@@ -8,12 +8,12 @@ const SchemaOrg = () => {
             '@context': 'https://schema.org',
             '@type': 'localBusiness',
             name: '«ВИДЕОХРАНИТЕЛЬ»',
-            image: '/images/',
+            image: '/images/project_13.jpg',
             url: 'https://vidsave.ru',
             telephone: '+7-995-065-67-77',
             address: {
                 '@type': 'PostalAddress',
-                streetAddres: 'улица Шестакова 6А',
+                streetAddress: 'улица Шестакова 6А',
                 addressLocality: 'Кемерово',
                 addressRegion: 'Кемеровская область',
                 postalCode: '650000',
@@ -39,7 +39,7 @@ const SchemaOrg = () => {
         };
         
         const script = document.createElement('script');
-        script.type = 'application/ld + json';
+        script.type = 'application/ld+json';
         script.innerHTML = JSON.stringify(schema);
         document.head.appendChild(script);
 

@@ -39,7 +39,7 @@ const ServicesListPage = () => {
                     </section>
                 </main>
             </ClientServicesList>
-                            <Footer />
+            <Footer />
         </div>
     );
 };
