@@ -1,45 +1,45 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: Inter, sans-serif;
-  scroll-behavior: smooth;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 button {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 h2 {
-  font-size: 32px;
-  font-weight: 700;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 h3 {
-  font-size: 24px;
-  font-weight: 500;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 h4 {
-  font-size: 18px;
-  font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 h5 {
-  font-size: 16px;
-  font-weight: 500;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 p {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 @keyframes AppereanceActiveLink {
@@ -125,14 +125,14 @@ img,
 li,
 a,
 hr {
-    @media (width <=768px) {
+    @media (width <= 768px) {
         opacity: 1 !important;
         transform: none !important;
         animation: none !important;
     }
 }
 
-@media (width >=769px) {
+@media (width >= 769px) {
     p {
         opacity: 0;
         transform: translateY(30px);
@@ -181,6 +181,36 @@ hr {
 
     .animated_hr {
         animation: AppereanceHr 0.7s ease-in-out forwards;
+    }
+
+    .no-js p {
+        animation: AppereanceP 0.7s ease-in-out forwards;
+        animation-delay: 1.6s;
+    }
+
+    .no-js h1,
+    .no-js h2,
+    .no-js h3,
+    .no-js h4,
+    .no-js h5,
+    .no-js h6 {
+        animation: AppereanceH 0.7s ease-in-out forwards;
+        animation-delay: 1.6s;
+    }
+
+    .no-js img:not(.no_animated) {
+        animation:  AppereanceImg 0.5s ease-in-out forwards;
+        animation-delay: 1.6s;
+    }
+
+    .no-js a {
+        animation: AppereanceLi 0.7s ease-in-out forwards;
+        animation-delay: 1.6s;
+    }
+
+    .no-js hr {
+        animation: AppereanceHr 0.7s ease-in-out forwards;
+        animation-delay: 1.6s;
     }
 }
 

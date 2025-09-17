@@ -70,7 +70,7 @@ const Header = () => {
     return (
         <header className={`${style.header} ${HeaderClass ? style.header_active : ''}`}>
             <div className={style.header__unification}>
-                <Link href="#home" className={`${style.header__mini_info}`}>
+                <Link href="/#home" className={`${style.header__mini_info}`}>
                     <div className={style.mini_info__logo_box}>
                         <Image
                             alt="Логотип компании видеохранитель"
@@ -93,7 +93,7 @@ const Header = () => {
                         {ListLinks.map((el, i) => {
                             return (
                                 <li key={i} className={`${style.list_link__link} ${el.class} `}>
-                                    <Link href={`#${el.url}`} onClick={() => (BurgerMenu ? setBurgerMenu(false) : null)}>
+                                    <Link href={`/#${el.url}`} onClick={() => (BurgerMenu ? setBurgerMenu(false) : null)}>
                                         {el.text}
                                     </Link>
                                 </li>

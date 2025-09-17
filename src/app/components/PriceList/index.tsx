@@ -2,6 +2,7 @@
 import Image from 'next/image';
 import style from './styles.module.scss';
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 type IformationCardType = {
     all: {
@@ -95,6 +96,7 @@ const PriceList: React.FC = () => {
                         <></>
                     )}
                 </div>
+                <Link href="/services" className={style.article_first__more}>Больше {'>'}</Link>
             </article>
             <article className={style.price_list__article_last}>
                 <h2 className={`${style.article_last__title}`}>Наши ключевые услуги по видеонаблюдению в Кемерово и Кемеровской области</h2>
