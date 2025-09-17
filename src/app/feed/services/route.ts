@@ -44,6 +44,7 @@ export async function GET() {
         const imageUrl = `${baseUrl}/images/service${service.id}.png`;
 
         // Дополнительные параметры в зависимости от категории
+        
         let paramsXml = `
                 <param name="Рейтинг">5</param>
                 <param name="Число отзывов">0</param>
