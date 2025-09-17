@@ -6,13 +6,7 @@ import ClientService from "@/app/components/ClientService";
 import Image from "next/image";
 import Link from "next/link";
 
-interface ServicePageProps {
-    params: {
-        serviceName: string;
-    };
-};
-
-const ServicePage = ({ params }: ServicePageProps) => {
+const ServicePage = ({ params }: { params: { serviceName: string } }) => {
 
     const ListLinks = [
         {
