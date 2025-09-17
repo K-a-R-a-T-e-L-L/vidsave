@@ -6,7 +6,11 @@ import ClientService from "@/app/components/ClientService";
 import Image from "next/image";
 import Link from "next/link";
 
-const ServicePage = ({ params }: { params: { serviceName: string } }) => {
+type Props = {
+    params: Promise<{ serviceName: string }>;
+}
+
+const ServicePage = async ({ params }: Props) => {
 
     const ListLinks = [
         {
@@ -41,7 +45,10 @@ const ServicePage = ({ params }: { params: { serviceName: string } }) => {
         },
     ];
 
-    const service = servicesList.find((s) => s.serviceName === params.serviceName);
+    const resolvedParams = await params;
+    const { serviceName } = resolvedParams;
+
+    const service = servicesList.find((s) => s.serviceName === serviceName);
 
     if (!service) {
         return (
