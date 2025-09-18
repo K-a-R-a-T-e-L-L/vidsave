@@ -28,7 +28,7 @@ const ServicesListPage = () => {
                                             <p className={style.text__description}>{el.description}</p>
                                         </div>
                                         <div className={style.content__more}>
-                                            <span className={style.more__price}>{el.unit === "м" && !el.serviceName.includes("prokladka-kabelya-utp") ? "от" : ""} {el.price}₽ / {el.unit}</span>
+                                            <span className={style.more__price}>{el.from} {el.price}₽ / {el.unit}</span>
                                             <hr />
                                             <Link href={`/services/${el.serviceName}`} className={style.more__link}>Узнать подробнее</Link>
                                         </div>

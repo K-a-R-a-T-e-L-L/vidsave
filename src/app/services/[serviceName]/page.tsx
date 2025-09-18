@@ -75,7 +75,7 @@ const ServicePage = async ({ params }: Props) => {
                         <p className={style.content__description}>{service.description}</p>
                         <div className={style.content__info}>
                             <span className={style.info__price}>
-                                <span className={style.price__number}>{service.price}</span>
+                                <span className={style.price__number}>{service.from} {service.price}</span>
                                 <span className={style.price__unit}>₽ / {service.unit}</span>
                             </span>
                             <hr className={style.info__line} />

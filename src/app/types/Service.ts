@@ -5,5 +5,6 @@ export type serviceType = {
     category: string,
     price: number,
     unit: string,
-    description: string
+    description: string,
+    from: string
 };
