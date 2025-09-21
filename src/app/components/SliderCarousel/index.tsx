@@ -6,7 +6,7 @@ interface SliderCarouselProps {
     altList: string[]
 };
 
-const  SliderCarousel: React.FC<SliderCarouselProps> = ({altList}) => {
+const SliderCarousel: React.FC<SliderCarouselProps> = ({ altList }) => {
 
     const [isJS, setIsJS] = useState<boolean>(false);
     const [shiftX, setShiftX] = useState<number>(0);
@@ -16,9 +16,28 @@ const  SliderCarousel: React.FC<SliderCarouselProps> = ({altList}) => {
     const shiftSlide = (direction: string) => {
         setTimer(0);
         if (direction === 'right') {
-            setShiftX((prevState) => prevState > ((altList.length - 1) * -100) ? (prevState - 100) : (0));
+            setShiftX((prevState) => {
+                if (prevState > (altList.length - 1) * -100) {
+                    setTimeTranslateX((prevState) => prevState === 3 ? 3 : 1);
+                    return prevState - 100;
+                }
+                else {
+                    setTimeTranslateX(0)
+                    return 0;
+                }
+            })
         } else {
-            setShiftX((prevState) => prevState === 0 ? ((altList.length - 1) * -100) : (prevState + 100));
+            setShiftX((prevState) => {
+                if (prevState === 0) {
+                    setTimeTranslateX(0);
+                    return (altList.length - 1) * -100;
+                }
+                else {
+                    setTimeTranslateX((prevState) => prevState === 3 ? 3 : 1);
+                    return prevState + 100;
+                }
+            })
+            // setShiftX((prevState) => prevState === 0 ? ((altList.length - 1) * -100) : (prevState + 100));
         };
     };
 
@@ -67,4 +86,4 @@ const  SliderCarousel: React.FC<SliderCarouselProps> = ({altList}) => {
     );
 };
 
-export default  SliderCarousel;
+export default SliderCarousel;
