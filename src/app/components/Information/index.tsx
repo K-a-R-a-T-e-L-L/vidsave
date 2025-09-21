@@ -1,125 +1,79 @@
 import React from 'react';
 import style from './styles.module.scss';
 import Image from 'next/image';
-import CustomSlider from '../CustomSlider';
-import { SliderProps } from '@/app/types/SliderProps';
+import SliderCarousel from '../SliderCarousel';
+
+type listImagesType = {
+    brands: string[][],
+    projects: string[]
+}
 
 const Information: React.FC = () => {
-    const ArrayImagesSlider = {
+    const listImages: listImagesType = {
         brands: [
-            ['/images/hivideo_logo.png', 'Логотип бренда компании HiVideo Electronics Limited'],
-            ['/images/ezviz_logo.png', 'Логотип международного бренда EZVIZ,  интеллектуальных решений для безопасности и жизни',],
-            ['/images/iflow_logo.png', 'Логотип бренда iFLOW, поставляющий оборудование и интеллектуальные решения в сфере комплексных систем безопасности.',],
-            ['/images/novicam_logo.png', 'Логотип бренда Novicam, производитель оборудования для систем видеонаблюдения, контроля доступа (СКУД) и домофонии',],
-            ['/images/alhua_logo.png', 'Логотип компании Alhua Technology Co Ltd., производящая камеры и цифровые видеорегистраторы для систем видеонаблюдения (CCTV)',],
+            ['Логотип бренда компании HiVideo Electronics Limited'],
+            ['Логотип международного бренда EZVIZ, интеллектуальных решений для безопасности и жизни',],
+            ['Логотип бренда iFLOW, поставляющий оборудование и интеллектуальные решения в сфере комплексных систем безопасности.',],
+            ['Логотип бренда Novicam, производитель оборудования для систем видеонаблюдения, контроля доступа (СКУД) и домофонии',],
+            ['Логотип компании Alhua Technology Co Ltd., производящая камеры и цифровые видеорегистраторы для систем видеонаблюдения (CCTV)',],
         ],
         projects: [
-            ['/images/project_1.jpg', 'Камера ночного видеонаблюдения на столбе', '/images/project_1_blur.jpg',],
-            ['/images/project_2.jpg', 'Две камеры установленные по периметру гаража', '/images/project_2_blur.jpg',],
-            ['/images/project_3.jpg', 'Белый кондиционер с красивой подсветкой', '/images/project_3_blur.jpg',],
-            ['/images/project_4.jpg', 'Белые ленточные лампы на потолке', '/images/project_4_blur.jpg',],
-            ['/images/project_5.jpg', 'Камера видеонаблюдения на кирпичной стене', '/images/project_5_blur.jpg',],
-            ['/images/project_6.jpg', 'Белая камера видеонаблюдения на крыше с подсветкой', '/images/project_6_blur.jpg',],
-            ['/images/project_7.jpg', 'Кондиционер висящий под окном на стене', '/images/project_7_blur.jpg',],
-            ['/images/project_8.jpg', 'Цилиндрические черные лампы', '/images/project_8_blur.jpg',],
-            ['/images/project_9.jpg', 'Камера видеонаблюдения для участка В Кемерово', '/images/project_9_blur.jpg',],
-            ['/images/project_10.jpg', 'Камера видеонаблюдения на заведении', '/images/project_10_blur.jpg',],
-            ['/images/project_11.jpg', 'Кондиционер в комнате рядом с занавеской', '/images/project_11_blur.jpg',],
-            ['/images/project_12.jpg', 'Электромонтажные работы в квартире на потолке', '/images/project_12_blur.jpg',],
-            ['/images/project_13.jpg', 'Белая красивая камера видеонаблюдения', '/images/project_13_blur.jpg',],
-            ['/images/project_14.jpg', 'Камера видеонаблюдения для безопасности', '/images/project_14_blur.jpg',],
-            ['/images/project_15.jpg', 'Красивый белый кондиционер окруженный гирляндами', '/images/project_15_blur.jpg',],
-            ['/images/project_16.jpg', 'Телекоммуникационный шкаф для систем видеонаблюдения', '/images/project_16_blur.jpg',],
-            ['/images/project_17.jpg', 'Камера видеонаблюдения в офисе', '/images/project_17_blur.jpg',],
-            ['/images/project_18.jpg', 'Камера видеонаблюдения на улице', '/images/project_18_blur.jpg',],
-            ['/images/project_19.jpg', 'Шкаф с различной электрикой', '/images/project_19_blur.jpg',],
-            ['/images/project_20.jpg', 'Трансляция изображения и архивирование с камер', '/images/project_20_blur.jpg',],
-            ['/images/project_21.jpg', 'Красивая черная тройная розетка в плиточной стене', '/images/project_21_blur.jpg',],
-            ['/images/project_22.jpg', 'Белая подсветка по периметру дома с помощью цилиндрических светильников', '/images/project_22_blur.jpg',],
-            ['/images/project_23.jpg', 'Лампа на заборе для освещения участка', '/images/project_23_blur.jpg',],
-            ['/images/project_24.jpg', 'Камера видеонаблюдения на входе', '/images/project_24_blur.jpg',],
-            ['/images/project_25.jpg', 'Белая цилиндрическая лампа для подсветки кирпичной стены', '/images/project_25_blur.jpg',],
-            ['/images/project_26.jpg', 'Белый кондиционер в комнате на потолке', '/images/project_26_blur.jpg',],
-            ['/images/project_27.jpg', 'Камера видеонаблюдения для безопасности участка в своем доме онлайн в Кемерово', '/images/project_27_blur.jpg',],
-            ['/images/project_28.jpg', 'Устройство для просмотра видео с камер удаленно и для управления камерами видеонаблюдения', , '/images/project_28_blur.jpg',],
-            ['/images/project_29.jpg', 'Камера слежения в пункте выдачи заказов (ПВЗ)', '/images/project_29_blur.jpg',],
-            ['/images/project_30.jpg', 'Управление через ПК записями с камер видеонаблюдения', '/images/project_30_blur.jpg',],
-            ['/images/project_31.jpg', 'Вид объекта сверху с камеры видеонаблюдения', '/images/project_31_blur.jpg',],
-            ['/images/project_32.jpg', 'Наблюдение за офисом с телефона', '/images/project_32_blur.jpg',],
-            ['/images/project_33.jpg', 'Камера видеонаблюдения на вагончике для слежения', '/images/project_33_blur.jpg',],
-            ['/images/project_34.jpg', 'Камера видеонаблюдения онлайн для слежения за домом, участком и близких', '/images/project_34_blur.jpg',],
-            ['/images/project_35.jpg', 'Установка красивого освещения в виде ламп в потолке в комнату, на кухне', '/images/project_35_blur.jpg',],
+            'Камера ночного видеонаблюдения на столбе',
+            'Две камеры установленные по периметру гаража',
+            'Белый кондиционер с красивой подсветкой',
+            'Белые ленточные лампы на потолке',
+            'Камера видеонаблюдения на кирпичной стене',
+            'Белая камера видеонаблюдения на крыше с подсветкой',
+            'Кондиционер висящий под окном на стене',
+            'Цилиндрические черные лампы',
+            'Камера видеонаблюдения для участка В Кемерово',
+            'Камера видеонаблюдения на заведении',
+            'Кондиционер в комнате рядом с занавеской',
+            'Электромонтажные работы в квартире на потолке',
+            'Белая красивая камера видеонаблюдения',
+            'Камера видеонаблюдения для безопасности',
+            'Красивый белый кондиционер окруженный гирляндами',
+            'Телекоммуникационный шкаф для систем видеонаблюдения',
+            'Камера видеонаблюдения в офисе',
+            'Камера видеонаблюдения на улице',
+            'Шкаф с различной электрикой',
+            'Трансляция изображения и архивирование с камер',
+            'Красивая черная тройная розетка в плиточной стене',
+            'Белая подсветка по периметру дома с помощью цилиндрических светильников',
+            'Лампа на заборе для освещения участка',
+            'Камера видеонаблюдения на входе',
+            'Белая цилиндрическая лампа для подсветки кирпичной стены',
+            'Белый кондиционер в комнате на потолке',
+            'Камера видеонаблюдения для безопасности участка в своем доме онлайн в Кемерово',
+            'Устройство для просмотра видео с камер удаленно и для управления камерами видеонаблюдения',
+            'Установка камер видеонаблюдения в пункте выдачи заказов (ПВЗ)',
+            'Слежение за объектом через пк',
+            'Вид объекта с верху с камеры',
+            'Слежение за офисом через телефон',
+            'Камеры слежения по периметру вагончика',
+            'Камера видеонаблюдения на брусчатом доме',
+            'Установка освещения в квартире в виде белых ламп на потолке',
+            'Монтаж камеры видеонаблюдения на крыше',
+            'Камера слежения на столбе',
+            'Устройство для просмотра записей в режиме оналайн',
+            'Красивая белая подсветка для крыши дома',
+            'Стенд с какой то штукой',
+            'Настройка телекомуникационного шкафа на улице',
+            'Просмотр записей со всех камер',
+            'Установка домофона',
+            'Белая камера видеонаблюдения на крыше',
+            'Красивый телекомуникационный шкаф на стене',
+            'Камера слежения в гараже под металлической балкой',
+            'Просмотр записей с монитора',
+            'Шкаф с электронникой',
+            'Установка систем видеонаблюдения в частном доме',
+            'Наблюдения за объектом с монитора',
+            'Подключение коммутатора',
+            'Вид с камеры видеонаблюдения',
+            'Круглая камера слежения с каплями дождя',
+            'Установка черных столбов с фонарями для освещения вдоль тротуара',
+            'Телекомуникационный шкаф для систем видеонаблюдения'
         ],
-    };
-
-    const SettingsSlider = {
-        brands: {
-            dots: false,
-            infinity: true,
-            speed: 2000,
-            slidesToShow: 4,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 1000,
-            pauseOnHover: false,
-        },
-        projects: {
-            dots: true,
-            infinity: false,
-            speed: 1000,
-            slidesToShow: 1,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            pauseOnHover: false,
-            slidesToScroll: 1,
-        },
-    };
-
-    const StylesSlider = {
-        brands: {
-            container: {
-                rowGap: '15px',
-            },
-            title: {
-                fontSize: '14px',
-                fontSizeMobile: '12px',
-                opacity: '0.6',
-                textAlign: 'center',
-            },
-            buttons: false,
-            imgSizes: 'contain',
-            class: 'no_animated',
-        },
-        projects: {
-            container: {
-                rowGap: '35px',
-            },
-            title: {
-                fontSize: '32px',
-                fontSizeMobile: '28px',
-                opacity: '0.8',
-                textAlign: 'center',
-                marginTop: '60px',
-            },
-            buttons: true,
-            imgSizes: 'contain',
-            class: 'hidden_img',
-        },
-    };
-
-    const SliderProps = {
-        brands: {
-            title: 'Работаем с различными брендами от ведущих производителей',
-            arrayURL: ArrayImagesSlider.brands,
-            settings: SettingsSlider.brands,
-            styles: StylesSlider.brands,
-        },
-        projects: {
-            title: 'Примеры наших работ',
-            arrayURL: ArrayImagesSlider.projects,
-            settings: SettingsSlider.projects,
-            styles: StylesSlider.projects,
-        },
     };
 
     return (
@@ -145,12 +99,31 @@ const Information: React.FC = () => {
                         fill
                     />
                 </div>
-                <div className={style.article_first__box_slider}>
-                    <CustomSlider props={SliderProps.brands as SliderProps['props']} />
+                <div className={style.article_first__slider}>
+                    <h4 className={style.slider__h4}>Работаем с различными брендами от ведущих производителей</h4>
+                    <div className={style.slider__box_slider}>
+                        <div className={style.box_slider__track}>
+                            {listImages.brands.map((el, i) => {
+                                return (
+                                    <div className={style.track__el} key={`first-${i}`}>
+                                        <Image src={`/images/brands/brand${i + 1}.png`} alt='' style={{ objectFit: 'contain' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
+                                    </div>
+                                )
+                            })}
+                            {listImages.brands.map((el, i) => {
+                                return (
+                                    <div className={style.track__el} key={`second-${i}`}>
+                                        <Image src={`/images/brands/brand${i + 1}.png`} alt='' style={{ objectFit: 'contain' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
+                                    </div>
+                                )
+                            })}
+                        </div>
+                    </div>
                 </div>
             </article>
             <article className={style.information__article_last}>
-                <CustomSlider props={SliderProps.projects as SliderProps['props']} />
+                <h2 className={style.article_last__title}>Примеры наших работ</h2>
+                <SliderCarousel altList={listImages.projects} />
             </article>
         </section>
     );

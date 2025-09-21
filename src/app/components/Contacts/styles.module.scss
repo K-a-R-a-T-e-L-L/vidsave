@@ -10,6 +10,7 @@
     align-items: center;
     justify-content: center;
     row-gap: 40px;
+    margin-top: 80px;
 
     .contacts__box_text {
         width: 100%;
@@ -204,6 +205,9 @@
 }
 
 @media (width < 700px) {
+    .contacts{
+        margin-top: 0;
+    }
     .contacts_buttons__line {
         width: 25% !important;
     }
