@@ -1,8 +1,10 @@
-$quantity-slides: 6;
+@use "sass:math";
+
+$quantity-slides: 55;
 
 @keyframes scrolling {
     @for $i from 0 through ($quantity-slides - 1){
-        #{percentage($i / ($quantity-slides - 1))}{
+        #{math.percentage(math.div($i, ($quantity-slides - 1)))}{
             transform: translateX(-#{$i * 100%});
         }
     }
