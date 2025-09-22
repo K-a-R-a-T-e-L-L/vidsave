@@ -45,7 +45,7 @@ export async function GET() {
 
         // Дополнительные параметры в зависимости от категории
         let paramsXml = `
-                <param name="Рейтинг">5</param>
+                <param name="Рейтинг"></param>
                 <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
@@ -74,14 +74,14 @@ export async function GET() {
 
         return `
             <offer id="${service.id}">
-                <name>ВИДЕОХРАНИТЕЛЬ ${escapeXml(service.name)}</name>
+                <name>ВИДЕОХРАНИТЕЛЬ</name>
                 <url>${baseUrl}/services/${service.serviceName}</url>
                 <price>${service.price}</price>
                 <currencyId>RUB</currencyId>
                 <categoryId>${categoryId}</categoryId>
                 <set-ids>${setIds}</set-ids>
                 <picture>${imageUrl}</picture>
-                <description>${escapeXml(service.description)}</description>
+                <description>${escapeXml(service.description.split('.')[0])}</description>
                 <adult>false</adult>
                 <expiry>P5Y</expiry>${paramsXml}
             </offer>`;
