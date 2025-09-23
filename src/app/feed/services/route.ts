@@ -45,7 +45,7 @@ export async function GET() {
 
         // Дополнительные параметры в зависимости от категории
         let paramsXml = `
-                <param name="Рейтинг"></param>
+                <param name="Рейтинг">0</param>
                 <param name="Число отзывов">0</param>
                 <param name="Годы опыта">10</param>
                 <param name="Регион">Кемеровская область</param>
