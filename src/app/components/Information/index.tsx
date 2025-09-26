@@ -76,6 +76,8 @@ const Information: React.FC = () => {
         ],
     };
 
+    const listCities = ['Кемерово', 'Топки', 'Новокузнецк', 'Юрга', 'Анжеро-Судженск', 'Белово', 'Ленинск-Кузнецкий', 'Прокопьевск', 'Киселёвск'];
+
     return (
         <section className={style.information} id="information">
             <article className={style.information__article_first}>
@@ -124,6 +126,17 @@ const Information: React.FC = () => {
             <article className={style.information__article_last}>
                 <h2 className={style.article_last__title}>Примеры наших работ</h2>
                 <SliderCarousel altList={listImages.projects} />
+            </article>
+            <article className={style.information__article_third}>
+                <h2 className={style.article_third__title}>Работаем в городах</h2>
+                <span className={style.article_third__decor_line}></span>
+                <div className={style.article_third__cities}>
+                    {listCities.map((el, i) => {
+                        return(
+                            <div className={style.cities__city} key={i}>{el}</div>
+                        )
+                    })}
+                </div>
             </article>
         </section>
     );

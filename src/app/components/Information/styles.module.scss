@@ -11,13 +11,13 @@
 .information {
     width: 100%;
     max-width: 1344px;
-    height: 200vh;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 
     .information__article_first {
         width: 100%;
-        height: 50%;
+        height: 1000px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -105,6 +105,55 @@
             text-align: center;
         }
     }
+
+    .information__article_third {
+        width: 100%;
+        max-width: 1344px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 80px 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .article_third__decor_line {
+            width: 80px;
+            height: 5px;
+            border-radius: 5px;
+            background-color: grey;
+            margin-top: 10px;
+        }
+
+        .article_third__cities {
+            width: 80%;
+            margin-top: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+
+            .cities__city {
+                padding: 20px 40px;
+                border-radius: 5px;
+                height: auto;
+                width: auto;
+                border: 1px solid rgba(128, 128, 128, 0.4);
+                box-shadow: 0 0 3px 1px rgba(128, 128, 128, 0.3);
+                font-weight: 600;
+                cursor: pointer;
+                transition: transform 0.4s ease-in-out, border 0.4s ease-in-out, box-shadow 0.4s ease-in-out, ;
+
+                &:hover {
+                    transform: translateY(-3px);
+                    border: 1px solid gray;
+                    box-shadow: 0 0 0 0 rgba(128, 128, 128, 0);
+                }
+            }
+        }
+    }
 }
 
 @media (width < 1200px) {
@@ -124,6 +173,15 @@
         font-size: 28px;
         margin-bottom: 20px;
     }
+
+    .article_third__title{
+        font-size: 28px !important;
+    }
+
+    .cities__city {
+        font-size: 14px !important;
+        padding: 15px 30px !important;
+    }
 }
 
 @media (width < 900px) {
@@ -132,10 +190,11 @@
         height: auto;
         overflow: hidden;
 
+
         .information__article_first {
             justify-content: start !important;
             flex-flow: column nowrap !important;
-            height: 1000px;
+            height: 900px;
             padding: 0 30px;
 
             .article_first__box_image {

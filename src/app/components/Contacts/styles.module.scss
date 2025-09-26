@@ -191,7 +191,7 @@
 @media (width < 900px) {
     .contacts {
         height: 1600px !important;
-        padding-top: 100px;
+        padding-top: 20px;
 
         .info__address {
             font-size: 12px !important;
@@ -205,9 +205,10 @@
 }
 
 @media (width < 700px) {
-    .contacts{
-        margin-top: 0;
+    .contacts {
+        margin-top: 0 !important;
     }
+
     .contacts_buttons__line {
         width: 25% !important;
     }
