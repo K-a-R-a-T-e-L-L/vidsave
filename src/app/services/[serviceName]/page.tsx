@@ -69,7 +69,7 @@ const ServicePage = async ({ params }: Props) => {
                 <ClientService>
                     <h1 className={style.main__title}>{service.name}</h1>
                     <div className={style.main__box_image}>
-                        <Image src={`/images/service${service.id}.png`} alt={service.name} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
+                        <Image src={`/images/services/service${service.id}.png`} alt={service.name} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
                     </div>
                     <div className={style.main__content}>
                         <p className={style.content__description}>{service.description}</p>

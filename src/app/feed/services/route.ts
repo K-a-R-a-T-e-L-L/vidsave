@@ -41,7 +41,7 @@ export async function GET() {
     const offersXml = servicesList.map(service => {
         const categoryId = categoryMap[service.category];
         const setIds = generateSetId(service.id);
-        const imageUrl = `${baseUrl}/images/service${service.id}.png`;
+        const imageUrl = `${baseUrl}/images/services/service${service.id}.png`;
 
         // Дополнительные параметры в зависимости от категории
         let paramsXml = `

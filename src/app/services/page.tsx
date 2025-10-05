@@ -20,7 +20,7 @@ const ServicesListPage = () => {
                             return (
                                 <div className={style.list__item} key={el.id}>
                                     <div className={style.item__image}>
-                                        <Image src={`/images/service${el.id}.png`} alt={el.name} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
+                                        <Image src={`/images/services/service${el.id}.png`} alt={el.name} style={{ objectFit: 'cover' }} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" fill />
                                     </div>
                                     <div className={style.item__content}>
                                         <div className={style.content__text}>
