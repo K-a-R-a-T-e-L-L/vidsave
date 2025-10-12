@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import style from './styles.module.scss';
 import React from 'react';
+import Image from 'next/image';
 
 type ListLinksType = {
     url: string;
@@ -74,6 +75,21 @@ const Footer = () => {
                         Кузбасс, г. Кемерово, ул. Тельбесская, д. 61
                     </h6>
                 </div>
+                <span className={style.developer}>
+                    Проект создан:	&nbsp;
+                    <Link href={"https://el-solo.space"} target='_blank'>
+                        El Solo
+                        <div>
+                            <Image
+                                src={`/images/logo_el_solo.png`}
+                                alt={"Логотип разработчика El Solo"}
+                                style={{ objectFit: 'cover' }}
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                fill
+                            />
+                        </div>
+                    </Link>
+                </span>
             </div>
         </footer>
     );

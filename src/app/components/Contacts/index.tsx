@@ -10,7 +10,7 @@ const Contacts = () => {
             icon: 'email_icon.png',
             title: 'Электронная почта',
             description: 'Отправьте нам письмо с вашими вопросами',
-            link: ['denis.zaichuk@yandex.ru'],
+            link: ['mail@khranitelvideo.ru'],
             alt: 'Иконка электронной почты яндекс',
         },
         {
