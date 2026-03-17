@@ -34,8 +34,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ${{ env.REGISTRY }}/${{ secrets.GHCR_NAMESPACE  }}/${{ env.IMAGE_NAME }}:latest
+            ${{ env.REGISTRY }}/${{ secrets.GHCR_NAMESPACE  }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
 
       - name: Trigger Dokploy deploy
         run: |
