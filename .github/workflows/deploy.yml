@@ -34,12 +34,12 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ secrets.GHCR_NAMESPACE  }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.REGISTRY }}/${{ secrets.GHCR_NAMESPACE  }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+            ${{ env.REGISTRY }}/${{ vars.GHCR_NAMESPACE  }}/${{ env.IMAGE_NAME }}:latest
+            ${{ env.REGISTRY }}/${{ vars.GHCR_NAMESPACE  }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
 
       - name: Trigger Dokploy deploy
         run: |
-          curl -X POST "${{ secrets.DOKPLOY_URL }}/api/application.deploy" \
+          curl -X POST "${{ vars.DOKPLOY_URL }}/api/application.deploy" \
             -H "accept: application/json" \
             -H "x-api-key: ${{ secrets.DOKPLOY_API_KEY }}" \
             -H "Content-Type: application/json" \
