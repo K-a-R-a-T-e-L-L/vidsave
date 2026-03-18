@@ -10,7 +10,7 @@ const SchemaOrg = () => {
             name: '«ВИДЕОХРАНИТЕЛЬ»',
             image: '/images/project_13.jpg',
             url: 'https://vidsave.ru',
-            telephone: '+7-995-065-67-77',
+            telephone: '+7-904-574-52-07',
             address: {
                 '@type': 'PostalAddress',
                 streetAddress: 'улица Шестакова 6А',
@@ -33,8 +33,8 @@ const SchemaOrg = () => {
             sameAs: [
                 'https://vidsave.ru',
                 'https://vk.com/khranitel_video',
-                'https://www.avito.ru/user/546aa53ca0c817d582afaacd3c4e46c5/profile?src=sharing',
-                'https://wa.me/79950656777'
+                'https://www.avito.ru/kemerovo/predlozheniya_uslug/videonablyudenie_ustanovkaprodazhaobsluzhivanie_3335539044',
+                'https://t.me/deniszaichuk'
             ]
         };
         

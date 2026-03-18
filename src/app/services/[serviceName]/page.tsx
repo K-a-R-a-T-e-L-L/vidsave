@@ -28,14 +28,14 @@ const ServicePage = async ({ params }: Props) => {
         {
             icon: 'avito_icon.png',
             title: 'Авито',
-            link: ['https://www.avito.ru/user/546aa53ca0c817d582afaacd3c4e46c5/profile?src=sharing'],
+            link: ['https://www.avito.ru/kemerovo/predlozheniya_uslug/videonablyudenie_ustanovkaprodazhaobsluzhivanie_3335539044'],
             alt: 'Иконка авито',
         },
         {
-            icon: 'whatsapp_icon.png',
-            title: 'Ватсапп',
-            link: ['https://wa.me/79950656777'],
-            alt: 'Иконка ватсапа',
+            icon: 'tg_icon.png',
+            title: 'Телеграм',
+            link: ['https://t.me/deniszaichuk'],
+            alt: 'Иконка телеграма',
         },
         {
             icon: 'vk_icon.png',

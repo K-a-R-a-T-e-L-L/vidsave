@@ -45,12 +45,7 @@ const Footer = () => {
             url: 'mailto:denis.zaichuk@yandex.ru',
             text: 'denis.zaichuk@yandex.ru',
             target: '_blank'
-        },
-        {
-            url: 'tel:8-995-065-67-77',
-            text: '8-995-065-67-77',
-            target: '_blank'
-        },
+        }
     ];
 
     return (
@@ -77,7 +72,7 @@ const Footer = () => {
                 </div>
                 <span className={style.developer}>
                     Проект создан:	&nbsp;
-                    <Link href={"https://el-solo.space"} target='_blank'>
+                    <Link href={"https://el-solo.karatell.ru"} target='_blank'>
                         El Solo
                         <div>
                             <Image
